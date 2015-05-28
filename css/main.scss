@@ -21,10 +21,15 @@ $orange: #E98300;
 $border: #E5E5DF;
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Import settings
 @import
   "base",
   "layout",
   "grid",
-  "syntax-highlighting"
-;
+  "mixins",
+  "syntax-highlighting";
+
+// Import layouts
+@import
+  "layouts/header",
+  "layouts/sidenav";

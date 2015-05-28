@@ -1,27 +1,4 @@
 // HEADER
-.layout-header{
-  @extend %clearfix;
-  background: $dark;
-  h1{
-    font-size: 2em;
-    padding-left: 110px;
-    position: relative;
-    a{
-      padding: 10px 0;
-      color: $white;
-      display: block;
-    }
-    span{
-      position: absolute;
-      top: 0;
-      left: 0px;
-      height: 90px;
-      width: 90px;
-      background: #000;
-    }
-  }
-}
-
 .layout-sidenav{
   display: block;
   padding: 50px 0px;
@@ -29,56 +6,6 @@
   width: 285px;
   border-right: 1px solid $border;
   border-left: 1px solid $border;
-  nav{
-    ul{
-      li{
-        color: $dark;
-        h2{
-          font-size: 1em;
-          text-transform: uppercase;
-          color: $gray;
-          font-weight: 500;
-          padding: 0 20px;
-        }
-        h3{
-          font-size: 1em;
-          color: $dark;
-          font-weight: 500;
-          padding: 0 20px;
-          cursor: pointer;
-          &:hover{
-            background: $cGreen;
-            color: $white;
-          }
-        }
-        a{
-          color: $dark;
-        }
-      }
-    }
-    .first-level{
-      >li{
-        margin: 2em 0 0;
-        &:first-child{
-          margin: 0;
-        }
-      }
-    }
-    .third-level{
-      margin-bottom: 5px;
-      padding: 0 20px;
-      >li{
-        cursor: pointer;
-        font-size: 0.875em;
-        margin: 0 0 0 15px;
-        a{
-          &:hover{
-            color: $cGreen;
-          }
-        }
-      }
-    }
-  }
 }
 
 .layout-main{

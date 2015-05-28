@@ -1,0 +1,22 @@
+.layout-header{
+  @extend %clearfix;
+  background: $dark;
+  h1{
+    font-size: 2em;
+    padding-left: 110px;
+    position: relative;
+    a{
+      padding: 10px 0;
+      color: $white;
+      display: block;
+    }
+    span{
+      position: absolute;
+      top: 0;
+      left: 0px;
+      height: 90px;
+      width: 90px;
+      @include retina-image('/gfw-style-guides/images/logo-new.png', '/gfw-style-guides/images/logo-new@2x.png');
+    }
+  }
+}
