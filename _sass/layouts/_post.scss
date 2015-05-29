@@ -2,6 +2,7 @@
   color: $dark;
   // POST HEADER
   header{
+    margin: 30px 0 0;
     h2{
       font-size: 35px;
       font-weight: 500;
@@ -49,10 +50,33 @@
       float: left;
       color: $gray;
       font-size: 16px;
-      text-transform: uppercase;
+      text-transform: capitalize;
     }
     .pagination{
       float: right;
+      .prev,
+      .next {
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  // POST BOTTOM BAR
+  .post-bottom-bar {
+    border-top: 1px solid $border;
+    margin: 15px 0 0;
+    @extend %clearfix;
+    .pagination {
+      .next {
+        display: inline-block;
+        margin: 15px 0 0;
+        font-weight: 500;
+        text-transform: uppercase;
+        .next-title {
+          font-weight: 600;
+        }
+      }
     }
   }
 }
