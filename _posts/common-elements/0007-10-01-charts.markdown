@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Charts"
+date:   0007-10-01 12:23:49
+categories: page-elements common-elements
+---
+
+Use charts to display data visually. Please use the main GFW colors and style (simplicity, clarity, cleanliness) to design new graphs and charts.
+
+### Examples
+
+These are some of charts:
+
+![alt text][chart-doughnut]
+
+![alt text][chart-linear]
+
+![alt text][chart-bar]
+
+
+
+[chart-doughnut]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[chart-linear]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[chart-bar]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"

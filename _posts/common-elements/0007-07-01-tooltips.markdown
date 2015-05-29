@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Tooltips"
+date:   0007-07-01 12:23:49
+categories: page-elements common-elements
+---
+
+Tooltips are small boxes with help or information that may appear when the user hovers over
+certain items with the cursor. They are usually used when an icon is not understandable enough by itself.
+
+![alt text][tooltip]
+
+
+The same style and functionality is used in some places as dropdown menus. In this case, the tooltip
+contains a list of links to different sections.
+
+![alt text][tooltip-menu]
+
+
+
+[tooltip]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[tooltip-menu]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"

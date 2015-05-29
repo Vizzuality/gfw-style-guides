@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Other"
+date:   0007-11-01 12:23:49
+categories: page-elements common-elements
+---
+
+There are also other common elements used in the GFW website, such as pagination, accordions or loading spinners.
+
+### Pagination
+
+When the content is too long for a single page (for example, when showing a list of articles or results for a search),
+pagination should be used. This element allows the user to browse between pages and always know where they are.
+
+This is how they look when the user is on different pages:
+
+![alt text][other-pagination]
+
+### Accordion
+
+Accordions are used when there is a lot of information in one page and is not necessary to show everything at the same time.
+They are useful to keep the page from being too long.
+
+![alt text][other-collapsed-accordion]
+
+![alt text][other-expanded-accordion]
+
+### Spinner
+
+When the content in a page is loading, the user must receive some feedback to know that something is actually happening.
+In this case, a spinner graphic is used:
+
+![alt text][spinner]
+
+
+
+[other-pagination]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[other-collapsed-accordion]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[other-expanded-accordion]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[spinner]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"

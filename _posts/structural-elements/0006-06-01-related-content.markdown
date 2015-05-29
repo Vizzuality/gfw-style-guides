@@ -2,7 +2,7 @@
 layout: post
 title:  "Related content"
 date:   0006-06-01 12:23:49
-categories: page-elements-structural-elements
+categories: page-elements structural-elements
 ---
 
 This module follows the main content module and displays a selection of suggested and related content.

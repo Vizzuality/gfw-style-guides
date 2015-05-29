@@ -2,7 +2,7 @@
 layout: post
 title:  "Navigation bar"
 date:   0006-03-01 12:23:49
-categories: page-elements-structural-elements
+categories: page-elements structural-elements
 ---
 
 The navigation bar is the main way to navigate the website. It contains links to all the sections,

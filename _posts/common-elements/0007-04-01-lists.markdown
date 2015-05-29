@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Lists"
+date:   0007-04-01 12:23:49
+categories: page-elements common-elements
+---
+
+Use these styles to display listed information.
+
+### Simple list
+
+![alt text][simple-list]
+
+### Card list
+
+![alt text][card-list]
+
+A **card list** is much more visually appealing than a simple list, and allows you to show icons,
+buttons, etc. for each item.
+
+Cards can also display text when the cursor is hovering them.
+
+![alt text][card-list-2]
+
+### Country list
+
+![alt text][country-list]
+
+A **country list** is a mosaic of countries with their shape and name. The mobile adaptation
+changes the layout to a vertical list.
+
+![alt text][country-list-2]
+
+
+
+[simple-list]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[card-list]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[card-list-2]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[country-list]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[country-list-2]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"

@@ -1,14 +1,17 @@
 ---
 layout: post
 title:  "Common elements"
-date:   0006-01-01 12:23:49
+date:   0007-01-01 12:23:49
 categories: page-elements
 ---
 
-All responsive adaptations are module-based. The modules adapt their design to fit the device's screen,
-and stack one on top of the next.
+Each individual page is built using a wide range of different common elements. Buttons,
+form elements, lists, icons... They all share a common visual style and functionality.
 
-![alt text][responsive-adaptations]
+![alt text][common-elements]
+
+These common elements make the website keep a uniform and coherent visual style, improve the
+user experience, and allow new pages to be created easily. Learn more about them in the next pages.
 
 
-[responsive-adaptations]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[common-elements]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
