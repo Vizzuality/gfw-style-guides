@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Maps"
+date:   0007-09-01 12:23:49
+categories: page-elements common-elements
+---
+
+Use maps to show large amounts of geolocalized data in a usable and friendly way.
+They allow complex interactions and analysis, making make use of sophisticated panels,
+toolbars and controllers.
+
+![alt text][map]
+
+All these elements have a homogeneous visual style. They are clean, stylized, and keep
+the attention on the map and data.
+
+### Examples
+
+These are some of the elements used on the map:
+
+![alt text][map-panel]
+
+![alt text][map-infowindow]
+
+![alt text][map-zoom]
+
+![alt text][map-info-panel]
+
+![alt text][map-timeline]
+
+### Responsive
+
+These are some of the elements used on the mobile version of the map.
+
+![alt text][map-mobile]
+
+Tapping the “More options” button shows secondary actions. Tapping it again collapses the panel
+
+![alt text][map-more-options]
+
+Tapping the Legend or Analysis buttons opens a panel sliding from the bottom of the screen with the relevant contents.
+
+![alt text][map-legend]
+
+The Data Layers Selection link in the header (and Local Data Layers button) opens a fullscreen overlay
+where the user can select the data layers display on the map and the basemaps used.
+
+![alt text][map-data-layer]
+
+
+[map]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[map-panel]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[map-infowindow]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[map-zoom]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[map-info-panel]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[map-timeline]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[map-mobile]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[map-more-options]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[map-legend]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[map-data-layer]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"

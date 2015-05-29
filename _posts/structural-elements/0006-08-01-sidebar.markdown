@@ -2,7 +2,7 @@
 layout: post
 title:  "Sidebar"
 date:   0006-08-01 12:23:49
-categories: page-elements-structural-elements
+categories: page-elements structural-elements
 ---
 
 The sidebar is a structural element that is used in conjunction with the main content module.

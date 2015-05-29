@@ -2,7 +2,7 @@
 layout: post
 title:  "Content"
 date:   0006-05-01 12:23:49
-categories: page-elements-structural-elements
+categories: page-elements structural-elements
 ---
 
 The content section of each page is the place where the main text, images, maps and data
