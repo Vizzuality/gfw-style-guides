@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Logo"
+date:   0001-01-01 12:23:49
+categories: brand-guidelines
+---
+
+The Global Forest Watch logo is its calling card. This graphic appears on every section of the site embeded on the header.
+
+![alt text][logo]
+
+Please always use a high-resolution version of the logo whenever possible.
+
+### Logo Don’ts
+![alt text][logo-donts]
+
+* Don’t use low resolution logos
+* Don’t distort logo proportions
+* Don’t change the logo colors
+* Don’t use other fonts
+
+For more information about branding, check the official documentation [here.][here]
+
+[logo]: /gfw-style-guides/images/posts/logo/logo.png "Global Forest Watch"
+[logo-donts]: /gfw-style-guides/images/posts/logo/logo-donts.png "Global Forest Watch don'ts"
+[here]: #
