@@ -1,10 +1,41 @@
 .post-section{
   color: $dark;
-  h2{
-    font-size: 35px;
-    font-weight: 500;
-  }
-  h3{
+  // POST HEADER
+  header{
+    h2{
+      font-size: 35px;
+      font-weight: 500;
+    }
+    h3{
 
+    }
+  }
+  // POST CONTENT
+  .post-content{
+    >*{
+      margin: 10px 0 0;
+      // &:first-child{ margin: 0 0 0;}
+    }
+    h3{
+      font-size: 24px;
+      font-weight: 500;
+    }
+    ul{
+      li{
+        position: relative;
+        padding: 0 0 0 15px;
+        &:before{
+          content: "";
+          position: absolute;
+          top: 12px;
+          left: 0;
+          width: 6px;
+          height: 6px;
+          margin: -4px 0 0;
+          background: $cGreen;
+          border-radius: 50%;
+        }
+      }
+    }
   }
 }
