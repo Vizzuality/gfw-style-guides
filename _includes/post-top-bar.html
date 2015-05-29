@@ -1,0 +1,11 @@
+<div class="post-top-bar">
+  <h3>{{ page.categories }}</h3>
+  <div class="pagination">
+    {% if page.previous %}
+      <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next %}
+      <a class="prev" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}&raquo;</a>
+    {% endif %}
+  </div>
+</div>

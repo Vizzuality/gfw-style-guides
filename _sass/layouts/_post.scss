@@ -38,4 +38,20 @@
       }
     }
   }
+
+  // POST TOP BAR
+  .post-top-bar{
+    border-bottom: 1px solid $border;
+    margin: 0 0 15px;
+    @extend %clearfix;
+    h3{
+      float: left;
+      color: $gray;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+    .pagination{
+      float: right;
+    }
+  }
 }
