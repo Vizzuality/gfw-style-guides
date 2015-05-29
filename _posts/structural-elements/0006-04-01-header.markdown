@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Header"
+date:   0006-04-01 12:23:49
+categories: page-elements-structural-elements
+---
+
+The header is the part of the page where the section title and introduction is located.
+It is dark and distinctive, and it usually holds the most important calls to action.
+
+![alt text][header-informed]
+
+![alt text][header-informed-2]
+
+Remember: The GFW logo from the navigation bar overlaps the header, so the top padding must be
+70px to avoid it stepping on the main title. The height of the header varies depending on its content.
+
+### The header in the home
+
+When used in the home of the GFW website, the header element works as a slideshow of the featured sections
+and news of the site. In this specific case, the header is placed directly beneath the navigation bar, showing
+slightly through it. The height of this header is always 500px.
+
+![alt text][header-home]
+
+
+[header-informed]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-active"
+[header-informed-2]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-hover"
+[header-home]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Responsive Toolbar 2"

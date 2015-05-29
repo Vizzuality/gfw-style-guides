@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Content"
+date:   0006-05-01 12:23:49
+categories: page-elements-structural-elements
+---
+
+The content section of each page is the place where the main text, images, maps and data
+is displayed. Its width is flexible, taking 100% of the screen up to 1200px. Its height
+depends on the content itself.
+
+![alt text][content]
+
+Some content also have a sidebar on its left. It is used to switch between different content.
+[Learn more about it.][learn-more]
+
+![alt text][content-sidebar]
+
+### Responsive
+
+When the site is accessed from a mobile device, the content just adapts to its width.
+
+![alt text][content-responsive]
+
+
+[content]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-active"
+[content-sidebar]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-hover"
+[content-responsive]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Responsive Toolbar 2"
+[learn-more]: #

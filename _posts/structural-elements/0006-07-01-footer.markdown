@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Footer"
+date:   0006-07-01 12:23:49
+categories: page-elements-structural-elements
+---
+
+The footer shows links to other sections, to social media profiles, partner logos and contact info.
+It is the last module in a page, and allows the user to continue exploring the GFW website seamlessly.
+
+![alt text][footer]
+
+![alt text][footer-2]
+
+This module (except the first block) has a light grey background #edede8
+
+
+[footer]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-active"
+[footer-2]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-hover"
