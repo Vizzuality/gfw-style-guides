@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Type"
+date:   0003-01-01 12:23:49
+categories: brand-guidelines
+---
+
+GFW uses the Fira Sans type family on its website. It is a clean, legible, easily available typography.
+Three weights are used:
+
+![alt text][type]
+
+### Use of type
+These are the most common type uses in the website. Use the hierarchy laid out below to compose easy-to-read content pages.
+
+![alt text][use-type]
+
+
+[type]: /gfw-style-guides/images/posts/type/type.png "Type"
+[use-type]: /gfw-style-guides/images/posts/type/use-type.png "Use of type"
