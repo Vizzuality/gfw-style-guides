@@ -16,7 +16,7 @@ The icons used in the GFW website must follow a simple set of rules to keep a co
 Icons can be highlighted inverting their color and placing them in a green circle.
 This makes them stand out among the rest of the content of the page:
 
-![alt text][icons-highlight]
+![alt text][icons-big]
 
 It is also common to give them a different color when hovering with the cursor:
 
@@ -24,6 +24,6 @@ It is also common to give them a different color when hovering with the cursor:
 
 
 
-[icons]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[icons-highlight]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[icons-hover]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[icons]: /gfw-style-guides/images/posts/common-elements/icons/08-01-icons.png "icons"
+[icons-big]: /gfw-style-guides/images/posts/common-elements/icons/08-02-icons-big.png "icons big"
+[icons-hover]: /gfw-style-guides/images/posts/common-elements/icons/08-03-icons-hover.png "icons hover"

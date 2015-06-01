@@ -8,7 +8,7 @@ categories: page-elements common-elements
 Forms are composed of text fields, text areas, selectors, radio buttons, and more. These elements are designed
 to allow building a new form fast and easy.
 
-![alt text][form]
+![alt text][forms]
 
 ### Text field
 
@@ -40,7 +40,7 @@ text areas, etc.
 
 ### Submit Button
 
-![alt text][submit-button]
+![alt text][button]
 
 Every form needs a submit button so the user can send the information to the server. Use a primary button for this.
 
@@ -49,8 +49,8 @@ Every form needs a submit button so the user can send the information to the ser
 Elements like checkboxes or radio buttons use the default styles from the browser to avoid compatibility issues.
 
 
-[form]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[text-field]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[text-area]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[file-select]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[submit-button]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[forms]: /gfw-style-guides/images/posts/common-elements/forms/03-01-forms.png "forms"
+[text-field]: /gfw-style-guides/images/posts/common-elements/forms/03-02-text-field.png "text field"
+[text-area]: /gfw-style-guides/images/posts/common-elements/forms/03-03-textarea.png "text area"
+[file-select]: /gfw-style-guides/images/posts/common-elements/forms/03-04-file-select.png "file select"
+[button]: /gfw-style-guides/images/posts/common-elements/forms/03-05-button.png "button"

@@ -14,4 +14,4 @@ These common elements make the website keep a uniform and coherent visual style,
 user experience, and allow new pages to be created easily. Learn more about them in the next pages.
 
 
-[common-elements]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[common-elements]: /gfw-style-guides/images/posts/common-elements/01-01-common-elements.png "common elements"

@@ -8,22 +8,21 @@ categories: page-elements common-elements
 Tabs are usually used in the sidebar next to the main content module. It allows the user to switch between
 different content and sections without losing their current position.
 
-![alt text][tab-active]
+![alt text][tabs]
 
 
 The vertical tabs adapt to mobile devices taking all the screen width:
 
-![alt text][tab-vertical]
+![alt text][tabs-mobile]
 
 ### Horizontal tabs
 
 The functionality of the horizontal tabs is slightly different to the vertical tabs because they don’t switch
 between content, but move the scroll to where the content is located.
 
-![alt text][tab-horizontal]
+![alt text][tabs-horizontal]
 
 
-
-[tab-active]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[tab-vertical]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[tab-horizontal]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[tabs]: /gfw-style-guides/images/posts/common-elements/tabs/05-01-tabs.png "tabs"
+[tabs-mobile]: /gfw-style-guides/images/posts/common-elements/tabs/05-02-tabs-mobile.png "tabs mobile"
+[tabs-horizontal]: /gfw-style-guides/images/posts/common-elements/tabs/05-03-tabs-horizontal.png "tabs horizontal"

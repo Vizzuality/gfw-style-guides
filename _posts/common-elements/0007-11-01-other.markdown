@@ -14,16 +14,16 @@ pagination should be used. This element allows the user to browse between pages 
 
 This is how they look when the user is on different pages:
 
-![alt text][other-pagination]
+![alt text][pagination]
 
 ### Accordion
 
 Accordions are used when there is a lot of information in one page and is not necessary to show everything at the same time.
 They are useful to keep the page from being too long.
 
-![alt text][other-collapsed-accordion]
+![alt text][accordion]
 
-![alt text][other-expanded-accordion]
+![alt text][accordion-expanded]
 
 ### Spinner
 
@@ -33,8 +33,7 @@ In this case, a spinner graphic is used:
 ![alt text][spinner]
 
 
-
-[other-pagination]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[other-collapsed-accordion]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[other-expanded-accordion]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[spinner]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[pagination]: /gfw-style-guides/images/posts/common-elements/other/11-01-pagination.png "pagination"
+[accordion]: /gfw-style-guides/images/posts/common-elements/other/11-02-accordion.png "accordion"
+[accordion-expanded]: /gfw-style-guides/images/posts/common-elements/other/11-03-accordion-expanded.png "accordion expanded"
+[spinner]: /gfw-style-guides/images/posts/common-elements/other/11-04-spinner.png "spinner"

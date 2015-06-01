@@ -10,11 +10,11 @@ It is placed on its left, and usually holds tabs to switch between different con
 
 ![alt text][sidebar]
 
-![alt text][sidebar-2]
+![alt text][sidebar-meassures]
 
 The sidebar is 260px wide. The content, on the other hand, is flexible and adapts its width to the size of the screen.
 
-![alt text][sidebar-3]
+![alt text][sidebar-responsive]
 
 ### Responsive
 
@@ -22,10 +22,10 @@ The sidebar’s behaviour changes when the site is accessed from a mobile device
 standalone menu taking all the width of the screen, while the main content is hidden. Tapping on one of the
 options makes the content of that tab unfold.
 
-![alt text][sidebar-responsive]
+![alt text][sidebar-mobile]
 
 
-[sidebar]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-active"
-[sidebar-2]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-hover"
-[sidebar-3]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-hover"
-[sidebar-responsive]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-hover"
+[sidebar]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-01-sidebar.png "sidebar"
+[sidebar-meassures]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-02-sidebar-meassures.png "sidebar meassures"
+[sidebar-responsive]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-03-sidebar-responsive.png "sidebar responsive"
+[sidebar-mobile]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-03-sidebar-mobile.png "sidebar mobile"

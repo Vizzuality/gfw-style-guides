@@ -9,7 +9,7 @@ Use these styles to display listed information.
 
 ### Simple list
 
-![alt text][simple-list]
+![alt text][list]
 
 ### Card list
 
@@ -20,7 +20,7 @@ buttons, etc. for each item.
 
 Cards can also display text when the cursor is hovering them.
 
-![alt text][card-list-2]
+![alt text][card-hover]
 
 ### Country list
 
@@ -29,12 +29,12 @@ Cards can also display text when the cursor is hovering them.
 A **country list** is a mosaic of countries with their shape and name. The mobile adaptation
 changes the layout to a vertical list.
 
-![alt text][country-list-2]
+![alt text][country-list-mobile]
 
 
 
-[simple-list]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[card-list]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[card-list-2]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[country-list]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[country-list-2]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[list]: /gfw-style-guides/images/posts/common-elements/lists/04-01-list.png "list"
+[card-list]: /gfw-style-guides/images/posts/common-elements/lists/04-02-card-list.png "card list"
+[card-hover]: /gfw-style-guides/images/posts/common-elements/lists/04-03-card-hover.png "card hover"
+[country-list]: /gfw-style-guides/images/posts/common-elements/lists/04-04-country-list.png "country list"
+[country-list-mobile]: /gfw-style-guides/images/posts/common-elements/lists/04-05-country-list-mobile.png "country list mobile"
