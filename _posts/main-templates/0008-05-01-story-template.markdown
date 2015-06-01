@@ -16,17 +16,19 @@ in the rest of the templates to improve legibility and give the stories a more e
 
 The header has a white background for the same reason.
 
-![alt text][desktop]
+![alt text][story-template-desktop]
 
-![alt text][desktop-2]
+[![alt text][story-desktop]][story-desktop-full]
 
 ### Responsive
 
 The mobile adaptation takes the full screen width.
 
-![alt text][responsive]
+[![alt text][story-mobile]][story-mobile-full]
 
 
-[desktop]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Home Page"
-[desktop-2]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Secondary Page"
-[responsive]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Other Page"
+[story-template-desktop]: /gfw-style-guides/images/posts/main-templates/story-template/05-01-story-template-desktop.png "story template desktop"
+[story-desktop]: /gfw-style-guides/images/posts/main-templates/story-template/05-02-story-desktop.png "story desktop"
+[story-desktop-full]: /gfw-style-guides/images/posts/main-templates/story-template/05-02-story-desktop-full.jpg "story desktop full"
+[story-mobile]: /gfw-style-guides/images/posts/main-templates/story-template/05-03-story-mobile.png "story mobile"
+[story-mobile-full]: /gfw-style-guides/images/posts/main-templates/story-template/05-03-story-mobile-full.jpg "story mobile full"

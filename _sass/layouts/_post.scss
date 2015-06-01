@@ -41,6 +41,19 @@
         }
       }
     }
+
+    .gallery {
+      clear: both;
+      overflow: hidden;
+      img {
+        display: inline-block;
+        float: left;
+        // margin: 0;
+        &:nth-child(2n+1) {
+          margin-right: 20px;
+        }
+      }
+    }
   }
 
   // POST TOP BAR

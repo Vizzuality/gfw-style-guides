@@ -22,6 +22,11 @@ svg {
   height: 100%;
 }
 
+img {
+  display: block;
+  margin: 20px auto;
+}
+
 p {
   color: $ligthen-dark;
   font-weight: 500;
