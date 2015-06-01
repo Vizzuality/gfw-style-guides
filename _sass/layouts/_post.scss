@@ -26,6 +26,8 @@
       li{
         position: relative;
         padding: 0 0 0 15px;
+        color: $ligthen-dark;
+        font-weight: 500;
         &:before{
           content: "";
           position: absolute;

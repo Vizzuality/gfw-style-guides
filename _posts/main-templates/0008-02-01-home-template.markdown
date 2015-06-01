@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Home templates"
+title:  "Home template"
 date:   0008-02-01 12:23:49
 categories: page-elements main-templates
 ---
@@ -23,8 +23,6 @@ As explained in the section about **[responsive adaptations][responsive-adaptati
 full width of the device screen.
 
 ![alt text][responsive]
-
-Learn more about these templates and when to use them in the next pages.
 
 
 [desktop]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Home Page"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Design guidelines"
 date:   0009-01-01 12:23:49
-categories: page-elements
+categories: applications
 ---
 
 When designing an external application, please take the GFW website style guidelines in consideration.

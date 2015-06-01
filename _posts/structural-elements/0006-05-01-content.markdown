@@ -12,7 +12,7 @@ depends on the content itself.
 ![alt text][content]
 
 Some content also have a sidebar on its left. It is used to switch between different content.
-[Learn more about it.][learn-more]
+**[Learn more about it.][learn-more]**
 
 ![alt text][content-sidebar]
 

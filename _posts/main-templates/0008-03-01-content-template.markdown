@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Content templates"
+title:  "Content template"
 date:   0008-03-01 12:23:49
 categories: page-elements main-templates
 ---

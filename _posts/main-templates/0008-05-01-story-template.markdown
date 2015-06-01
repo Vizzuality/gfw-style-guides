@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Story templates"
+title:  "Story template"
 date:   0008-05-01 12:23:49
 categories: page-elements main-templates
 ---

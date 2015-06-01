@@ -22,9 +22,24 @@ svg {
   height: 100%;
 }
 
+p {
+  color: $ligthen-dark;
+  font-weight: 500;
+  &:first-child {
+    color: $dark;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
 a{
   text-decoration: none;
   color: $cGreen;
+}
+
+strong {
+  color: $dark;
+  font-weight: 500;
 }
 
 .hidden{
