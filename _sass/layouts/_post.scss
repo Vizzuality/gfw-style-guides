@@ -26,6 +26,8 @@
       li{
         position: relative;
         padding: 0 0 0 15px;
+        color: $ligthen-dark;
+        font-weight: 500;
         &:before{
           content: "";
           position: absolute;
@@ -36,6 +38,19 @@
           margin: -4px 0 0;
           background: $cGreen;
           border-radius: 50%;
+        }
+      }
+    }
+
+    .gallery {
+      clear: both;
+      overflow: hidden;
+      img {
+        display: inline-block;
+        float: left;
+        // margin: 0;
+        &:nth-child(2n+1) {
+          margin-right: 20px;
         }
       }
     }
