@@ -18,5 +18,5 @@ contains a list of links to different sections.
 
 
 
-[tooltip]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[tooltip-menu]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[tooltip]: /gfw-style-guides/images/posts/common-elements/tooltips/07-01-tooltip.png "tooltip"
+[tooltip-menu]: /gfw-style-guides/images/posts/common-elements/tooltips/07-02-tooltip-menu.png "tooltip menu"

@@ -13,8 +13,8 @@ Three weights are used:
 ### Use of type
 These are the most common type uses in the website. Use the hierarchy laid out below to compose easy-to-read content pages.
 
-![alt text][use-type]
+![alt text][type-use]
 
 
-[type]: /gfw-style-guides/images/posts/type/type.png "Type"
-[use-type]: /gfw-style-guides/images/posts/type/use-type.png "Use of type"
+[type]: /gfw-style-guides/images/posts/type/03-01-type.png "type"
+[type-use]: /gfw-style-guides/images/posts/type/03-02-type-use.png "type use"

@@ -30,5 +30,5 @@ while the huge button is used on the Home.)
 ![alt text][buttons]
 
 
-[links]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[buttons]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[links]: /gfw-style-guides/images/posts/common-elements/links_and_buttons/02-01-links.png "links"
+[buttons]: /gfw-style-guides/images/posts/common-elements/links_and_buttons/02-02-buttons.png "buttons"

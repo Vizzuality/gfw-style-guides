@@ -9,14 +9,13 @@ Modal windows are used to display information over other content. It hijacks the
 the user to interact with the rest of the page until closed. It is very useful to show extra information
 that is not displayed in the main page but is related to it.
 
-![alt text][modal-window]
+![alt text][modal]
 
 
 The modal windows in mobile devices don't overlap the rest of the content but substitute it.
 
-![alt text][modal-window-mobile]
+![alt text][modal-mobile]
 
 
-
-[modal-window]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[modal-window-mobile]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[modal]: /gfw-style-guides/images/posts/common-elements/modal-windows/06-01-modal.png "modal"
+[modal-mobile]: /gfw-style-guides/images/posts/common-elements/modal-windows/06-02-modal-mobile.png "modal mobile"

@@ -9,10 +9,10 @@ This module follows the main content module and displays a selection of suggeste
 
 ![alt text][related]
 
-![alt text][related-sizes]
+![alt text][related-meassures]
 
 This module has a light grey background #f7f7f7
 
 
-[related]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-active"
-[related-sizes]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "navbar-hover"
+[related]: /gfw-style-guides/images/posts/structural-elements/related-content/08-01-related.png "related"
+[related-meassures]: /gfw-style-guides/images/posts/structural-elements/related-content/08-02-related-meassures.png "related meassures"

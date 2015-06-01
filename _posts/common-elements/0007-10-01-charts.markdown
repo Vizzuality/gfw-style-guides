@@ -11,14 +11,14 @@ Use charts to display data visually. Please use the main GFW **[colors][colors-l
 
 These are some of charts:
 
-![alt text][chart-doughnut]
+![alt text][doughnut-chart]
 
-![alt text][chart-linear]
+![alt text][line-graph]
 
-![alt text][chart-bar]
+![alt text][bar-chart]
 
 
 [colors-link]: /gfw-style-guides/brand-guidelines/colors.html "colors"
-[chart-doughnut]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[chart-linear]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[chart-bar]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[doughnut-chart]: /gfw-style-guides/images/posts/common-elements/charts/10-01-doughnut-chart.png "doughnut chart"
+[line-graph]: /gfw-style-guides/images/posts/common-elements/charts/10-02-line-graph.png "line graph"
+[bar-chart]: /gfw-style-guides/images/posts/common-elements/charts/10-03-bar-chart.png "bar chart"

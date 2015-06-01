@@ -11,6 +11,8 @@ with links to the most relevant sections and applications, a searchbox and the t
 
 ![alt text][toolbar]
 
+![alt text][toolbar-height]
+
 ### Responsive
 
 When the screen is too narrow to show the labels in the main navigation (less than 1050px wide), they are hidden. The rest
@@ -20,9 +22,10 @@ of the toolbar remains the same.
 
 If the site is accessed from a small device (screen less than 850px wide), the toolbar is fixed on the bottom of the screen:
 
-![alt text][toolbar-responsive-2]
+![alt text][toolbar-mobile]
 
 
-[toolbar]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Toolbar"
-[toolbar-responsive]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Responsive Toolbar"
-[toolbar-responsive-2]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Responsive Toolbar 2"
+[toolbar]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-01-toolbar.png "toolbar"
+[toolbar-height]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-02-toolbar-height.png "toolbar height"
+[toolbar-responsive]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-03-toolbar-responsive.png "toolbar responsive"
+[toolbar-mobile]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-04-toolbar-mobile.png "toolbar mobile"

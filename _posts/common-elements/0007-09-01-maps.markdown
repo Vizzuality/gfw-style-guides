@@ -18,15 +18,15 @@ the attention on the map and data.
 
 These are some of the elements used on the map:
 
-![alt text][map-panel]
+![alt text][layers-panel]
 
-![alt text][map-infowindow]
+![alt text][infowindow]
 
-![alt text][map-zoom]
+![alt text][zoom-toolbar]
 
-![alt text][map-info-panel]
+![alt text][main-info-panel]
 
-![alt text][map-timeline]
+![alt text][timeline]
 
 ### Responsive
 
@@ -36,25 +36,25 @@ These are some of the elements used on the mobile version of the map.
 
 Tapping the “More options” button shows secondary actions. Tapping it again collapses the panel
 
-![alt text][map-more-options]
+![alt text][map-mobile-options]
 
 Tapping the Legend or Analysis buttons opens a panel sliding from the bottom of the screen with the relevant contents.
 
-![alt text][map-legend]
+![alt text][map-mobile-panel]
 
 The Data Layers Selection link in the header (and Local Data Layers button) opens a fullscreen overlay
 where the user can select the data layers display on the map and the basemaps used.
 
-![alt text][map-data-layer]
+![alt text][map-mobile-layers]
 
 
-[map]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[map-panel]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[map-infowindow]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[map-zoom]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[map-info-panel]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[map-timeline]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[map-mobile]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[map-more-options]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[map-legend]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
-[map-data-layer]: /gfw-style-guides/images/posts/responsive-adaptations/grid-site.png "Repsonsive Adaptations"
+[map]: /gfw-style-guides/images/posts/common-elements/maps/09-01-map.png "map"
+[layers-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-02-layers-panel.png "layers panel"
+[infowindow]: /gfw-style-guides/images/posts/common-elements/maps/09-03-infowindow.png "infowindow"
+[zoom-toolbar]: /gfw-style-guides/images/posts/common-elements/maps/09-04-zoom-toolbar.png "zoom toolbar"
+[main-info-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-05-main-info-panel.png "main info panel"
+[timeline]: /gfw-style-guides/images/posts/common-elements/maps/09-06-timeline.png "timeline"
+[map-mobile]: /gfw-style-guides/images/posts/common-elements/maps/09-07-map-mobile.png "map-mobile"
+[map-mobile-options]: /gfw-style-guides/images/posts/common-elements/maps/09-08-map-mobile-options.png "map mobile options"
+[map-mobile-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-09-map-mobile-panel.png "map mobile panel"
+[map-mobile-layers]: /gfw-style-guides/images/posts/common-elements/maps/09-10-map-mobile-layers.png "map mobile layers"
