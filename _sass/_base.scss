@@ -22,10 +22,6 @@ svg {
   height: 100%;
 }
 
-img {
-  display: block;
-  margin: 20px auto;
-}
 
 p {
   color: $ligthen-dark;
@@ -35,6 +31,10 @@ p {
     font-size: 18px;
     font-weight: 300;
   }
+}
+
+img {
+  margin: 20px 0;
 }
 
 a{

@@ -14,7 +14,9 @@ pagination should be used. This element allows the user to browse between pages 
 
 This is how they look when the user is on different pages:
 
-![alt text][pagination]
+<div class="gallery">
+  <img src="/gfw-style-guides/images/posts/common-elements/other/11-01-pagination.png" alt="pagination">
+</div>
 
 ### Accordion
 
@@ -30,10 +32,9 @@ They are useful to keep the page from being too long.
 When the content in a page is loading, the user must receive some feedback to know that something is actually happening.
 In this case, a spinner graphic is used:
 
-![alt text][spinner]
+<div class="gallery">
+  <img src="/gfw-style-guides/images/posts/common-elements/other/11-04-spinner.png" alt="spinner">
+</div>
 
-
-[pagination]: /gfw-style-guides/images/posts/common-elements/other/11-01-pagination.png "pagination"
 [accordion]: /gfw-style-guides/images/posts/common-elements/other/11-02-accordion.png "accordion"
 [accordion-expanded]: /gfw-style-guides/images/posts/common-elements/other/11-03-accordion-expanded.png "accordion expanded"
-[spinner]: /gfw-style-guides/images/posts/common-elements/other/11-04-spinner.png "spinner"

@@ -43,15 +43,19 @@
     }
 
     .gallery {
-      clear: both;
-      overflow: hidden;
+      display: flex;
+      align-items: stretch;
+      flex-wrap: wrap;
+      img, a {
+        margin: 20px auto;
+      }
+    }
+
+    .center {
+      text-align: center;
       img {
-        display: inline-block;
-        float: left;
-        // margin: 0;
-        &:nth-child(2n+1) {
-          margin-right: 20px;
-        }
+        display: block;
+        margin: 20px auto;
       }
     }
   }
