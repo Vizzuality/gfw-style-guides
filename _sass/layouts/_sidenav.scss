@@ -37,31 +37,40 @@
         }
       }
     }
-    .second-level{
-      >li{
-        &:hover {
-          h3{
-            background: $cGreen;
-            color: $white;
-            a{
-              background: inherit;
-              color: inherit;
-            }
-          }
-        }
-      }
-    }
+    // .second-level{
+    //   >li{
+    //     &:hover {
+    //       h3{
+    //         background: $cGreen;
+    //         color: $white;
+    //         a{
+    //           background: inherit;
+    //           color: inherit;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
     .third-level{
       margin-bottom: 5px;
-      padding: 0 20px;
+      // padding: 0 20px;
       >li{
         cursor: pointer;
         font-size: 0.875em;
-        margin: 2px 0 0 15px;
-        a{
+        padding: 2px 0 0 35px;
+        &.item-selected {
+          background: $cGreen;
+          a {
+            color: $white;
+            font-weight: 500;
+            &:hover {
+              color: $white;
+            }
+          }
+        }
+        a {
           display: block;
-          &:hover,
-          &.item-selected {
+          &:hover {
             color: $cGreen;
           }
         }
