@@ -75,8 +75,41 @@
       float: right;
       .prev,
       .next {
+        position: relative;
         font-weight: 500;
         text-transform: uppercase;
+      }
+      .prev {
+        margin-right: 20px;
+        &:before {
+          content: '';
+          position: absolute;
+          display: inline-block;
+          top: 7px;
+          left: -10px;
+          width: 9px;
+          height: 9px;
+          border-top: 2px solid $cGreen;
+          border-left: 2px solid $cGreen;
+          -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+        }
+      }
+      .next {
+        padding-right: 13px;
+        &:after {
+          content: '';
+          position: absolute;
+          display: inline-block;
+          top: 7px;
+          right: 2px;
+          width: 9px;
+          height: 9px;
+          border-top: 2px solid $cGreen;
+          border-right: 2px solid $cGreen;
+          -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
       }
     }
   }
@@ -87,13 +120,47 @@
     margin: 50px 0 0;
     @extend %clearfix;
     .pagination {
-      .next {
+      .next,
+      .back {
+        position: relative;
         display: inline-block;
         margin: 15px 0 0;
         font-weight: 500;
         text-transform: uppercase;
         .next-title {
           font-weight: 600;
+        }
+      }
+      .back {
+        padding-left: 13px;
+        &:after {
+          content: '';
+          position: absolute;
+          display: inline-block;
+          top: 7px;
+          left: 2px;
+          width: 9px;
+          height: 9px;
+          border-top: 2px solid $cGreen;
+          border-left: 2px solid $cGreen;
+          -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+        }
+      }
+      .next {
+        padding-right: 13px;
+        &:after {
+          content: '';
+          position: absolute;
+          display: inline-block;
+          top: 7px;
+          right: 2px;
+          width: 9px;
+          height: 9px;
+          border-top: 2px solid $cGreen;
+          border-right: 2px solid $cGreen;
+          -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
         }
       }
     }
