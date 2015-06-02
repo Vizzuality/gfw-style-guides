@@ -1,5 +1,14 @@
 <div class="post-top-bar">
-  <h3>{{ page.categories }}</h3>
+  <h3>
+    {% for category in page.categories %}
+      {% if forloop.length == forloop.index %}
+        {{category}}
+      {% else %}
+        {{category}} >
+      {% endif %}
+    {% endfor %}
+
+  </h3>
   <div class="pagination">
     {% if page.previous %}
       <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; Previous</a>

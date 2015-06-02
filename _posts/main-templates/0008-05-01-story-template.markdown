@@ -3,6 +3,7 @@ layout: post
 title:  "Story template"
 date:   0008-05-01 12:23:49
 categories: page-elements main-templates
+
 ---
 
 Crowdsourced stories use a special type of template with a white header background and a new
@@ -16,19 +17,22 @@ in the rest of the templates to improve legibility and give the stories a more e
 
 The header has a white background for the same reason.
 
-![alt text][story-template-desktop]
+<div class="gallery">
+  <img src="/gfw-style-guides/images/posts/main-templates/story-template/05-01-story-template-desktop.png" alt="story-template-desktop">
+  <a href="/gfw-style-guides/images/posts/main-templates/story-template/05-02-story-desktop-full.jpg">
+    <img src="/gfw-style-guides/images/posts/main-templates/story-template/05-02-story-desktop.png" alt="story-desktop">
+  </a>
+</div>
 
-[![alt text][story-desktop]][story-desktop-full]
 
 ### Responsive
 
 The mobile adaptation takes the full screen width.
 
-[![alt text][story-mobile]][story-mobile-full]
+<div class="gallery">
+  <a href="/gfw-style-guides/images/posts/main-templates/story-template/05-03-story-mobile-full.jpg">
+    <img src="/gfw-style-guides/images/posts/main-templates/story-template/05-03-story-mobile.png" alt="story-mobile">
+  </a>
+</div>
 
 
-[story-template-desktop]: /gfw-style-guides/images/posts/main-templates/story-template/05-01-story-template-desktop.png "story template desktop"
-[story-desktop]: /gfw-style-guides/images/posts/main-templates/story-template/05-02-story-desktop.png "story desktop"
-[story-desktop-full]: /gfw-style-guides/images/posts/main-templates/story-template/05-02-story-desktop-full.jpg "story desktop full"
-[story-mobile]: /gfw-style-guides/images/posts/main-templates/story-template/05-03-story-mobile.png "story mobile"
-[story-mobile-full]: /gfw-style-guides/images/posts/main-templates/story-template/05-03-story-mobile-full.jpg "story mobile full"

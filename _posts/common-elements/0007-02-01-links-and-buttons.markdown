@@ -13,7 +13,9 @@ usually used within paragraphs while buttons, on the other hand, are used indepe
 Regular links are usually used within paragraphs. They are green and slightly thicker than the rest of the text to
 differentiate themselves and be easier to identify.
 
-![alt text][links]
+<div class="gallery">
+  <img src="/gfw-style-guides/images/posts/common-elements/links_and_buttons/02-01-links.png" alt="links">
+</div>
 
 ### Buttons
 
@@ -30,5 +32,4 @@ while the huge button is used on the Home.)
 ![alt text][buttons]
 
 
-[links]: /gfw-style-guides/images/posts/common-elements/links_and_buttons/02-01-links.png "links"
 [buttons]: /gfw-style-guides/images/posts/common-elements/links_and_buttons/02-02-buttons.png "buttons"

@@ -8,7 +8,11 @@ categories: page-elements
 The Global Forest Watch website uses a 4 column grid. This grid makes it easy to create elements
 with different widths and place them in the design in a structured and organized way.
 
-![alt text][grid]
+<div class="gallery">
+  <img src="/gfw-style-guides/images/posts/grid/01-01-grid.png" alt="grid">
+</div>
+
+
 
 Each columns measures 25% of the overall width. The page adapts to the screen with up to 1200 pixels,
 the maximum allowed. If the screen is wider than that, the content stays centered. If the screen is
@@ -16,7 +20,9 @@ smaller than 850 pixels, the content adapts to a mobile device layout.
 
 These are some example of possible configurations for contents of the four column grid:
 
-![alt text][grid-configuration]
+<div class="gallery">
+  <img src="/gfw-style-guides/images/posts/grid/01-02-grid-configuration.png" alt="grid configuration">
+</div>
 
 
 [grid]: /gfw-style-guides/images/posts/grid/01-01-grid.png "grid"
