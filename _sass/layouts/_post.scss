@@ -69,7 +69,9 @@
       float: left;
       color: $gray;
       font-size: 16px;
-      // text-transform: capitalize;
+      a {
+        color: inherit;
+      }
     }
     .pagination{
       float: right;

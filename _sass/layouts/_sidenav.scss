@@ -3,6 +3,9 @@
   .current {
     background: $cGreen;
     a { color: $white;}
+    &:hover {
+      a { color: $white;}
+    }
   }
   nav{
     ul{
@@ -21,6 +24,9 @@
           font-weight: 500;
           padding: 1px 20px 0;
           cursor: pointer;
+          &:hover {
+            a {color: $cGreen;}
+          }
         }
         a{
           display: block;
@@ -37,20 +43,11 @@
         }
       }
     }
-    // .second-level{
-    //   >li{
-    //     &:hover {
-    //       h3{
-    //         background: $cGreen;
-    //         color: $white;
-    //         a{
-    //           background: inherit;
-    //           color: inherit;
-    //         }
-    //       }
-    //     }
-    //   }
-    // }
+    .second-level {
+      >li {
+
+      }
+     }
     .third-level{
       margin-bottom: 5px;
       // padding: 0 20px;

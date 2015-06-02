@@ -1,10 +1,14 @@
 <div class="post-top-bar">
   <h3>
     {% for category in page.categories %}
-      {% if forloop.length == forloop.index %}
-        {{category | replace:'-',' '}}
-      {% else %}
-        {{category | replace:'-',' '}} >
+      {% if forloop.index == 1 %}
+        {% if forloop.length == 1 %}
+          {{category | replace:'-',' '}}
+          {% else %}
+            {{category | replace:'-',' '}} /
+        {% endif %}
+        {% else %}
+          <a href="{{ site.baseurl }}/{{page.categories[0]}}/{{ page.categories[1] }}.html">{{category | replace:'-',' '}}</a>
       {% endif %}
     {% endfor %}
 
