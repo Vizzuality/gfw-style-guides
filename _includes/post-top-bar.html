@@ -2,9 +2,9 @@
   <h3>
     {% for category in page.categories %}
       {% if forloop.length == forloop.index %}
-        {{category}}
+        {{category | replace:'-',' '}}
       {% else %}
-        {{category}} >
+        {{category | replace:'-',' '}} >
       {% endif %}
     {% endfor %}
 

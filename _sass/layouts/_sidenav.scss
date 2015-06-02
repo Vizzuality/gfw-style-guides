@@ -1,4 +1,9 @@
 .layout-sidenav{
+
+  .current {
+    background: $cGreen;
+    a { color: $white;}
+  }
   nav{
     ul{
       li{
@@ -18,6 +23,8 @@
           cursor: pointer;
         }
         a{
+          display: block;
+          width: 100%;
           color: $dark;
         }
       }
@@ -32,7 +39,7 @@
     }
     .second-level{
       >li{
-        &:hover{
+        &:hover {
           h3{
             background: $cGreen;
             color: $white;
@@ -53,7 +60,8 @@
         margin: 2px 0 0 15px;
         a{
           display: block;
-          &:hover{
+          &:hover,
+          &.item-selected {
             color: $cGreen;
           }
         }
