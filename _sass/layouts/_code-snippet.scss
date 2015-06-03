@@ -1,0 +1,64 @@
+.show-code {
+  float: right;
+  margin-bottom: 20px;
+  color: $gray;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:after {
+    @include arrow('right', 9px, 3px, $gray, 45deg);
+    top: 6px;
+  }
+}
+
+.code-snippet {
+  overflow: hidden;
+  width: 100%;
+
+  border-radius: 7px;
+  background: #000;
+
+  .tabs {
+    position: relative;
+    background: -webkit-linear-gradient(-180deg, #3A3A3A   0%, #333333   100%);
+    ul {
+      overflow: hidden;
+      padding: 10px 0;
+      li {
+        float: left;
+        padding: 0;
+        &:before {
+          width: 0;
+          height: 0;
+        }
+        a {
+          padding: 2px 10px;
+          display: inline-block;
+          color: $gray;
+          &:nth-child(2n+1) {
+            margin: 0 5px;
+          }
+          &.active {
+            color: $ligthen-dark;
+            background: $gray;
+            border-radius: 15px;
+          }
+        }
+      }
+    }
+    .close {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translate(0, -50%);
+      cursor: pointer;
+      color: $gray;
+    }
+  }
+  .highlight {
+    padding: 15px;
+    background: #222;
+    // color: $white;
+    max-height: 225px;
+    overflow: scroll;
+  }
+}
