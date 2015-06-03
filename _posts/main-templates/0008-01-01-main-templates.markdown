@@ -24,6 +24,4 @@ some structural elements but each one has its own features.
   {% endif %}
 </div>
 
-
-
 Learn more about these templates and when to use them in the next pages.

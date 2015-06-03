@@ -10,7 +10,6 @@ Newsletter emails use a template based on the appearance of the site, giving con
 
 ### Desktop
 
-
 <div class="gallery">
   <img src="/gfw-style-guides/images/posts/main-templates/newsletter/06-01-newsletter-template.png" alt="newsletter-template">
   <a href="/gfw-style-guides/images/posts/main-templates/newsletter/06-02-newsletter-desktop-full.jpg">
