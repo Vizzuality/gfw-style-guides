@@ -16,40 +16,41 @@ differentiate themselves and be easier to identify.
 <div class="gallery">
   <img src="/gfw-style-guides/images/posts/common-elements/links_and_buttons/02-01-links.png" alt="links">
 </div>
+<div id="code-snippet-box1" class="code-snippet-box">
+  <span class="show-code">show code</span>
 
-<span class="show-code">show code</span>
+  <div class="code-snippet hidden">
+    <div class="tabs">
+      <ul>
+        <li><a href="#" data-lang="html" class="lang active">HTML</a></li>
+        <li><a href="#" data-lang="css" class="lang">CSS</a></li>
+      </ul>
+      <div class="close">&#10006;</div>
+    </div>
+    <div class="lang-snippet language-html">
+{% highlight html %}
 
-<div class="code-snippet hidden">
-  <div class="tabs">
-    <ul>
-      <li><a href="#" class="opt-html active">HTML</a></li>
-      <li><a href="#" class="opt-css">CSS</a></li>
-    </ul>
-    <div class="close">&#10006;</div>
-  </div>
-  <div class="language-html">
-    {% highlight html %}
+<p>Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat elementum
+rutrum, neque sem pretium metus, quis mollis nisl et massa. Vestibulum sed metus
+in lorem <a href="#">tristique ullamcorper</a> id <a href="#">vitae erat</a>.</p>
 
-      <p>Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat elementum
-      rutrum, neque sem pretium metus, quis mollis nisl et massa. Vestibulum sed metus
-      in lorem <a href="#">tristique ullamcorper</a> id <a href="#">vitae erat</a>.</p>
+{% endhighlight %}
+    </div>
+    <div class="lang-snippet language-css hidden">
+{% highlight css %}
 
-    {% endhighlight %}
-  </div>
-  <div class="language-css hidden">
-    {% highlight css %}
+a {
+  color: #97bd3d;
+  font-weight: 500;
+  text-decoration: none;
+}
 
-      a {
-        color: #97bd3d;
-        font-weight: 500;
-        text-decoration: none;
-      }
+a:hover {
+  text-decoration: underline;
+}
 
-      a:hover {
-        text-decoration: underline;
-      }
-
-    {% endhighlight %}
+{% endhighlight %}
+    </div>
   </div>
 </div>
 
@@ -67,32 +68,33 @@ while the huge button is used on the Home.)
 
 ![alt text][buttons]
 
-<span class="show-code">show code</span>
+<div id="code-snippet-box2" class="code-snippet-box">
+  <span class="show-code">show code</span>
 
-<div class="code-snippet hidden">
-  <div class="tabs">
-    <ul>
-      <li><a href="#" class="opt-html active">HTML</a></li>
-      <li><a href="#" class="opt-css">CSS</a></li>
-    </ul>
-    <div class="close">&#10006;</div>
-  </div>
-  <div class="language-html">
+
+  <div class="code-snippet hidden">
+    <div class="tabs">
+      <ul>
+        <li><a href="#" data-lang="html" class="lang active">HTML</a></li>
+        <li><a href="#" data-lang="css" class="lang">CSS</a></li>
+      </ul>
+      <div class="close">&#10006;</div>
+    </div>
+    <div class="lang-snippet language-html">
 {% highlight html %}
 
-<button class="btn green medium">browse data</button>
+<button href="#" class="btn green medium">browse data</button>
 
-<button class="btn gray medium">more</button>
+<button href="#" class="btn gray medium">more</button>
 
-<button class="btn dark medium">join now</button>
+<button href="#" class="btn dark medium">join now</button>
 
-<button class="btn green huge">click here!</button>
+<button href="#" class="btn green huge">click here!</button>
 
 {% endhighlight %}
-  </div>
-  <div class="language-css hidden">
+    </div>
+    <div class="lang-snippet language-css hidden">
 {% highlight css %}
-
 .btn {
   -webkit-appearance: none;
   border: 1px solid transparent;
@@ -271,11 +273,9 @@ while the huge button is used on the Home.)
   fill: #ffffff;
   transform(translate(0px,-50%));
 }
-
-
 {% endhighlight %}
+    </div>
   </div>
 </div>
-
 
 [buttons]: /gfw-style-guides/images/posts/common-elements/links_and_buttons/02-02-buttons.png "buttons"
