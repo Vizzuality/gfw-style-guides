@@ -11,57 +11,56 @@ Use these styles to display listed information.
 
 ![alt text][list]
 
-<!-- <span class="show-code">show code</span>
+<div id="code-snippet-box1" class="code-snippet-box">
+  <span class="show-code">show code</span>
 
-<div class="code-snippet hidden">
-  <div class="tabs">
-    <ul>
-      <li><a href="#" class="opt-html active">HTML</a></li>
-      <li><a href="#" class="opt-css">CSS</a></li>
-    </ul>
-    <div class="close">&#10006;</div>
-  </div>
-  <div class="language-html">
+  <div class="code-snippet hidden">
+    <div class="tabs">
+      <ul>
+        <li><a href="#" data-lang="html" class="lang active">HTML</a></li>
+        <li><a href="#" data-lang="css" class="lang">CSS</a></li>
+      </ul>
+      <div class="close">&#10006;</div>
+    </div>
+    <div class="lang-snippet language-html">
 {% highlight html %}
 
-<label for="title">Title</label>
-<input name="title" type="text" placeholder="Ilegal Logging in National Park">
+<ul class="bullets">
+  <li>The use of Landsat 8 data for 2013 and Landsat 5 data for 2010-2011</li>
+  <li>The reprocessing of data from 2011 to 2012 in measuring loss</li>
+  <li>Improved training data for calibrating the loss model</li>
+  <li>Improved per sensor quality assessment models to filter input data</li>
+  <li>Improved input spectral features for building and applying the loss model</li>
+</ul>
 
 {% endhighlight %}
-  </div>
-  <div class="language-css hidden">
+    </div>
+    <div class="lang-snippet language-css hidden">
 {% highlight css %}
-  label {
-    float: left;
-    color: #333;
-    font-weight: 500;
-    font-size: 12px;
-    text-transform: uppercase;
-  }
 
-  input[type="password"],
-  input[type="text"],
-  input[type="date"],
-  input[type="email"],
-  textarea {
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 100%;
-    margin: 5px 0;
-    font-size: 14px;
-    border-radius: 3px;
-    outline: none;
-  }
+.bullets {
+  list-style-type: disc;
+  color: #555;
+  margin: 0 0 0 10px;
+}
 
-  .field.required span {
-    float: right;
-    font-size: 13px
-  }
+.bullets > li {
+  list-style-type: disc;
+  padding: 10px 0 0;
+  font-size: 13px;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+
+.bullets > li:first-child {
+  padding: 0;
+}
 
 {% endhighlight %}
+    </div>
   </div>
 </div>
- -->
+
 
 ### Card list
 
@@ -74,17 +73,19 @@ Cards can also display text when the cursor is hovering them.
 
 ![alt text][card-hover]
 
-<span class="show-code">show code</span>
+<div id="code-snippet-box2" class="code-snippet-box">
 
-<div class="code-snippet hidden">
-  <div class="tabs">
-    <ul>
-      <li><a href="#" class="opt-html active">HTML</a></li>
-      <li><a href="#" class="opt-css">CSS</a></li>
-    </ul>
-    <div class="close">&#10006;</div>
-  </div>
-  <div class="language-html">
+  <span class="show-code">show code</span>
+
+  <div class="code-snippet hidden">
+    <div class="tabs">
+      <ul>
+        <li><a href="#" data-lang="html" class="lang active">HTML</a></li>
+        <li><a href="#" data-lang="css" class="lang">CSS</a></li>
+      </ul>
+      <div class="close">&#10006;</div>
+    </div>
+    <div class="lang-snippet language-html">
 {% highlight html %}
 
 <div class="col">
@@ -111,127 +112,166 @@ Cards can also display text when the cursor is hovering them.
 
 {% endhighlight %}
   </div>
-  <div class="language-css hidden">
+    <div class="lang-snippet language-css hidden">
 {% highlight css %}
-.col {
+.row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row .col {
   width: 100%;
   min-height: 1px;
-  @media (min-width: 600px) {
+  padding: 0 20px;
+  margin: 0px 0 25px;
+}
+
+@media (min-width: 600px) {
+  .row .col {
     width: 50%;
     min-height: 1px;
     display: flex;
   }
-  @media (min-width: 850px) {
-    width: 33.333333%;
+}
+
+@media (min-width: 850px) {
+  .row .col {
+    width: 33.3333%;
     min-height: 1px;
     display: flex;
   }
-  padding: 0 20px;
-  margin: 0px 0 25px;
 }
-.col.card {
-    width: 100%;
-    position: relative;
-    padding: 40px 25px 125px;
-    text-align: center;
-    box-shadow: 0 0 0 1px #E5E5DF;
+
+.row .col .card {
+  width: 100%;
+  position: relative;
+  padding: 40px 25px 125px;
+  text-align: center;
+  box-shadow: 0 0 0 1px #E5E5DF;
 }
-.col.card:hover .description{
+
+.row .col .card:hover .description {
   visibility: visible;
   opacity: 1;
 }
 
-.col.ribbon {
+.row .col .ribbon {
   position: absolute;
   top: 0px;
   right: -70px;
   background: #97Bd3d;
-  color: $white;
+  color: #FFF;
   width: 140px;
   font-size: 12px;
   padding: 5px 0 2px;
   text-transform: uppercase;
-  transform: rotate(45deg), translate(-8px,45px);
+  transform: rotate(45deg) translate(-8px, 45px);
   transform-origin: 50% 50%;
 }
 
-.col h2 {
+.row .col h2 {
   text-transform: uppercase;
   font-size: 21px;
   padding: 0 10px;
 }
 
-.col.icon {
+.row .col .icon {
   min-width: 75px;
   width: auto;
   height: 75px;
   margin: 16px auto;
 }
 
-.col.icon svg {
-  fill: #555555;
+.row .col .icon svg {
+  fill: #555;
   width: 100%;
 }
-.col.content p{
+
+.row .col .content p {
   font-size: 14px;
-  color: #555555;
+  color: #555;
   line-height: 1.25;
   max-width: 300px;
   margin: 0 auto;
 }
 
-.col. footer {
+.row .col footer {
   position: absolute;
   bottom: 20px;
   left: 50%;
   width: 80%;
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
 }
-.col footer small {
+
+.row .col footer small {
   width: 100%;
   display: inline-block;
   margin: 10px 0 0;
   font-size: 10px;
-  color: #555555;
+  color: #555;
 }
 
-.col.description {
+.row .col .description {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
   width: 100%;
   height: 100%;
-  background: #ffffff;
+  background: #FFF;
   visibility: hidden;
   opacity: 0;
-  transition: all,0.25s,linear;
+  transition: all 0.25s linear;
 }
-.col.description.additional-info {
-  color: $dark;
+
+.row .col .description .additional-info {
+  color: #555;
   width: 80%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.col.description.additional-info h2 {
+
+.row .col .description .additional-info h2 {
   font-size: 21px;
   padding: 0 0 10px;
 }
 
-.col.description.additional-info p {
+.row .col .description .additional-info p {
   text-align: center;
   font-size: 14px;
   line-height: 1.25;
 }
 
-.col.description.additional-info p a {
+.row .col .description .additional-info p a {
   color: #97Bd3d;
 }
+
 {% endhighlight %}
+    </div>
   </div>
+
 </div>
+
 
 ### Country list
 
