@@ -18,6 +18,175 @@ This is how they look when the user is on different pages:
   <img src="/gfw-style-guides/images/posts/common-elements/other/11-01-pagination.png" alt="pagination">
 </div>
 
+<div id="code-snippet-box1" class="code-snippet-box">
+  <span class="show-code">show code</span>
+
+  <div class="code-snippet hidden">
+    <div class="tabs">
+      <ul>
+        <li><a href="#" data-lang="html" class="lang active">HTML</a></li>
+        <li><a href="#" data-lang="css" class="lang">CSS</a></li>
+      </ul>
+      <div class="close">&#10006;</div>
+    </div>
+    <div class="lang-snippet language-html">
+{% highlight html %}
+
+<div class="light-theme simple-pagination">
+  <ul>
+    <li class="active"><span class="current prev"> </span></li>
+    <li class="active"><span class="current">1</span></li>
+    <li><a href="#page-2" class="page-link">2</a></li>
+    <li><a href="#page-3" class="page-link">3</a></li>
+    <li class="disabled"><span class="ellipse">…</span></li>
+    <li><a href="#page-13" class="page-link">13</a></li>
+    <li><a href="#page-14" class="page-link">14</a></li>
+    <li><a href="#page-2" class="page-link next"> </a></li>
+  </ul>
+</div>
+
+{% endhighlight %}
+    </div>
+    <div class="lang-snippet language-css hidden">
+{% highlight css %}
+
+.simple-pagination {
+  float: left;
+  display: block;
+  padding: 40px 0 0;
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  transform: (translate(-50%,0);
+}
+
+.simple-pagination ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.simple-pagination ul:before,
+.simple-pagination ul:after {
+  content: " ";
+  display: table;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+
+.simple-pagination ul:after {
+  clear: both;
+}
+
+.simple-pagination ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.simple-pagination.light-theme a, .simple-pagination.light-theme span {
+  float: left;
+  color: #555555;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  min-width: 24px;
+  margin: 0 10px 0 0;
+  background: none;
+  text-decoration: none;
+}
+
+.simple-pagination.light-theme a:hover {
+  text-decoration: none;
+  color: #97Bd3d;
+}
+
+.simple-pagination.light-theme .current {
+  cursor: default;
+  border-bottom: 2px solid #97Bd3d;
+}
+
+.simple-pagination.light-theme .next, .simple-pagination.light-theme .prev {
+  background: #97Bd3d;
+  position: absolute;
+  width: 50%;
+  height: 40px;
+  width: 40px;
+  top: 50%;
+  border-radius: 50%;
+}
+
+@media (min-width: 850px) {
+  .simple-pagination.light-theme .next, .simple-pagination.light-theme .prev {
+    position: relative;
+    top: -10px;
+  }
+}
+
+.simple-pagination.light-theme .next.current, .simple-pagination.light-theme .prev.current {
+  display: none;
+}
+
+.simple-pagination.light-theme .next:before, .simple-pagination.light-theme .prev:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.simple-pagination.light-theme .prev {
+  left: -40px;
+  margin: 0;
+}
+
+@media (min-width: 850px) {
+  .simple-pagination.light-theme .prev {
+    margin: 0 40px 0 0;
+    left: auto;
+  }
+}
+
+.simple-pagination.light-theme .prev:before {
+  background: image-url("svg-icons/arrow-left.svg") center no-repeat;
+  transform: translate(-2px,0);
+}
+
+.simple-pagination.light-theme .next {
+  right: -40px;
+  margin: 0;
+}
+
+@media (min-width: 850px) {
+  .simple-pagination.light-theme .next {
+    margin: 0 0 0 40px;
+    right: auto;
+  }
+}
+
+.simple-pagination.light-theme .next:before {
+  background: image-url("svg-icons/arrow-right.svg") center no-repeat;
+  transform: translate(0px,0);
+}
+
+.simple-pagination.light-theme .ellipse {
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: 500;
+  cursor: default;
+}
+
+{% endhighlight %}
+    </div>
+  </div>
+</div>
+
 ### Accordion
 
 Accordions are used when there is a lot of information in one page and is not necessary to show everything at the same time.
@@ -26,6 +195,631 @@ They are useful to keep the page from being too long.
 ![alt text][accordion]
 
 ![alt text][accordion-expanded]
+
+<div id="code-snippet-box2" class="code-snippet-box">
+  <span class="show-code">show code</span>
+
+  <div class="code-snippet hidden">
+    <div class="tabs">
+      <ul>
+        <li><a href="#" data-lang="html" class="lang active">HTML</a></li>
+        <li><a href="#" data-lang="css" class="lang">CSS</a></li>
+      </ul>
+      <div class="close">&#10006;</div>
+    </div>
+    <div class="lang-snippet language-html">
+{% highlight html %}
+
+<ul class="sources">
+  <li class="source-item first">
+    <div class="source_header">
+      <strong class="source_title">Analyze a user-defined area</strong>
+      <i class="expand_arrow"></i>
+    </div>
+    <div class="source_body">
+      <div class="source_summary">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum </p>
+      </div>
+    </div>
+  </li>
+  <li class="source-item first">
+    <div class="source_header">
+      <strong class="source_title">Analyze a shape on the map</strong>
+      <i class="expand_arrow"></i>
+    </div>
+    <div class="source_body">
+      <div class="source_summary">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum </p>
+      </div>
+    </div>
+  </li>
+  <li class="source-item first">
+    <div class="source_header">
+      <strong class="source_title"> Analyze a country or subnational jurisdiction</strong>
+      <i class="expand_arrow"></i>
+    </div>
+    <div class="source_body">
+      <div class="source_summary">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum </p>
+      </div>
+    </div>
+  </li>
+</ul>
+
+{% endhighlight %}
+    </div>
+    <div class="lang-snippet language-css hidden">
+{% highlight css %}
+
+.sources {
+  display: none;
+}
+
+.is-data-action .source_category_title, .is-howto-action .source_category_title {
+  margin-bottom: 10px;
+  font-size: 37px;
+  color: #555555;
+}
+
+.is-data-action .source_category_description, .is-howto-action .source_category_description {
+  color: #555555;
+  padding: 10px 0 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.is-data-action .source_category_description + .source_category_description, .is-howto-action .source_category_description + .source_category_description {
+  margin-top: 10px;
+}
+
+.is-data-action .sources, .is-howto-action .sources {
+  display: block;
+  padding: 25px 0 0;
+}
+
+.is-data-action strong, .is-howto-action strong {
+  font-weight: 500;
+}
+
+.is-data-action .source-item:hover .source_header,
+.is-data-action .source-item.selected .source_header, .is-howto-action .source-item:hover .source_header,
+.is-howto-action .source-item.selected .source_header {
+  color: #98BD17;
+}
+
+.is-data-action .source-item.disabled, .is-howto-action .source-item.disabled {
+  opacity: .5;
+}
+
+.is-data-action .source-item.disabled:hover .source_header, .is-howto-action .source-item.disabled:hover .source_header {
+  color: #555555;
+}
+
+.is-data-action .source-item.expanded + .source-item, .is-howto-action .source-item.expanded + .source-item {
+  margin-top: 30px;
+}
+
+.is-data-action .source-item.expanded .expand_arrow, .is-howto-action .source-item.expanded .expand_arrow {
+  /*@include static-icons-sprite(expand_arrow_up);*/
+}
+
+.is-data-action .source-item.expanded .source_header, .is-howto-action .source-item.expanded .source_header {
+  color: #98BD17;
+}
+
+.is-data-action .source-item.expanded .source_coverage,
+.is-data-action .source-item.expanded .source_body,
+.is-data-action .source-item.expanded .source_coverage_header, .is-howto-action .source-item.expanded .source_coverage,
+.is-howto-action .source-item.expanded .source_body,
+.is-howto-action .source-item.expanded .source_coverage_header {
+  display: block;
+}
+
+.is-data-action .source-item.expanded.last, .is-howto-action .source-item.expanded.last {
+  padding-bottom: 30px;
+}
+
+.is-data-action .source-item:last-child, .is-howto-action .source-item:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.is-data-action .source-item .source_body,
+.is-data-action .source-item .source_coverage_header,
+.is-data-action .source-item .source_coverage, .is-howto-action .source-item .source_body,
+.is-howto-action .source-item .source_coverage_header,
+.is-howto-action .source-item .source_coverage {
+  padding: 0 0px 25px 0;
+  display: none;
+}
+
+.is-data-action .source-item .source_body p,
+.is-data-action .source-item .source_body .bullets,
+.is-data-action .source-item .source_coverage_header p,
+.is-data-action .source-item .source_coverage_header .bullets,
+.is-data-action .source-item .source_coverage p, .is-data-action .source-item .source_coverage .bullets, .is-howto-action .source-item .source_body p,
+.is-howto-action .source-item .source_body .bullets,
+.is-howto-action .source-item .source_coverage_header p,
+.is-howto-action .source-item .source_coverage_header .bullets,
+.is-howto-action .source-item .source_coverage p, .is-howto-action .source-item .source_coverage .bullets {
+  font-size: 13px;
+}
+
+.is-data-action .source-item .source_body p a:not(.btn),
+.is-data-action .source-item .source_body .bullets a:not(.btn),
+.is-data-action .source-item .source_coverage_header p a:not(.btn),
+.is-data-action .source-item .source_coverage_header .bullets a:not(.btn),
+.is-data-action .source-item .source_coverage p a:not(.btn), .is-data-action .source-item .source_coverage .bullets a:not(.btn), .is-howto-action .source-item .source_body p a:not(.btn),
+.is-howto-action .source-item .source_body .bullets a:not(.btn),
+.is-howto-action .source-item .source_coverage_header p a:not(.btn),
+.is-howto-action .source-item .source_coverage_header .bullets a:not(.btn),
+.is-howto-action .source-item .source_coverage p a:not(.btn), .is-howto-action .source-item .source_coverage .bullets a:not(.btn) {
+  text-decoration: none;
+  color: #97Bd3d;
+}
+
+.is-data-action .source-item .sources_row, .is-howto-action .source-item .sources_row {
+  display: table;
+  width: 100%;
+}
+
+.is-data-action .source-item .sources_row:nth-child(even), .is-howto-action .source-item .sources_row:nth-child(even) {
+  background: #F2F2F3;
+}
+
+.is-data-action .source-item .sources_row dt, .is-howto-action .source-item .sources_row dt {
+  display: table-cell;
+  width: 120px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.is-data-action .source-item .sources_row dd, .is-howto-action .source-item .sources_row dd {
+  display: table-cell;
+  padding: 10px 10px 10px 15px;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 13px;
+}
+
+.is-data-action .source-item .sources_row dd a, .is-howto-action .source-item .sources_row dd a {
+  color: #97Bd3d;
+}
+
+.is-data-action .source-item .sources_row dd p, .is-howto-action .source-item .sources_row dd p {
+  margin-bottom: 10px;
+}
+
+.is-data-action .source-item .sources_row dd p:last-child, .is-howto-action .source-item .sources_row dd p:last-child {
+  margin-bottom: 0;
+}
+
+.is-data-action .source-item .sources_row dd p sup, .is-howto-action .source-item .sources_row dd p sup {
+  position: relative;
+  top: -3px;
+  font-size: 80%;
+}
+
+.is-data-action .source-item .sources_row em, .is-howto-action .source-item .sources_row em {
+  font-style: italic;
+}
+
+.is-data-action .single-source-item, .is-data-action .source_body,
+.is-data-action .source_coverage, .is-howto-action .single-source-item, .is-howto-action .source_body,
+.is-howto-action .source_coverage {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #666;
+}
+
+.is-data-action .single-source-item p, .is-data-action .source_body p,
+.is-data-action .source_coverage p, .is-howto-action .single-source-item p, .is-howto-action .source_body p,
+.is-howto-action .source_coverage p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.is-data-action .single-source-item p:last-child, .is-data-action .source_body p:last-child,
+.is-data-action .source_coverage p:last-child, .is-howto-action .single-source-item p:last-child, .is-howto-action .source_body p:last-child,
+.is-howto-action .source_coverage p:last-child {
+  margin-bottom: 0;
+}
+
+.is-data-action .single-source-item p a:not(.btn), .is-data-action .source_body p a:not(.btn),
+.is-data-action .source_coverage p a:not(.btn), .is-howto-action .single-source-item p a:not(.btn), .is-howto-action .source_body p a:not(.btn),
+.is-howto-action .source_coverage p a:not(.btn) {
+  color: #97Bd3d;
+  text-decoration: none;
+}
+
+.is-data-action .single-source-item p a:not(.btn):hover, .is-data-action .source_body p a:not(.btn):hover,
+.is-data-action .source_coverage p a:not(.btn):hover, .is-howto-action .single-source-item p a:not(.btn):hover, .is-howto-action .source_body p a:not(.btn):hover,
+.is-howto-action .source_coverage p a:not(.btn):hover {
+  text-decoration: underline;
+}
+
+.is-data-action .single-source-item p.credits, .is-data-action .source_body p.credits,
+.is-data-action .source_coverage p.credits, .is-howto-action .single-source-item p.credits, .is-howto-action .source_body p.credits,
+.is-howto-action .source_coverage p.credits {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.is-data-action .single-source-item p.credits strong, .is-data-action .source_body p.credits strong,
+.is-data-action .source_coverage p.credits strong, .is-howto-action .single-source-item p.credits strong, .is-howto-action .source_body p.credits strong,
+.is-howto-action .source_coverage p.credits strong {
+  display: block;
+  font-weight: 500;
+}
+
+.is-data-action .single-source-item p.credits a, .is-data-action .source_body p.credits a,
+.is-data-action .source_coverage p.credits a, .is-howto-action .single-source-item p.credits a, .is-howto-action .source_body p.credits a,
+.is-howto-action .source_coverage p.credits a {
+  color: #aaa;
+  text-decoration: underline;
+}
+
+.is-data-action .single-source-item p.credits a:hover, .is-data-action .source_body p.credits a:hover,
+.is-data-action .source_coverage p.credits a:hover, .is-howto-action .single-source-item p.credits a:hover, .is-howto-action .source_body p.credits a:hover,
+.is-howto-action .source_coverage p.credits a:hover {
+  color: #aaa;
+}
+
+.is-data-action .source_body .bullets,
+.is-data-action .source_coverage .bullets, .is-howto-action .source_body .bullets,
+.is-howto-action .source_coverage .bullets {
+  list-style-type: disc;
+  color: #555555;
+  margin: 0 0 0 10px;
+}
+
+.is-data-action .source_body .bullets > li,
+.is-data-action .source_coverage .bullets > li, .is-howto-action .source_body .bullets > li,
+.is-howto-action .source_coverage .bullets > li {
+  padding: 10px 0 0;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+
+.is-data-action .source_body .bullets > li:first-child,
+.is-data-action .source_coverage .bullets > li:first-child, .is-howto-action .source_body .bullets > li:first-child,
+.is-howto-action .source_coverage .bullets > li:first-child {
+  padding: 0;
+}
+
+.is-data-action .source_body .read_more,
+.is-data-action .source_coverage .read_more, .is-howto-action .source_body .read_more,
+.is-howto-action .source_coverage .read_more {
+  padding: 10px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.is-data-action .source_body .btn,
+.is-data-action .source_coverage .btn, .is-howto-action .source_body .btn,
+.is-howto-action .source_coverage .btn {
+  margin: 2px 0;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .is-data-action .source_body .btn,
+  .is-data-action .source_coverage .btn, .is-howto-action .source_body .btn,
+  .is-howto-action .source_coverage .btn {
+    width: auto;
+  }
+}
+
+.is-data-action .source_body img:before,
+.is-data-action .source_body img:after,
+.is-data-action .source_coverage img:before,
+.is-data-action .source_coverage img:after, .is-howto-action .source_body img:before,
+.is-howto-action .source_body img:after,
+.is-howto-action .source_coverage img:before,
+.is-howto-action .source_coverage img:after {
+  content: " ";
+  display: table;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+
+.is-data-action .source_body img:after,
+.is-data-action .source_coverage img:after, .is-howto-action .source_body img:after,
+.is-howto-action .source_coverage img:after {
+  clear: both;
+}
+
+.is-data-action .source_body .hidden,
+.is-data-action .source_coverage .hidden, .is-howto-action .source_body .hidden,
+.is-howto-action .source_coverage .hidden {
+  display: none;
+}
+
+.is-data-action .source_download,
+.is-data-action .source_coverage_download, .is-howto-action .source_download,
+.is-howto-action .source_coverage_download {
+  text-align: right;
+  background: #F0F5DC;
+  border-top: 1px solid #ccc;
+}
+
+.is-data-action .source_download a,
+.is-data-action .source_download span,
+.is-data-action .source_coverage_download a,
+.is-data-action .source_coverage_download span, .is-howto-action .source_download a,
+.is-howto-action .source_download span,
+.is-howto-action .source_coverage_download a,
+.is-howto-action .source_coverage_download span {
+  display: inline-block;
+  margin: 20px;
+  padding: 4px 15px 2px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  background: #97Bd3d;
+  border-radius: 16px;
+}
+
+.is-data-action .source_download a.disabled,
+.is-data-action .source_download span.disabled,
+.is-data-action .source_coverage_download a.disabled,
+.is-data-action .source_coverage_download span.disabled, .is-howto-action .source_download a.disabled,
+.is-howto-action .source_download span.disabled,
+.is-howto-action .source_coverage_download a.disabled,
+.is-howto-action .source_coverage_download span.disabled {
+  opacity: .5;
+  cursor: default;
+}
+
+.is-data-action .source_download a:hover,
+.is-data-action .source_download span:hover,
+.is-data-action .source_coverage_download a:hover,
+.is-data-action .source_coverage_download span:hover, .is-howto-action .source_download a:hover,
+.is-howto-action .source_download span:hover,
+.is-howto-action .source_coverage_download a:hover,
+.is-howto-action .source_coverage_download span:hover {
+  background: #88aa37;
+}
+
+.is-data-action .source_header, .is-howto-action .source_header {
+  border-top: 1px solid #ccc;
+  color: #555555;
+  cursor: pointer;
+  position: relative;
+}
+
+.is-data-action .source_header strong, .is-howto-action .source_header strong {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 20px 75px 20px 0;
+}
+
+.is-data-action .source_header em, .is-howto-action .source_header em {
+  display: none;
+  float: right;
+  position: relative;
+  right: 85px;
+  color: #999;
+  font: italic 13px/60px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 1050px) {
+  .is-data-action .source_header em, .is-howto-action .source_header em {
+    display: block;
+  }
+}
+
+.is-data-action .source_header .expand_arrow, .is-howto-action .source_header .expand_arrow {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 60px;
+  width: 60px;
+  margin-left: 15px;
+}
+
+.is-data-action .source_header .expand_arrow:before, .is-howto-action .source_header .expand_arrow:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: image-url("svg-icons/arrow-down.svg");
+  width: 14px;
+  height: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+}
+
+.is-data-action .source_header .expand_arrow:after, .is-howto-action .source_header .expand_arrow:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1px;
+  height: 50%;
+  transform: translate(0, -50%);
+  background-color: #ccc;
+}
+
+.is-data-action .source_header.active .expand_arrow:before, .is-howto-action .source_header.active .expand_arrow:before {
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.is-data-action .source_coverage_download, .is-howto-action .source_coverage_download {
+  border-top: 0;
+  background: transparent;
+}
+
+.is-data-action .source_coverage_download .source_coverage_title, .is-howto-action .source_coverage_download .source_coverage_title {
+  float: left;
+}
+
+.is-data-action .source_coverage_download .source_download, .is-howto-action .source_coverage_download .source_download {
+  margin-right: 0;
+}
+
+.is-data-action .arrow_down, .is-howto-action .arrow_down {
+  display: inline-block;
+  height: 10px;
+  width: 8px;
+  margin-left: 15px;
+  /*@include static-icons-sprite(arrow_down);*/
+}
+
+.is-data-action .source_table, .is-howto-action .source_table {
+  border-top: 1px solid #ccc;
+}
+
+.is-data-action .source_table + .overview_title, .is-howto-action .source_table + .overview_title {
+  margin-top: 0;
+}
+
+.is-data-action .overview_title,
+.is-data-action .source_coverage_title, .is-howto-action .overview_title,
+.is-howto-action .source_coverage_title {
+  margin: 30px 0 10px;
+  font: 16px/1.1 "Fira Sans";
+  font-weight: 500;
+  color: #555555;
+}
+
+.is-data-action .source_dropdown, .is-howto-action .source_dropdown {
+  background: #EEE;
+  position: relative;
+}
+
+.is-data-action .source_dropdown_menu, .is-howto-action .source_dropdown_menu {
+  display: block;
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.is-data-action .source_dropdown_menu ul, .is-howto-action .source_dropdown_menu ul {
+  background: #ffffff;
+}
+
+.is-data-action .source_dropdown_menu ul li, .is-howto-action .source_dropdown_menu ul li {
+  border-top: 1px solid #FAFAFA;
+}
+
+.is-data-action .source_dropdown_menu ul li:first-child, .is-howto-action .source_dropdown_menu ul li:first-child {
+  border-top: none;
+}
+
+.is-data-action .source_dropdown_menu ul li a, .is-howto-action .source_dropdown_menu ul li a {
+  display: block;
+  padding: 10px;
+  font-size: 13px;
+  color: #555555;
+  text-decoration: none;
+}
+
+.is-data-action .source_dropdown_header, .is-howto-action .source_dropdown_header {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #555555;
+}
+
+.is-data-action .source_dropdown_header .overview_title, .is-howto-action .source_dropdown_header .overview_title {
+  margin: 0;
+  padding: 0 10px;
+  line-height: 60px;
+}
+
+.is-data-action .source_dropdown_header .dropdown_arrow, .is-howto-action .source_dropdown_header .dropdown_arrow {
+  display: block;
+  position: relative;
+  float: right;
+  height: 60px;
+  width: 60px;
+  margin-left: 15px;
+}
+
+.is-data-action .source_dropdown_header .dropdown_arrow:before, .is-howto-action .source_dropdown_header .dropdown_arrow:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: image-url("svg-icons/arrow-down.svg");
+  width: 14px;
+  height: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+}
+
+.is-data-action .source_dropdown_header .dropdown_arrow:after, .is-howto-action .source_dropdown_header .dropdown_arrow:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1px;
+  height: 50%;
+  transform: translate(0, -50%);
+  background-color: #ccc;
+}
+
+.is-data-action .source_dropdown_header .expand_arrow, .is-howto-action .source_dropdown_header .expand_arrow {
+  margin-right: 10px;
+}
+
+.is-data-action .source_dropdown_menu,
+.is-data-action .source_dropdown_body, .is-howto-action .source_dropdown_menu,
+.is-howto-action .source_dropdown_body {
+  display: none;
+}
+
+.is-data-action .source_dropdown_body, .is-howto-action .source_dropdown_body {
+  padding: 0 10px 10px;
+}
+
+.is-data-action .source_dropdown_body.active,
+.is-data-action .source_dropdown_body.sinlge_active, .is-howto-action .source_dropdown_body.active,
+.is-howto-action .source_dropdown_body.sinlge_active {
+  display: block;
+}
+
+.is-data-action .videos_list p, .is-howto-action .videos_list p {
+  margin-bottom: 30px;
+}
+
+.is-data-action .videos_list p iframe + iframe, .is-howto-action .videos_list p iframe + iframe {
+  margin-left: 30px;
+}
+
+.is-data-action .hide, .is-howto-action .hide {
+  display: none;
+}
+{% endhighlight %}
+    </div>
+  </div>
+</div>
+
 
 ### Spinner
 
