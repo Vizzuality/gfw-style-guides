@@ -11,6 +11,58 @@ Use these styles to display listed information.
 
 ![alt text][list]
 
+<!-- <span class="show-code">show code</span>
+
+<div class="code-snippet hidden">
+  <div class="tabs">
+    <ul>
+      <li><a href="#" class="opt-html active">HTML</a></li>
+      <li><a href="#" class="opt-css">CSS</a></li>
+    </ul>
+    <div class="close">&#10006;</div>
+  </div>
+  <div class="language-html">
+{% highlight html %}
+
+<label for="title">Title</label>
+<input name="title" type="text" placeholder="Ilegal Logging in National Park">
+
+{% endhighlight %}
+  </div>
+  <div class="language-css hidden">
+{% highlight css %}
+  label {
+    float: left;
+    color: #333;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  input[type="password"],
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 14px;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  .field.required span {
+    float: right;
+    font-size: 13px
+  }
+
+{% endhighlight %}
+  </div>
+</div>
+ -->
+
 ### Card list
 
 ![alt text][card-list]
@@ -22,6 +74,165 @@ Cards can also display text when the cursor is hovering them.
 
 ![alt text][card-hover]
 
+<span class="show-code">show code</span>
+
+<div class="code-snippet hidden">
+  <div class="tabs">
+    <ul>
+      <li><a href="#" class="opt-html active">HTML</a></li>
+      <li><a href="#" class="opt-css">CSS</a></li>
+    </ul>
+    <div class="close">&#10006;</div>
+  </div>
+  <div class="language-html">
+{% highlight html %}
+
+<div class="col">
+  <div class="card">
+    <header>
+      <h2>Biodiversity</h2>
+      <div class="icon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-biodiversity"></use></svg></div>
+    </header>
+    <div class="content">
+      <p>Monitor forest change in critical habitats for species conservation.</p>
+    </div>
+    <footer>
+      <span class="btn soon">coming soon</span>
+      <small>Source: World Resources Institute and RESOLVE</small>
+    </footer>
+    <div class="description">
+      <div class="additional-info">
+        <h2>Biodiversity</h2>
+        <p>Global Forest Watch Biodiversity, an application under development through a partnership with <a target="_blank" href="http://www.resolv.org/">RESOLVE</a>, will unite the best available data for forests and biodiversity to monitor and manage critical habitats and species. With new biodiversity indicators, monitoring capabilities, and the longer-term build-out of interactive dashboards, GFW Biodiversity will supply the information needed to assess and help countries reach international binding biodiversity commitments.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endhighlight %}
+  </div>
+  <div class="language-css hidden">
+{% highlight css %}
+.col {
+  width: 100%;
+  min-height: 1px;
+  @media (min-width: 600px) {
+    width: 50%;
+    min-height: 1px;
+    display: flex;
+  }
+  @media (min-width: 850px) {
+    width: 33.333333%;
+    min-height: 1px;
+    display: flex;
+  }
+  padding: 0 20px;
+  margin: 0px 0 25px;
+}
+.col.card {
+    width: 100%;
+    position: relative;
+    padding: 40px 25px 125px;
+    text-align: center;
+    box-shadow: 0 0 0 1px #E5E5DF;
+}
+.col.card:hover .description{
+  visibility: visible;
+  opacity: 1;
+}
+
+.col.ribbon {
+  position: absolute;
+  top: 0px;
+  right: -70px;
+  background: #97Bd3d;
+  color: $white;
+  width: 140px;
+  font-size: 12px;
+  padding: 5px 0 2px;
+  text-transform: uppercase;
+  transform: rotate(45deg), translate(-8px,45px);
+  transform-origin: 50% 50%;
+}
+
+.col h2 {
+  text-transform: uppercase;
+  font-size: 21px;
+  padding: 0 10px;
+}
+
+.col.icon {
+  min-width: 75px;
+  width: auto;
+  height: 75px;
+  margin: 16px auto;
+}
+
+.col.icon svg {
+  fill: #555555;
+  width: 100%;
+}
+.col.content p{
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.25;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.col. footer {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%,0);
+}
+.col footer small {
+  width: 100%;
+  display: inline-block;
+  margin: 10px 0 0;
+  font-size: 10px;
+  color: #555555;
+}
+
+.col.description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  transition: all,0.25s,linear;
+}
+.col.description.additional-info {
+  color: $dark;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.col.description.additional-info h2 {
+  font-size: 21px;
+  padding: 0 0 10px;
+}
+
+.col.description.additional-info p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.col.description.additional-info p a {
+  color: #97Bd3d;
+}
+{% endhighlight %}
+  </div>
+</div>
+
 ### Country list
 
 ![alt text][country-list]
@@ -30,6 +241,57 @@ A **country list** is a mosaic of countries with their shape and name. The mobil
 changes the layout to a vertical list.
 
 ![alt text][country-list-mobile]
+
+<span class="show-code">show code</span>
+
+<div class="code-snippet hidden">
+  <div class="tabs">
+    <ul>
+      <li><a href="#" class="opt-html active">HTML</a></li>
+      <li><a href="#" class="opt-css">CSS</a></li>
+    </ul>
+    <div class="close">&#10006;</div>
+  </div>
+  <div class="language-html">
+{% highlight html %}
+
+<label for="title">Title</label>
+<input name="title" type="text" placeholder="Ilegal Logging in National Park">
+
+{% endhighlight %}
+  </div>
+  <div class="language-css hidden">
+{% highlight css %}
+  label {
+    float: left;
+    color: #333;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  input[type="password"],
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 14px;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  .field.required span {
+    float: right;
+    font-size: 13px
+  }
+
+{% endhighlight %}
+  </div>
+</div>
 
 
 
