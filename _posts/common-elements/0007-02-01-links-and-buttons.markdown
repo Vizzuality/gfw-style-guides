@@ -17,7 +17,7 @@ differentiate themselves and be easier to identify.
   <img src="/gfw-style-guides/images/posts/common-elements/links_and_buttons/02-01-links.png" alt="links">
 </div>
 
-<span class="show-code">show code</span>
+<!-- <span class="show-code">show code</span>
 
 <div class="code-snippet hidden">
   <div class="tabs">
@@ -51,7 +51,7 @@ differentiate themselves and be easier to identify.
 
     {% endhighlight %}
   </div>
-</div>
+</div> -->
 
 ### Buttons
 
@@ -78,187 +78,202 @@ while the huge button is used on the Home.)
     <div class="close">&#10006;</div>
   </div>
   <div class="language-html">
-    {% highlight html %}
+{% highlight html %}
 
-      <button href="#" class="btn green medium">browse data</button>
+<button class="btn green medium">browse data</button>
 
-      <button href="#" class="btn gray medium">more</button>
+<button class="btn gray medium">more</button>
 
-      <button href="#" class="btn dark medium">join now</button>
+<button class="btn dark medium">join now</button>
 
-      <button href="#" class="btn green huge">click here!</button>
+<button class="btn green huge">click here!</button>
 
-    {% endhighlight %}
+{% endhighlight %}
   </div>
   <div class="language-css hidden">
-    {% highlight css %}
+{% highlight css %}
 
-    .btn {
-      -webkit-appearance: none;
-      border: 1px solid transparent;
-      background: none;
-      outline: none;
-      box-shadow: none;
-      text-align: center;
-      cursor: pointer;
-      text-decoration: none;
-      font-family: "Fira Sans";
-      background: $border;
-      position: relative;
-      display: inline-block;
-      z-index: 1;
-      padding: 0px 12px;
-      border-radius: 40px;
-      font-size: 14px;
-      text-decoration: none;
-      height: 36px;
-      line-height: 36px;
-      text-align: center;
-      font-weight: 500;
-      white-space: nowrap;
-      transition(background .15s linear);
+.btn {
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  background: none;
+  outline: none;
+  box-shadow: none;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Fira Sans";
+  background: #E5E5DF;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 0px 12px;
+  border-radius: 40px;
+  font-size: 14px;
+  text-decoration: none;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 500;
+  white-space: nowrap;
+  transition(background .15s linear);
+}
 
-    }
+.btn:hover {
+  background: #97Bd3d;
+  text-decoration: none !important;
+}
 
-    .btn:hover {
-      background: $cGreen;
-      text-decoration: none !important;
-    }
+.btn.lowercase { text-transform: lowercase;}
+.btn.uppercase { text-transform: uppercase;}
 
-    .btn.lowercase { text-transform: lowercase;}
-    .btn.uppercase { text-transform: uppercase;}
+.btn.medium {
+  text-transform: uppercase;
+  padding: 0px 35px;
+}
 
-    .btn.medium {
-      // font-size: 18px;
-      text-transform: uppercase;
-      padding: 0px 35px;
-    }
+.btn.huge {
+  font-size: 18px;
+  text-transform: uppercase;
+  height: 38px;
+  line-height: 40px;
+  padding: 0px 20px;
+  @media (min-width: 850px) {
+    font-size: 21px;
+  }
+}
 
-      &.huge {
-        font-size: 18px;
-        text-transform: uppercase;
-        height: 38px;
-        line-height: 40px;
-        padding: 0px 20px;
-        @media (min-width: $br-mobile) {
-          font-size: 21px;
-        }
-      }
-      &.little{
-        font-size: 10px;
-        text-transform: uppercase;
-        height: 25px;
-        line-height: 24px;
-      }
-      &.full-width{
-        display: block;
-        width: 100%;
-      }
-      &.lines{
-        line-height: 1;
-        white-space: normal;
-        height: auto;
-        line-height: 1;
-        padding: 10px;
-      }
+.btn.little{
+  font-size: 10px;
+  text-transform: uppercase;
+  height: 25px;
+  line-height: 24px;
+}
+
+.btn.full-width{
+  display: block;
+  width: 100%;
+}
+
+.btn.lines{
+  line-height: 1;
+  white-space: normal;
+  height: auto;
+  line-height: 1;
+  padding: 10px;
+}
+
+.btn.dark {
+  color: #ffffff;
+  background: #555555;
+}
+
+.btn.dark:hover {
+  background: #141414;
+}
+
+.btn.white {
+  color: #555555;
+  background: #ffffff;
+}
+
+.btn.white:hover {
+  background: #3b3b3b;
+}
+
+.btn.gray {
+  color: #555555;
+  background: #ffffff;
+  border-color: #97Bd3d;
+}
+
+.btn.gray:hover {
+  background: #f2f2f2;
+}
+
+.btn.green {
+  color: #ffffff;
+  background: #97Bd3d;
+}
+
+.btn.green:hover {
+  background: #789631;
+}
+
+.btn.green.disabled:hover {
+  background: #97Bd3d;
+}
+
+.btn.light {
+  color: #ffffff;
+  background: #CBCCBF;
+}
+
+.btn.light:hover {
+  background: #bec0b0;
+}
+
+.btn.light2 {
+  color: #555555;
+  background: #E5E5DF;
+  font-weight: 400;
+}
+
+.btn.light2:hover {
+  background: #cacabe;
+}
+
+.btn.soon {
+  color: #ccc;
+  background: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.btn.disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.btn.with-icon {
+  min-width: 0;
+  @media (min-width: 850px) {
+    padding-right: 36px;
+  }
+}
+
+.btn.with-icon svg {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  fill: #555555;
+  transform(translate(0,-50%));
+}
+
+.btn.with-center-icon {
+  min-width: 0;
+}
+
+.btn.with-center-icon span {
+  position: relative;
+  padding-right: 25px;
+}
+
+.btn.with-center-icon svg{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  fill: #ffffff;
+  transform(translate(0px,-50%));
+}
 
 
-      // Colors
-      &.dark {
-        color: $white;
-        background: $dark;
-        &:hover {
-          background: darken($dark,25%);
-        }
-      }
-      &.white {
-        color: $dark;
-        background: $white;
-        &:hover {
-          background: darken($white,10%);
-        }
-      }
-      &.gray {
-        color: $dark;
-        background: $white;
-        border-color: $cGreen;
-        &:hover {
-          background: darken($white,5%);
-        }
-      }
-      &.green {
-        color: $white;
-        background: $cGreen;
-        &:hover {
-          background: darken($cGreen,10%);
-        }
-        &.disabled{
-          &:hover {
-            background: $cGreen;
-          }
-        }
-      }
-      &.light {
-        color: $white;
-        background: #CBCCBF;
-        &:hover {
-          background: darken(#CBCCBF,5%);
-        }
-      }
-      &.light2 {
-        color: $dark;
-        background: $border;
-        font-weight: 400;
-        &:hover {
-          background: darken($border,5%);
-        }
-      }
-      &.soon {
-        color: #ccc;
-        background: none;
-        font-weight: 400;
-        text-transform: uppercase;
-        cursor: default;
-      }
-      &.disabled{
-        opacity: 0.25;
-        cursor: default;
-      }
-      &.with-icon{
-        min-width: 0;
-        @media (min-width: $br-mobile) {
-          padding-right: 36px;
-        }
-        svg{
-          width: 26px;
-          height: 26px;
-          position: absolute;
-          top: 50%;
-          right: 5px;
-          fill: $dark;
-          @include transform(translate(0,-50%));
-        }
-      }
-      &.with-center-icon{
-        min-width: 0;
-        span{
-          position: relative;
-          padding-right: 25px;
-        }
-        svg{
-          width: 20px;
-          height: 20px;
-          position: absolute;
-          top: 50%;
-          right: 0;
-          fill: $white;
-          @include transform(translate(0px,-50%));
-        }
-      }
-    }
-
-
-    {% endhighlight %}
+{% endhighlight %}
   </div>
 </div>
 
