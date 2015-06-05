@@ -10,7 +10,6 @@ certain items with the cursor. They are usually used when an icon is not underst
 
 ![alt text][tooltip]
 
-
 The same style and functionality is used in some places as dropdown menus. In this case, the tooltip
 contains a list of links to different sections.
 
