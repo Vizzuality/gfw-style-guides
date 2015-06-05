@@ -17,7 +17,7 @@ differentiate themselves and be easier to identify.
   <img src="/gfw-style-guides/images/posts/common-elements/links_and_buttons/02-01-links.png" alt="links">
 </div>
 
-<!-- <span class="show-code">show code</span>
+<span class="show-code">show code</span>
 
 <div class="code-snippet hidden">
   <div class="tabs">
@@ -51,7 +51,7 @@ differentiate themselves and be easier to identify.
 
     {% endhighlight %}
   </div>
-</div> -->
+</div>
 
 ### Buttons
 
