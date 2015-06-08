@@ -7,9 +7,15 @@ categories: page-elements common-elements
 
 Use these styles to display listed information.
 
+
 ### Simple list
 
 ![alt text][list]
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/common-elements/lists/simple-list.html" csscode="snippets/common-elements/lists/simple-list-css.html" %}
+</div>
+
 
 ### Card list
 
@@ -22,6 +28,11 @@ Cards can also display text when the cursor is hovering them.
 
 ![alt text][card-hover]
 
+<div id="code-snippet-box2" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/common-elements/lists/card-list.html" csscode="snippets/common-elements/lists/card-list-css.html" %}
+</div>
+
+
 ### Country list
 
 ![alt text][country-list]
@@ -31,6 +42,9 @@ changes the layout to a vertical list.
 
 ![alt text][country-list-mobile]
 
+<div id="code-snippet-box3" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/common-elements/lists/card-list.html" csscode="snippets/common-elements/lists/card-list-css.html" %}
+</div>
 
 
 [list]: /gfw-style-guides/images/posts/common-elements/lists/04-01-list.png "list"

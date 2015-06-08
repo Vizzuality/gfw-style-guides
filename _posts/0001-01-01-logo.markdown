@@ -7,7 +7,7 @@ categories: brand-guidelines
 
 The Global Forest Watch logo is its calling card. This graphic appears on every section of the site embeded on the header.
 
-![alt text][logo]
+<a href="/gfw-style-guides/images/posts/logo/01-01-logo-gfw.png">![alt text][logo]</a>
 
 Please always use a high-resolution version of the logo whenever possible.
 

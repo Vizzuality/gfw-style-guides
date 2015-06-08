@@ -17,6 +17,10 @@ differentiate themselves and be easier to identify.
   <img src="/gfw-style-guides/images/posts/common-elements/links_and_buttons/02-01-links.png" alt="links">
 </div>
 
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/common-elements/links-and-buttons/links-html.html" csscode="snippets/common-elements/links-and-buttons/links-css.html" %}
+</div>
+
 ### Buttons
 
 Buttons are used independently, outside of text blocks. They are much more striking than simple links, and they usually
@@ -31,5 +35,8 @@ while the huge button is used on the Home.)
 
 ![alt text][buttons]
 
+<div id="code-snippet-box2" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/common-elements/links-and-buttons/buttons-html.html" csscode="snippets/common-elements/links-and-buttons/buttons-css.html" %}
+</div>
 
 [buttons]: /gfw-style-guides/images/posts/common-elements/links_and_buttons/02-02-buttons.png "buttons"

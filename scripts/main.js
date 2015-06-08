@@ -1,60 +1,110 @@
-(function() {
+var SnippetModel = Backbone.Model.extend({
+  defaults: {
+    hidden: true,
+    lang: 'html'
+  }
+});
 
-  var snippet     = document.querySelector('.code-snippet');
-  var showCodeBtn = document.querySelector('.show-code');
-  var close       = document.querySelector('.close');
-  var cssOption   = document.querySelector('.opt-css');
-  var htmlOption  = document.querySelector('.opt-html');
+var SidebarView = Backbone.View.extend({
 
-  var htmlDisplay = document.querySelector('.language-html');
-  var cssDisplay  = document.querySelector('.language-css');
+  el: '.layout-sidenav',
 
-  showCodeBtn.addEventListener('click', function() {
-      snippet.className = 'code-snippet';
-  });
+  initialize: function() {
+    this.setCurrentTarget();
+  },
 
-  close.addEventListener('click', function() {
-    snippet.className += ' hidden';
-  });
+  setCurrentTarget: function(e) {
+    var url = window.location.href.split('/');
+    this.currentTarget = url[url.length - 1].split('.')[0];
+    this.setItem();
+  },
 
-  htmlOption.addEventListener('click', function(e) {
-    e.preventDefault();
+  setItem: function() {
+    this.$el.find('[data-location="' + this.currentTarget + '"]')
+      .addClass('item-selected');
+  }
 
-    if(cssOption.className === 'opt-css active') {
-      cssOption.className = 'opt-css';
+});
+
+var SnippetView = Backbone.View.extend({
+  events: {
+    'click .show-code': 'toggleHidden',
+    'click .close': 'closeHidden',
+    'click .lang': 'changeLang'
+  },
+
+  initialize: function(){
+    this.model = new SnippetModel();
+    this.cacheVars();
+    this.setListeners();
+  },
+
+  cacheVars: function(){
+    //Snippet
+    this.$snippet = this.$el.find('.code-snippet');
+    this.$close = this.$el.find('.close');
+    this.$showCode = this.$el.find('.show-code');
+
+    //Lang
+    this.$langBtn = this.$el.find('.lang');
+    this.$langSnippet = this.$el.find('.lang-snippet');
+  },
+
+  setListeners: function(){
+    this.model.on('change:hidden', this.toggleSnippet, this);
+    this.model.on('change:lang', this.toggleTabs, this);
+  },
+
+
+  // Toggle Snippet
+  toggleHidden: function(e){
+    var active = this.$snippet.hasClass('hidden');
+    this.model.set('hidden', !active);
+  },
+
+  closeHidden: function(e){
+    this.model.set('hidden', true);
+  },
+
+  toggleSnippet: function(){
+    var hidden = this.model.get('hidden');
+    this.$snippet.toggleClass('hidden', hidden);
+    if (hidden) {
+      this.$showCode.text('Show code');
+    }else{
+      this.$showCode.text('Hide code');
     }
+  },
 
-    if (htmlOption.className === 'opt-html') {
-      htmlOption.className += ' active'
-    }
+  // Language tabs
+  changeLang: function(e){
+    e && e.preventDefault();
+    this.model.set('lang', $(e.currentTarget).data('lang'));
+  },
 
-    if (cssDisplay.className === 'language-css') {
-      cssDisplay.className += ' hidden';
-    }
+  toggleTabs: function(){
+    var lang = this.model.get('lang');
+    // reset
+    this.$langBtn.removeClass('active');
+    this.$langSnippet.addClass('hidden');
 
-    if (htmlDisplay.className === 'language-html hidden') {
-      htmlDisplay.className = 'language-html';
-    }
-  });
+    //current
+    this.$el.find('.lang[data-lang="'+lang+'"]').addClass('active');
+    this.$el.find('.language-'+lang).removeClass('hidden');
+  }
 
-  cssOption.addEventListener('click', function(e) {
-    e.preventDefault();
+});
 
-    if(htmlOption.className === 'opt-html active') {
-      htmlOption.className = 'opt-html';
-    }
 
-    if (cssOption.className === 'opt-css') {
-      cssOption.className += ' active'
-    }
+(function(){
+  // View inits
 
-    if (htmlDisplay.className === 'language-html') {
-      htmlDisplay.className += ' hidden';
-    }
+  // Sidebar
+  new SidebarView();
 
-    if(cssDisplay.className === 'language-css hidden') {
-      cssDisplay.className = 'language-css';
-    }
+  // Snippet
+  _.each($('.code-snippet-box'), function(v,k){
+    new SnippetView({el: '#'+$(v).attr('id') });
   });
 
 })();
