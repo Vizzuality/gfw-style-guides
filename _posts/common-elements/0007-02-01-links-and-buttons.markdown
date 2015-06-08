@@ -16,6 +16,7 @@ differentiate themselves and be easier to identify.
 <div class="gallery">
   <img src="/gfw-style-guides/images/posts/common-elements/links_and_buttons/02-01-links.png" alt="links">
 </div>
+
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/common-elements/links-and-buttons/links-html.html" csscode="snippets/common-elements/links-and-buttons/links-css.html" %}
 </div>

@@ -9,6 +9,7 @@ Tabs are usually used in the sidebar next to the main content module. It allows 
 different content and sections without losing their current position.
 
 ![alt text][tabs]
+
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/common-elements/tabs/tabs-html.html" csscode="snippets/common-elements/tabs/tabs-css.html" %}
 </div>
