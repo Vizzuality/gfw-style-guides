@@ -3,7 +3,28 @@ var SnippetModel = Backbone.Model.extend({
     hidden: true,
     lang: 'html'
   }
-})
+});
+
+var SidebarView = Backbone.View.extend({
+
+  el: '.layout-sidenav',
+
+  initialize: function() {
+    this.setCurrentTarget();
+  },
+
+  setCurrentTarget: function(e) {
+    var url = window.location.href.split('/');
+    this.currentTarget = url[url.length - 1].split('.')[0];
+    this.setItem();
+  },
+
+  setItem: function() {
+    this.$el.find('[data-location="' + this.currentTarget + '"]')
+      .addClass('item-selected');
+  }
+
+});
 
 var SnippetView = Backbone.View.extend({
   events: {
@@ -72,15 +93,15 @@ var SnippetView = Backbone.View.extend({
     this.$el.find('.language-'+lang).removeClass('hidden');
   }
 
-
-
-
-
 });
 
 
 (function(){
   // View inits
+
+  // Sidebar
+  new SidebarView();
+
   // Snippet
   _.each($('.code-snippet-box'), function(v,k){
     new SnippetView({el: '#'+$(v).attr('id') });

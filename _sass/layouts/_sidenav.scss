@@ -1,12 +1,4 @@
 .layout-sidenav{
-
-  .current {
-    background: $cGreen;
-    a { color: $white;}
-    &:hover {
-      a { color: $white;}
-    }
-  }
   nav{
     ul{
       li{
@@ -43,11 +35,7 @@
         }
       }
     }
-    .second-level {
-      >li {
-
-      }
-     }
+    .second-level {}
     .third-level{
       margin-bottom: 5px;
       // padding: 0 20px;
@@ -55,16 +43,6 @@
         cursor: pointer;
         font-size: 0.875em;
         padding: 2px 0 0 35px;
-        &.item-selected {
-          background: $cGreen;
-          a {
-            color: $white;
-            font-weight: 500;
-            &:hover {
-              color: $white;
-            }
-          }
-        }
         a {
           display: block;
           &:hover {
@@ -72,6 +50,16 @@
           }
         }
       }
+    }
+  }
+  .item-selected {
+    background: $cGreen;
+    a {
+      color: $white;
+      font-weight: 500;
+    }
+    &:hover {
+      a { color: $white;}
     }
   }
 }
