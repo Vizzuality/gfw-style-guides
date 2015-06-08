@@ -1,0 +1,89 @@
+{% highlight css %}
+.submenu-tooltip {
+  position: absolute;
+  min-width: 150px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  text-transform: none;
+  -webkit-backface-visibility: hidden;
+  transform: translate(-50%, 0%);
+  transition: all 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.submenu-tooltip.top {
+  top: 100%;
+  left: 49%;
+  transform: translate(-50%, 10px);
+}
+
+.submenu-tooltip.top:after {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border-top: 1px solid #f0f0ed;
+  border-left: 1px solid #f0f0ed;
+}
+
+.submenu-tooltip.top li:first-child:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #fafafa;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border-top: 1px solid #f0f0ed;
+  border-left: 1px solid #f0f0ed;
+}
+
+.submenu-tooltip:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #FFF;
+  z-index: 2;
+}
+
+.submenu-tooltip li {
+  border-top: 1px solid #EAECEF;
+  font-size: 13px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 3;
+}
+
+.submenu-tooltip li:first-child {
+  border-top: none;
+}
+
+.submenu-tooltip li a, .submenu-tooltip li .link {
+  color: #444;
+  font-weight: 400;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+}
+
+.submenu-tooltip li a:hover, .submenu-tooltip li .link:hover {
+  background: #fafafa;
+}
+
+.submenu-tooltip li a strong, .submenu-tooltip li .link strong {
+  color: #97Bd3d;
+}
+{% endhighlight %}
+
+
+
+
+
