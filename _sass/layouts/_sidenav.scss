@@ -24,6 +24,9 @@
           display: block;
           width: 100%;
           color: $dark;
+          &:hover {
+            color: $cGreen;
+          }
         }
       }
     }
@@ -43,12 +46,6 @@
         cursor: pointer;
         font-size: 0.875em;
         padding: 2px 0 0 35px;
-        a {
-          display: block;
-          &:hover {
-            color: $cGreen;
-          }
-        }
       }
     }
   }
@@ -57,9 +54,9 @@
     a {
       color: $white;
       font-weight: 500;
-    }
-    &:hover {
-      a { color: $white;}
+      &:hover {
+        color: $white;
+      }
     }
   }
 }
