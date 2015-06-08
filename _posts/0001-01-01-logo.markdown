@@ -3,7 +3,6 @@ layout: post
 title:  "Logo"
 date:   0001-01-01 12:23:49
 categories: brand-guidelines
-redirect_from: "/"
 ---
 
 The Global Forest Watch logo is its calling card. This graphic appears on every section of the site embeded on the header.
