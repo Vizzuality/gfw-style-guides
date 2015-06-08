@@ -13,3 +13,5 @@ permalink: none
 paginate: 1
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-redirect-from
