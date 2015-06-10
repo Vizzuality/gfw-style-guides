@@ -37,8 +37,9 @@
           height: 0;
         }
         a {
-          padding: 2px 10px;
           display: inline-block;
+          padding: 4px 10px 2px;
+          font-size: 13px;
           color: $gray;
           &:nth-child(2n+1) {
             margin: 0 5px;
@@ -62,7 +63,9 @@
   }
   .highlight {
     font-family: 'Inconsolata';
+    -webkit-font-smoothing: subpixel-antialiased;
     padding: 15px;
+    line-height: 1.2em;
     background: #222;
     max-height: 400px;
     overflow: scroll;
