@@ -4,7 +4,7 @@
       li{
         color: $dark;
         h2{
-          font-size: 1em;
+          font-size: 13px;
           text-transform: uppercase;
           color: $gray;
           font-weight: 500;
@@ -23,6 +23,7 @@
         a{
           display: block;
           width: 100%;
+          font-size: 14px;
           color: $dark;
           &:hover {
             color: $cGreen;

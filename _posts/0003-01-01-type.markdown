@@ -5,9 +5,7 @@ date:   0003-01-01 12:23:49
 categories: brand-guidelines
 ---
 
-GFW uses the Fira Sans type family on its website. It is a clean, legible, easily available typography.
-
-Three weights are used:
+GFW uses the Fira Sans type family on its website. It is a clean, legible, easily available typography. Three weights are used:
 
 
 ![alt text][type]
@@ -17,62 +15,8 @@ These are the most common type uses in the website. Use the hierarchy laid out b
 
 ![alt text][type-use]
 
-<span class="show-code">show code</span>
-
-<div class="code-snippet hidden">
-  <div class="tabs">
-    <ul>
-      <li><a href="#" class="opt-html active">HTML</a></li>
-      <li><a href="#" class="opt-css">CSS</a></li>
-    </ul>
-    <div class="close">&#10006;</div>
-  </div>
-  <div class="language-html">
-    {% highlight html %}
-      <h1>Title 1</h1>
-
-      <h2>Title h2 <span class="highlight">highlight</span></h2>
-
-      <h3>Title h3</h3>
-
-      <h4>Hightlighted text</h4>
-
-      <p>Body text. Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum,
-      neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique
-      ullamcorper id vitae erat.</p>
-    {% endhighlight %}
-  </div>
-  <div class="language-css hidden">
-{% highlight css %}
-h1 {
-  font-family: 'Fira Sans';
-  font-size: 47px;
-  font-weight: 300;
-  color: #555555;
-  line-height: 1em;
-}
-h2 {
-  font-family: 'Fira Sans';
-  font-size: 35px;
-  font-weight: 300;
-  color: #555555;
-  line-height: 1em;
-}
-h2 .highlight {
-  font-family: 'Fira Sans';
-  font-size: 21px;
-  font-weight: 500;
-  color: #555555;
-}
-h3 {
-  font-family: 'Fira Sans';
-  font-size: 21px;
-  font-weight: 500;
-  color: #555555;
-  line-height: 1em;
-}
-{% endhighlight %}
-  </div>
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/type.html" csscode="snippets/type-css.html" %}
 </div>
 
 
