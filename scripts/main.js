@@ -11,12 +11,34 @@ var SidebarView = Backbone.View.extend({
 
   initialize: function() {
     this.setCurrentTarget();
+    this.setMenu();
+    this.setItem();
   },
 
   setCurrentTarget: function(e) {
     var url = window.location.href.split('/');
     this.currentTarget = url[url.length - 1].split('.')[0];
-    this.setItem();
+  },
+
+  setMenu: function() {
+    var lists = this.$el.find('.third-level'),
+      current = this.$el.find('[data-location="' + this.currentTarget + '"]'),
+      currentList = $(current).parents('.third-level').length > 0 ?
+        $(current).parents('.third-level') : $(current).next();
+
+    if (this.currentTarget) {
+      this.closeMenu.apply(lists);
+      this.openMenu.apply(currentList);
+    }
+  },
+
+  openMenu: function() {
+    this.prev().addClass('open');
+    this.removeClass('hidden');
+  },
+
+  closeMenu: function() {
+    this.addClass('hidden')
   },
 
   setItem: function() {
