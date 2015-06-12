@@ -109,6 +109,7 @@
     margin: 50px 0 0;
     @extend %clearfix;
     .pagination {
+      text-align: right;
       .next,
       .back {
         position: relative;
@@ -120,13 +121,13 @@
           font-weight: 600;
         }
       }
-      .back {
-        padding-left: 13px;
-        &:after {
-          @include arrow('left', 9px, 2px, $cGreen, -45deg);
-          top: 6px;
-        }
-      }
+      // .back {
+      //   padding-left: 13px;
+      //   &:after {
+      //     @include arrow('left', 9px, 2px, $cGreen, -45deg);
+      //     top: 6px;
+      //   }
+      // }
       .next {
         padding-right: 13px;
         &:after {
