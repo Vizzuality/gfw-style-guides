@@ -1,5 +1,9 @@
 .layout-header{
   @extend %clearfix;
+  z-index: 75;
+  position: fixed;
+  left: 0;
+  right: 0;
   background: $dark;
   h1{
     font-size: 24px;

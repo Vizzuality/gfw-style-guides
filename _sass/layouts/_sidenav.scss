@@ -1,5 +1,7 @@
 .layout-sidenav{
   nav{
+    position: fixed;
+    width: 284px;
     ul{
       li{
         color: $dark;
