@@ -9,6 +9,26 @@ var SidebarView = Backbone.View.extend({
 
   el: '.layout-sidenav',
 
+  events: {
+    'click .item-selected': 'test'
+  },
+
+  test:function(e) {
+
+    e.preventDefault();
+
+    var current = $(e.currentTarget);
+    var currentList = $(current).parents('.third-level').length > 0 ?
+        $(current).parents('.third-level') : $(current).next();
+
+    if(current.hasClass('open')) {
+      this.closeMenu.apply(currentList);
+    } else {
+
+      this.openMenu.apply(currentList);
+    }
+  },
+
   initialize: function() {
     this.setCurrentTarget();
     this.setMenu();
@@ -26,6 +46,7 @@ var SidebarView = Backbone.View.extend({
       currentList = $(current).parents('.third-level').length > 0 ?
         $(current).parents('.third-level') : $(current).next();
 
+
     if (this.currentTarget) {
       this.closeMenu.apply(lists);
       this.openMenu.apply(currentList);
@@ -38,7 +59,8 @@ var SidebarView = Backbone.View.extend({
   },
 
   closeMenu: function() {
-    this.addClass('hidden')
+    this.prev().removeClass('open');
+    this.addClass('hidden');
   },
 
   setItem: function() {
