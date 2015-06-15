@@ -1,6 +1,6 @@
 var SnippetModel = Backbone.Model.extend({
   defaults: {
-    hidden: true,
+    hidden: false,
     lang: 'html'
   }
 });
@@ -10,29 +10,12 @@ var SidebarView = Backbone.View.extend({
   el: '.layout-sidenav',
 
   events: {
-    'click .item-selected': 'test'
-  },
-
-  test:function(e) {
-
-    e.preventDefault();
-
-    var current = $(e.currentTarget);
-    var currentList = $(current).parents('.third-level').length > 0 ?
-        $(current).parents('.third-level') : $(current).next();
-
-    if(current.hasClass('open')) {
-      this.closeMenu.apply(currentList);
-    } else {
-
-      this.openMenu.apply(currentList);
-    }
+    'click .item-selected': 'setMenu'
   },
 
   initialize: function() {
     this.setCurrentTarget();
     this.setMenu();
-    this.setItem();
   },
 
   setCurrentTarget: function(e) {
@@ -40,17 +23,26 @@ var SidebarView = Backbone.View.extend({
     this.currentTarget = url[url.length - 1].split('.')[0];
   },
 
-  setMenu: function() {
+  setMenu: function(e) {
+    e && e.preventDefault();
+
     var lists = this.$el.find('.third-level'),
       current = this.$el.find('[data-location="' + this.currentTarget + '"]'),
       currentList = $(current).parents('.third-level').length > 0 ?
         $(current).parents('.third-level') : $(current).next();
 
+    this.selectItem();
 
-    if (this.currentTarget) {
+    if (this.currentTarget && $(current).hasClass('open')) {
       this.closeMenu.apply(lists);
+    } else {
       this.openMenu.apply(currentList);
     }
+  },
+
+  selectItem: function() {
+    this.$el.find('[data-location="' + this.currentTarget + '"]')
+      .addClass('item-selected');
   },
 
   openMenu: function() {
@@ -61,11 +53,6 @@ var SidebarView = Backbone.View.extend({
   closeMenu: function() {
     this.prev().removeClass('open');
     this.addClass('hidden');
-  },
-
-  setItem: function() {
-    this.$el.find('[data-location="' + this.currentTarget + '"]')
-      .addClass('item-selected');
   }
 
 });
@@ -113,10 +100,10 @@ var SnippetView = Backbone.View.extend({
   toggleSnippet: function(){
     var hidden = this.model.get('hidden');
     this.$snippet.toggleClass('hidden', hidden);
-    if (hidden) {
-      this.$showCode.text('Show code');
-    }else{
+    if (!hidden) {
       this.$showCode.text('Hide code');
+    }else{
+      this.$showCode.text('Show code');
     }
   },
 
