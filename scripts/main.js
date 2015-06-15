@@ -1,6 +1,6 @@
 var SnippetModel = Backbone.Model.extend({
   defaults: {
-    hidden: true,
+    hidden: false,
     lang: 'html'
   }
 });
@@ -113,10 +113,10 @@ var SnippetView = Backbone.View.extend({
   toggleSnippet: function(){
     var hidden = this.model.get('hidden');
     this.$snippet.toggleClass('hidden', hidden);
-    if (hidden) {
-      this.$showCode.text('Show code');
-    }else{
+    if (!hidden) {
       this.$showCode.text('Hide code');
+    }else{
+      this.$showCode.text('Show code');
     }
   },
 
