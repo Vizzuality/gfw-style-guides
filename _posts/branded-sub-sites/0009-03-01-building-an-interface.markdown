@@ -5,7 +5,7 @@ date:   0009-03-01 12:23:49
 categories: applications branded-sub-sites
 ---
 
-When designing an new application or branded sub-site, please take the GFW website style guidelines in consideration.
+When designing a new application or branded sub-site, please take the GFW style guidelines into consideration.
 
 * ***Keep it clean and simple***: The application must be easy to use and visually appealing. Avoid clutter and overdecoration.
 * ***Make sure that things are aligned***: Remember to follow the grid of the rest of the site.
@@ -16,7 +16,7 @@ When designing an new application or branded sub-site, please take the GFW websi
 
 ### Icons
 
-There are many assets designed for well defined functions. Using the same visual clues among applications helps the users understand them easily.
+There are many assets designed for well defined functions. Using the same visual cues among applications helps the users understand them easily.
 
 ![icons][icons]
 

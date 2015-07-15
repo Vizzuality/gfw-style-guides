@@ -5,14 +5,14 @@ date:   0009-02-01 12:23:49
 categories: applications branded-sub-sites
 ---
 
-GFW logo can be adapted and extended to create new derivative logos for applications and branded sub-sites.
+The GFW logo can be adapted and extended to create new derivative logos for applications and branded sub-sites.
 
 ![logo][logo]
 
 * ***Color***: For legibility reasons, the color chosen for the application should have enough
 contrast and work well behind white and black text.
 * ***Name text***: The type used in the logo is Arial Bold Condensed. Letter spacing and font size
-of the application name should be set in order to match its width with rest of the composition.
+of the application name should be set so that its width matches the rest of the composition.
 
 ### Color palette
 

@@ -15,7 +15,7 @@ That text should link to the Global Forest Watch website.
 
 ### Examples of brand usage
 
-Depending on the design of the application. The GFW mention could be placed on different.
+Depending on the design of the application, the GFW attribution could be placed in a number of different places.
 
 ![brand-usage][brand-usage]
 
