@@ -31,6 +31,13 @@ There are many assets designed for well defined functions. Using the same visual
 
 ![icons][icons]
 
+### Visualization colors
+
+When representing data, you can use a wide range of pre-established colors, or create new ones as long as they fit in the palette.
+Make sure the hue and luminosity are similar to the existing ones.
+
+<div id="layer-colors" class="container-colors"></div>
+
 ### Maps guidelines for mobile
 
 The responsive adaptations in every application and sub-site must follow the same patterns explained in previous sections of this guide.

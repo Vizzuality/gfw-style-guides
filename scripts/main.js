@@ -126,12 +126,60 @@ var SnippetView = Backbone.View.extend({
 
 });
 
+var ColorGallery = Backbone.View.extend({
+
+  initialize: function() {
+    this.getData();
+  },
+
+  getData: function() {
+    $.getJSON('../../data/layer_colors.json', _.bind(function(json) {
+      this.data = _.groupBy(json, 'layer');
+      this.render();
+    }, this));
+  },
+
+  render: function() {
+
+    function createListItem(color) {
+      return '<li class="item-color"><div class="sample-color" style="background-color:' + color.title_color +'"></div><div class="info"><span>' + color.title +'</span><span>' + color.title_color + '</span></div></div></li>'
+    }
+
+    if (this.data) {
+
+      // Create list
+      var content = '';
+
+      _.each(this.data, function(color, layer) {
+
+          content += '<h4>' + layer +'</h4>';
+          content += '<ul id="' + layer + '-list" class="category-list">'
+
+          _.map(color, function(x) {
+            content += createListItem(x);
+          });
+
+          content += '</ul>';
+      })
+
+      this.$el.html(content);
+    };
+  }
+
+});
+
 
 (function(){
   // View inits
 
   // Sidebar
   new SidebarView();
+
+  if ($('#layer-colors').length > 0) {
+
+    new ColorGallery({el: '#layer-colors'});
+
+  };
 
   // Snippet
   _.each($('.code-snippet-box'), function(v,k){
