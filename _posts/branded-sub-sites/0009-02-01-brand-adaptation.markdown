@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Logo adaptation"
+title:  "Brand adaptation"
 date:   0009-02-01 12:23:49
 categories: applications branded-sub-sites
 ---
+
+### Logo
 
 The GFW logo can be adapted and extended to create new derivative logos for applications and branded sub-sites.
 
