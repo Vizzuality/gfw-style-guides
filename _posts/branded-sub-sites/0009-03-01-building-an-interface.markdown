@@ -14,6 +14,17 @@ When designing a new application or branded sub-site, please take the GFW style 
 
 ![interface][interface]
 
+### Type
+
+The typography used should be the same as in the rest of the platform: Fira Sans.
+
+Font size may vary depending on the place where text is used (smaller in reduced panels, bigger in text boxes).
+Capitalization is suggested in small titles such as categories, panel titles, etc.
+
+![type][type]
+
+Read more about the map panels and elements **[here][here]**.
+
 ### Icons
 
 There are many assets designed for well defined functions. Using the same visual cues among applications helps the users understand them easily.
@@ -32,5 +43,8 @@ a coherent user experience across applications:
 
 
 [interface]: /gfw-style-guides/images/posts/applications/branded-sub-sites/building-an-interface/03-01-map-app.png
+[type]: /gfw-style-guides/images/posts/applications/branded-sub-sites/building-an-interface/03-04-panel.png
 [icons]: /gfw-style-guides/images/posts/applications/branded-sub-sites/building-an-interface/03-02-icons.png
 [mobile]: /gfw-style-guides/images/posts/applications/branded-sub-sites/building-an-interface/03-03-map-app-mobile.png
+
+[here]: /gfw-style-guides/page-elements/common-elements/maps.html
