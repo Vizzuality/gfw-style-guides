@@ -41,6 +41,8 @@ a coherent user experience across applications:
 
 ![mobile][mobile]
 
+Read more about common elements in maps **[here][here]**.
+
 
 [interface]: /gfw-style-guides/images/posts/applications/branded-sub-sites/building-an-interface/03-01-map-app.png
 [type]: /gfw-style-guides/images/posts/applications/branded-sub-sites/building-an-interface/03-04-panel.png
