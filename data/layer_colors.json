@@ -20,18 +20,17 @@
     "title_color": "#FED98E"
   },
   {
+    "layer": "forest change",
     "title": "Humid tropical forest biome",
     "title_color": "#FFA3C2"
   },
   {
+    "layer": "forest cover",
     "title": "Intact Forest Landscapes 2000",
     "title_color": "#136400"
   },
   {
-    "title": "QUICC bound extent",
-    "title_color": ""
-  },
-  {
+    "layer": "forest change",
     "title": "Global annual area",
     "title_color": "#AE017E"
   },
@@ -46,7 +45,7 @@
     "title_color": "#05ffaa"
   },
   {
-    "layer": "country layers",
+    "layer": "forest cover",
     "title": "Indonesia primary forests (2000)",
     "title_color": "#007A4D"
   },
@@ -86,7 +85,7 @@
     "title_color": "#F69"
   },
   {
-    "layer": "country layers",
+    "layer": "forest cover",
     "title": "Honduras forest type",
     "title_color": "#CF7FEC"
   },
@@ -96,7 +95,7 @@
     "title_color": "#be8893"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Peru forest concessions",
     "title_color": "#CF7FEC"
   },
@@ -111,6 +110,7 @@
     "title_color": "#7daf38"
   },
   {
+    "layer": "forest cover",
     "title": "Intact Forest Landscapes 2013",
     "title_color": "#168500"
   },
@@ -120,17 +120,17 @@
     "title_color": "#3182BD"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Canada mineral leases",
     "title_color": "#fbb685"
   },
   {
-    "layer": "forest change",
+    "layer": "forest cover",
     "title": "Terra i",
     "title_color": "#64890B"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Cameroon Forest Management Units",
     "title_color": "#fecc5c"
   },
@@ -140,7 +140,7 @@
     "title_color": "#ee9587"
   },
   {
-    "layer": "country layers",
+    "layer": "forest cover",
     "title": "Colombia Forest",
     "title_color": "#CF7FEC"
   },
@@ -150,35 +150,32 @@
     "title_color": "#FFCFA3"
   },
   {
-    "layer": "country layers",
-    "title": "Democratic Republic of the Congo fore titles",
+    "layer": "land use",
+    "title": "Democratic Republic of the Congo forest titles",
     "title_color": "#fecc5c"
   },
   {
-    "layer": "country layers",
-    "title": "Peru forest concessions",
-    "title_color": "#CF7FEC"
-  },
-  {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Canada forest tenures",
     "title_color": "#fecc5c"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Canada coal concessions",
     "title_color": "#fbb685"
   },
   {
+    "layer": "conservation",
     "title": "WWF Terrestrial Ecoregions of the World",
     "title_color": "#3182BD"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Canada mineral claims",
     "title_color": "#fbb685"
   },
   {
+    "layer": "forest change",
     "title": "Terra-i alerts",
     "title_color": "#F69"
   },
@@ -188,7 +185,7 @@
     "title_color": "#455F37"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Gabon forest licenses",
     "title_color": "#fecc5c"
   },
@@ -198,11 +195,12 @@
     "title_color": "#B1D27D"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Equatorial Guinea logging concessions",
     "title_color": "#fecc5c"
   },
   {
+    "layer": "conservation",
     "title": "Verified Carbon Standard project boundaries",
     "title_color": "#247490"
   },
@@ -212,57 +210,57 @@
     "title_color": "#F9CC59"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Indonesia logging concessions",
     "title_color": "#fecc5c"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Liberia logging concessions",
     "title_color": "#fecc5c"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Central African Republic logging permits",
     "title_color": "#fecc5c"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Gabon wood fiber plantations",
     "title_color": "#be8893"
   },
   {
-    "layer": "country layers",
+    "layer": "people",
     "title": "Costa Rica indigenous territories",
     "title_color": "#91A7C9"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Canada mining permits",
     "title_color": "#fbb685"
   },
   {
-    "layer": "country layers",
+    "layer": "people",
     "title": "Canada aboriginal lands",
     "title_color": "#91A7C9"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Cameroon agro-industrial zones",
     "title_color": "#ee9587"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Indonesia wood fiber plantations",
     "title_color": "#be8893"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Cameroon mining permits",
     "title_color": "#fbb685"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Indonesia oil palm concessions",
     "title_color": "#ee9587"
   },
@@ -272,32 +270,32 @@
     "title_color": "#CAB2D6"
   },
   {
-    "layer": "country layers",
-    "title": "Colombia mini titles",
+    "layer": "land use",
+    "title": "Colombia mining titles",
     "title_color": "#fbb685"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Cambodia Mining Licenses",
     "title_color": "#fbb685"
   },
   {
-    "layer": "country layers",
+    "layer": "forest cover",
     "title": "USA land cover change",
     "title_color": "#D4E7B0"
   },
   {
-    "layer": "country layers",
+    "layer": "people",
     "title": "Equatorial Guinea community forests",
     "title_color": "#707D92"
   },
   {
-    "layer": "country layers",
+    "layer": "people",
     "title": "Namibia community forests",
     "title_color": "#707D92"
   },
   {
-    "layer": "country layers",
+    "layer": "people",
     "title": "Liberia community forests",
     "title_color": "#707D92"
   },
@@ -307,61 +305,52 @@
     "title_color": "#fbb685"
   },
   {
-    "layer": "country layers",
+    "layer": "forest cover",
     "title": "USA land cover",
     "title_color": "#D4E7B0"
   },
   {
-    "layer": "country layers",
+    "layer": "conservation",
     "title": "USA conservation easements",
     "title_color": "#1a4075"
   },
   {
-    "layer": "country layers",
+    "layer": "people",
     "title": "Cameroon community forests",
     "title_color": "#707D92"
   },
   {
-    "layer": "country layers",
-    "title": "Peru forest concessions",
-    "title_color": "#CF7FEC"
-  },
-  {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Democratic Republic of the Congo mining permits",
     "title_color": "#fbb685"
   },
   {
-    "layer": "country layers",
+    "layer": "people",
     "title": "Australia Aboriginal freehold lands",
     "title_color": "#91A7C9"
   },
   {
-    "layer": "country layers",
-    "title": "Republic of the Congo mining permits",
-    "title_color": "#fbb685"
-  },
-  {
+    "layer": "forest cover",
     "title": "Global Land Cover",
     "title_color": "#CFA76E"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Gabon mining permits",
     "title_color": "#fbb685"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Republic of the Congo oil palm concessions",
     "title_color": "#ee9587"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Republic of the Congo eucalyptus plantations",
     "title_color": "#be8893"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Liberia oil palm concessions",
     "title_color": "#ee9587"
   },
@@ -371,12 +360,12 @@
     "title_color": "#FF6699"
   },
   {
-    "layer": "country layers",
+    "layer": "conservation",
     "title": "Brazil biomes",
     "title_color": "#9ECC49"
   },
   {
-    "layer": "country layers",
+    "layer": "people",
     "title": "Brazil indigenous lands",
     "title_color": "#91A7C9"
   },
@@ -386,17 +375,17 @@
     "title_color": "#F768A1"
   },
   {
-    "layer": "country layers",
+    "layer": "land use",
     "title": "Republic of the Congo logging concessions",
     "title_color": "#fecc5c"
   },
   {
-    "layer": "country layers",
+    "layer": "conservation",
     "title": "Indonesia Leuser Ecosystem",
     "title_color": "#1A4075"
   },
   {
-    "layer": "country layers",
+    "layer": "people",
     "title": "Panama Comarcas lands",
     "title_color": "#91A7C9"
   }
