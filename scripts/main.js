@@ -134,10 +134,8 @@ var ColorGallery = Backbone.View.extend({
   },
 
   getData: function() {
-    console.log('???')
     $.getJSON('../../data/layer_colors.json', _.bind(function(json) {
       var data = _.groupBy(json, 'layer');
-      console.log(this.data);
 
       _.each(data, _.bind(function(layer, i) {
         var group = _.groupBy(layer, 'hierarchy');
