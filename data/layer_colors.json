@@ -14,13 +14,13 @@
     "layer": "stories",
     "hierarchy": "other",
     "order": 1,
-    "title_color": "#F18325"
+    "title_color": "#F3830A"
   },
   {
     "layer": "stories",
     "hierarchy": "other",
     "order": 2,
-    "title_color": "#FDC35A"
+    "title_color": "#FEC44F"
   },
   {
     "layer": "forest cover",
@@ -37,19 +37,19 @@
     "layer": "forest cover",
     "hierarchy": "other",
     "order": 1,
-    "title_color": "#A7EC85"
+    "title_color": "#A5ED80"
   },
   {
     "layer": "forest cover",
     "hierarchy": "other",
     "order": 2,
-    "title_color": "#B3D173"
+    "title_color": "#B2D26E"
   },
   {
     "layer": "forest cover",
     "hierarchy": "other",
     "order": 3,
-    "title_color": "#0D794E"
+    "title_color": "#007A4D"
   },
   {
     "layer": "forest cover",
@@ -72,19 +72,19 @@
     "layer": "forest change",
     "hierarchy": "other",
     "order": 1,
-    "title_color": "#FDA4C2"
+    "title_color": "#FFA3C2"
   },
   {
     "layer": "forest change",
     "hierarchy": "other",
     "order": 2,
-    "title_color": "#F56AA1"
+    "title_color": "#F768A1"
   },
   {
     "layer": "forest change",
     "hierarchy": "other",
     "order": 3,
-    "title_color": "#AC107D"
+    "title_color": "#AE017E"
   },
   {
     "layer": "forest change",
@@ -107,13 +107,13 @@
     "layer": "land use",
     "hierarchy": "other",
     "order": 1,
-    "title_color": "#FDCB65"
+    "title_color": "#FECC5C"
   },
   {
     "layer": "land use",
     "hierarchy": "other",
     "order": 2,
-    "title_color": "#FAB689"
+    "title_color": "#FBB685"
   },
   {
     "layer": "land use",
@@ -142,25 +142,25 @@
     "layer": "conservation",
     "hierarchy": "other",
     "order": 1,
-    "title_color": "#3583BB"
+    "title_color": "#3182BD"
   },
   {
     "layer": "conservation",
     "hierarchy": "other",
     "order": 2,
-    "title_color": "#28748F"
+    "title_color": "#247490"
   },
   {
     "layer": "conservation",
     "hierarchy": "other",
     "order": 3,
-    "title_color": "#4DA39A"
+    "title_color": "#49A39A"
   },
   {
     "layer": "conservation",
     "hierarchy": "other",
     "order": 4,
-    "title_color": "#B2D181"
+    "title_color": "#B1D27D"
   },
   {
     "layer": "people",
@@ -177,12 +177,12 @@
     "layer": "people",
     "hierarchy": "other",
     "order": 1,
-    "title_color": "#707D91"
+    "title_color": "#707D92"
   },
   {
     "layer": "people",
     "hierarchy": "other",
     "order": 2,
-    "title_color": "#92A8C8"
+    "title_color": "#91A7C9"
   }
 ]
