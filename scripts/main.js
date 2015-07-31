@@ -129,12 +129,29 @@ var SnippetView = Backbone.View.extend({
 var ColorGallery = Backbone.View.extend({
 
   initialize: function() {
+    this.formatData = [];
     this.getData();
   },
 
   getData: function() {
+    console.log('???')
     $.getJSON('../../data/layer_colors.json', _.bind(function(json) {
-      this.data = _.groupBy(json, 'layer');
+      var data = _.groupBy(json, 'layer');
+      console.log(this.data);
+
+      _.each(data, _.bind(function(layer, i) {
+        var group = _.groupBy(layer, 'hierarchy');
+        var sorted = _.sortBy(group.other, 'order');
+        group.other = sorted;
+
+        this.formatData.push(group);
+
+      }, this));
+
+      this.formatData = _.sortBy(this.formatData, function(layer) {
+        return layer.primary[0].layer_order;
+      });
+
       this.render();
     }, this));
   },
@@ -142,25 +159,49 @@ var ColorGallery = Backbone.View.extend({
   render: function() {
 
     function createListItem(color) {
-      return '<li class="item-color"><div class="sample-color" style="background-color:' + color.title_color +'"></div><div class="info"><span>' + color.title +'</span><span>' + color.title_color + '</span></div></div></li>'
+      return '<li class="item-color"><div class="sample-color" style="background-color:' + color[0].title_color +'"></div><div class="info"><span>' + color[0].hierarchy +'</span><span>' + color[0].title_color + '</span></div></li>'
     }
 
-    if (this.data) {
+    function createPalette(palette) {
+      var html = '<div class="palette">';
+
+      _.map(palette, function(color) {
+        html += '<div class="sample-color" style="background-color: ' + color.title_color +'"></div>';
+      });
+      html += '</div>';
+
+      return html;
+    }
+
+    if (this.formatData) {
 
       // Create list
       var content = '';
 
-      _.each(this.data, function(color, layer) {
+      _.each(this.formatData, function(layer) {
 
-          content += '<h4>' + layer +'</h4>';
-          content += '<ul id="' + layer + '-list" class="category-list">'
+        if (layer.primary) {
 
-          _.map(color, function(x) {
-            content += createListItem(x);
-          });
+          content += '<div class="container-layer"><h4>' + layer.primary[0].layer +'</h4>';
+          content += '<ul class="category-list">'
 
-          content += '</ul>';
-      })
+          content += createListItem(layer.primary);
+
+          if (layer.secondary) {
+            content += createListItem(layer.secondary);
+
+            content += '</ul>';
+          }
+
+          if (layer.other) {
+            content += createPalette(layer.other);
+          }
+
+          content += '</div>';
+
+        }
+
+      });
 
       this.$el.html(content);
     };
