@@ -7,11 +7,11 @@ categories: applications
 
 When designing and developing third party external applications, a mention to Global Forest Watch should be included.
 
-* ***In websites***: The GFW logo must be inserted on the footer in websites powered by Global Forest Watch. This logo
-should link to the Global Forest Watch website. Please follow the guidelines regarding **[Logo][logo]** usage.
+* ***In websites***: The GFW logo must be inserted on the footer in websites using Global Forest Watch data.
+This logo must link to the Global Forest Watch website. Please follow the guidelines regarding  **[Logo][logo]** usage.
 * ***In maps and complex interfaces***: Instead of inserting the whole logo, please include a text on the bottom giving
-credit to Global Forest Watch. “Powered by Global Forest Watch” or “Attribution: Global Forest Watch” is suggested.
-That text should link to the Global Forest Watch website.
+credit to Global Forest Watch. “Powered by Global Forest Watch” or “Data provided by Global Forest Watch” is suggested.
+That text must link to the Global Forest Watch website.
 
 ### Examples of brand usage
 
