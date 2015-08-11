@@ -43,7 +43,7 @@ changes the layout to a vertical list.
 ![alt text][country-list-mobile]
 
 <div id="code-snippet-box3" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/common-elements/lists/card-list.html" csscode="snippets/common-elements/lists/card-list-css.html" %}
+  {% include code-snippet.html htmlcode="snippets/common-elements/lists/country-list.html" csscode="snippets/common-elements/lists/country-list-css.html" %}
 </div>
 
 
