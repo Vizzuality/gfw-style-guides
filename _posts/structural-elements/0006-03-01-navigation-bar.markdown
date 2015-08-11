@@ -18,6 +18,10 @@ It overflows the white bar where the navigation links are located, overlapping t
 
 ![alt text][navbar-meassures]
 
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/structural-elements/navigation-bar/navigation-bar.html" csscode="snippets/structural-elements/navigation-bar/navigation-bar-css.html" %}
+</div>
+
 ### Responsive
 
 If the site is accessed from a small device (screen less than 850px wide), the navbar is hidden. On the right

@@ -1,0 +1,569 @@
+{% highlight css %}
+
+/* reset.css */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/reset.css';
+/* fonts */
+@import 'http://fonts.googleapis.com/css?family=Fira+Sans:400,500,300';
+/* base */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/base.css';
+/* grid */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/grid.css';
+/* icons */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/icons.css';
+/* shared */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/shared.css';
+/* buttons */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/buttons.css';
+
+.layout-header {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+/* line 9, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header.active {
+  height: 100%;
+  overflow: auto;
+}
+/* line 12, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header.active .layout-header-bottom {
+  height: 100%;
+}
+/* line 14, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header.active .layout-header-bottom .inner {
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+@media (min-width: 850px) {
+  /* line 2, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header {
+    position: relative;
+    overflow: visible;
+    height: auto;
+  }
+  /* line 25, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header.active {
+    height: auto;
+    overflow: visible;
+  }
+  /* line 28, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header.active .layout-header-bottom {
+    height: auto;
+  }
+  /* line 30, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header.active .layout-header-bottom .inner {
+    height: auto;
+    overflow: visible;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* line 367, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+/* line 16, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_mixins1600.scss */
+.layout-header-bottom:before, .layout-header-bottom:after {
+  content: " ";
+  display: table;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+/* line 23, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_mixins1600.scss */
+.layout-header-bottom:after {
+  clear: both;
+}
+@media (min-width: 850px) {
+  /* line 367, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header-bottom {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #e5e5df;
+  }
+}
+/* line 381, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.is-map-page .layout-header-bottom h1 {
+  margin: 0 0 0 10px;
+}
+@media (min-width: 850px) {
+  /* line 381, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .is-map-page .layout-header-bottom h1 {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (min-width: 1000px) {
+  /* line 381, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .is-map-page .layout-header-bottom h1 {
+    width: 90px;
+    height: 90px;
+  }
+}
+/* line 396, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom h1 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-indent: -9999px;
+  z-index: 11;
+  margin: 0 0 0 15px;
+  background-image: url('https://cdn.rawgit.com/Vizzuality/gfw/master/app/assets/images/logo-new.png');
+  background-size: contain;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  /* line 396, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header-bottom h1 {
+    background-image: url('https://cdn.rawgit.com/Vizzuality/gfw/master/app/assets/images/logo-new@2x.png');
+  }
+}
+/* line 407, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom h1.active {
+  opacity: 0;
+  visibility: hidden;
+}
+/* line 411, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom h1:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 18px;
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  background: url('https://cdn.rawgit.com/Vizzuality/gfw/master/app/assets/images/beta.png');
+}
+/* line 421, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom h1 .beta-box {
+  display: none;
+}
+@media (min-width: 850px) {
+  /* line 396, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header-bottom h1 {
+    width: 90px;
+    height: 90px;
+    margin: 0;
+  }
+  /* line 428, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header-bottom h1.active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/* line 433, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom h1 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+/* line 442, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom form {
+  padding: 20px 20px 30px 90px;
+}
+/* line 445, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom form > input {
+  border: none;
+  border-bottom: 2px solid #B6B6BA;
+  background: none;
+  box-shadow: none;
+  width: calc(100% - 25px);
+  height: 25px;
+  outline: none;
+  margin: 0;
+  padding: 0 5px;
+}
+/* line 456, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom form svg {
+  float: left;
+  fill: #B6B6BA;
+}
+/* line 464, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav {
+  border-bottom: 1px solid #EAECEF;
+  clear: both;
+  padding: 0 0 60px;
+  background: white;
+  display: none;
+  position: relative;
+  min-height: 100%;
+}
+/* line 472, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav.active {
+  display: block;
+}
+@media (min-width: 850px) {
+  /* line 464, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header-bottom nav {
+    padding: 0;
+    display: block !important;
+    min-height: 0;
+    clear: none;
+    background: none;
+    border-bottom: none;
+  }
+  /* line 482, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header-bottom nav.layers-menu {
+    display: none !important;
+  }
+}
+@media (min-width: 850px) and (min-width: 1000px) {
+  /* line 482, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-header-bottom nav.layers-menu {
+    padding: 0;
+    display: block !important;
+    min-height: 0;
+    clear: none;
+    background: none;
+    border-bottom: none;
+  }
+}
+/* line 16, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_mixins1600.scss */
+.layout-header-bottom nav:before, .layout-header-bottom nav:after {
+  content: " ";
+  display: table;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+/* line 23, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_mixins1600.scss */
+.layout-header-bottom nav:after {
+  clear: both;
+}
+/* line 499, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul {
+  clear: none;
+  float: right;
+  padding-right: 5px;
+}
+/* line 503, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li {
+  position: relative;
+  border-top: 1px solid #cecec3;
+  float: left;
+  border-top: none;
+  top: 1px;
+  margin: 0 0 0 10px;
+}
+/* line 509, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li:hover {
+  z-index: 5;
+}
+/* line 512, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li:hover > a:after {
+  opacity: 1;
+}
+/* line 516, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li:hover ul {
+  background: rgba(255, 255, 255, 0.95);
+  visibility: visible;
+  opacity: 1;
+}
+/* line 521, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li:hover ul li a {
+  -webkit-transform: translate(0%, 0px);
+  -moz-transform: translate(0%, 0px);
+  -ms-transform: translate(0%, 0px);
+  -o-transform: translate(0%, 0px);
+  transform: translate(0%, 0px);
+  visibility: visible;
+  opacity: 1;
+}
+/* line 530, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li:first-child {
+  margin: 0;
+}
+/* line 532, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li > a {
+  display: block;
+  text-transform: uppercase;
+  color: #555555;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 20px 40px;
+}
+/* line 541, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li > a:after {
+  content: "";
+  background-color: #97bd3d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  opacity: 0;
+  -webkit-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -moz-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+/* line 554, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li > a.current:after, .layout-header-bottom nav > ul > li > a:hover:after {
+  opacity: 1;
+}
+/* line 560, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li ul {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  min-width: 150px;
+  padding: 56px 0 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: translate(-50%, 0px);
+  -moz-transform: translate(-50%, 0px);
+  -ms-transform: translate(-50%, 0px);
+  -o-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+  -webkit-transition: all 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -moz-transition: all 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+  min-width: 0;
+}
+/* line 574, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li ul li {
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+/* line 582, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li ul li a {
+  color: #555555;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+/* line 592, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header-bottom nav > ul > li ul li a:hover {
+  background: #fafafa;
+}
+
+/* line 604, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header .mobile-menu h3 {
+  border-top: 1px solid #cecec3;
+  font-size: 16px;
+  padding: 0;
+  text-transform: uppercase;
+  color: #555555;
+}
+/* line 610, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header .mobile-menu h3 a {
+  display: block;
+  text-transform: uppercase;
+  color: #555555;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  background: #F2F2F3;
+}
+/* line 619, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header .mobile-menu h3 a:after {
+  content: "";
+  background-color: #97bd3d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  opacity: 0;
+  -webkit-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -moz-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+/* line 632, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header .mobile-menu h3 a.current:after, .layout-header .mobile-menu h3 a:hover:after {
+  opacity: 1;
+}
+/* line 638, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header .mobile-menu ul {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+/* line 643, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header .mobile-menu ul li a {
+  color: #555555;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+/* line 649, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-header .mobile-menu ul li a:hover {
+  background: #fafafa;
+}
+
+/* line 660, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+#google_translate_element_box2 {
+  padding: 15px 15px 10px;
+  display: none;
+}
+@media (min-width: 850px) {
+  /* line 660, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  #google_translate_element_box2 {
+    display: none;
+  }
+}
+
+/* line 669, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+#google_translate_element .goog-te-gadget {
+  font-family: inherit;
+  text-align: center;
+}
+/* line 672, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+#google_translate_element .goog-te-gadget .goog-te-gadget-simple {
+  border: none;
+  background: none;
+}
+/* line 675, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+#google_translate_element .goog-te-gadget .goog-te-gadget-simple .goog-te-menu-value {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  position: relative;
+  padding-right: 16px;
+}
+/* line 683, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+#google_translate_element .goog-te-gadget .goog-te-gadget-simple .goog-te-menu-value span:last-child {
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 16px;
+  width: 16px;
+  -webkit-transform: translate(0, -55%);
+  -moz-transform: translate(0, -55%);
+  -ms-transform: translate(0, -55%);
+  -o-transform: translate(0, -55%);
+  transform: translate(0, -55%);
+}
+/* line 692, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+#google_translate_element .goog-te-gadget .goog-te-gadget-simple .goog-te-menu-value span:last-child:before {
+  content: "";
+  visibility: visible;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(/assets/svg-icons/arrow-down.svg) no-repeat center;
+  background-size: contain;
+}
+
+/* line 709, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile {
+  display: block;
+}
+/* line 714, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile .share-link {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  background: white;
+}
+/* line 722, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.is-map-page .layout-share-mobile .share-link {
+  top: 15px;
+}
+/* line 725, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile .share-link svg {
+  fill: #555555;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 735, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile .menu-section-link {
+  position: absolute;
+  top: 0;
+  right: 44px;
+  border-right: 1px solid #e5e5df;
+  padding: 0 40px 0 15px;
+  line-height: 46px;
+  font-size: 14px;
+  height: 44px;
+  text-transform: uppercase;
+  color: #555555;
+}
+/* line 746, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile .menu-section-link.active {
+  background: #fafafa;
+}
+/* line 749, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile .menu-section-link svg {
+  fill: #555555;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  width: 22px;
+  height: 22px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 759, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile .menu-section-dropdown {
+  display: none;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  padding: 30px 20px;
+  background: #fafafa;
+  width: 100%;
+}
+/* line 767, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile .menu-section-dropdown li {
+  margin: 10px 0 0;
+}
+/* line 769, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile .menu-section-dropdown li:first-child {
+  margin: 0;
+}
+/* line 772, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile .menu-section-dropdown li a {
+  width: 100%;
+}
+/* line 776, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+.layout-share-mobile .menu-section-dropdown.active {
+  display: block;
+}
+@media (min-width: 850px) {
+  /* line 709, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_header1600.scss */
+  .layout-share-mobile {
+    display: none;
+  }
+}
+
+{% endhighlight %}
