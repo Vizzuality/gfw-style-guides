@@ -1,5 +1,4 @@
 {% highlight css %}
-
 /* reset.css */
 @import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/reset.css';
 /* fonts */
@@ -300,5 +299,107 @@
 }
 .layout-footer .terms a:hover {
   text-decoration: underline;
+}
+
+.footer-share-container {
+  display: flex;
+  display: -webkit-flex;
+  padding: 0 0 40px 0;
+  background: white;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-top: 1px solid #e5e5df;
+  border-bottom: 1px solid #e5e5df;
+  position: relative;
+}
+@media (min-width: 850px) {
+
+  .footer-share-container {
+    padding: 0;
+    height: 155px;
+    -webkit-box-lines: single;
+    -moz-box-lines: single;
+    -ms-flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+.footer-share-container .footer-share {
+  color: #555;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  height: 60px;
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 40px 0 0;
+}
+@media (min-width: 850px) {
+
+  .footer-share-container .footer-share {
+    margin: 0;
+  }
+}
+.footer-share-container .footer-share p strong {
+  font-weight: 500;
+  display: block;
+  margin: 5px 0 0;
+}
+@media (min-width: 850px) {
+
+  .footer-share-container .footer-share p strong {
+    display: inline;
+    margin: 0;
+  }
+}
+.footer-share-container .footer-share svg {
+  height: 22px;
+  width: 22px;
+  fill: #464352;
+}
+.footer-share-container .footer-share .fb-like {
+  top: -4px;
+}
+.footer-share-container .footer-share.keep-updated p:nth-child(2) a:nth-child(2) {
+  margin: 0 30px;
+}
+.footer-share-container .footer-share.keep-updated p:nth-child(2) a:nth-child(2) svg {
+  transform: scale(1.1);
+  top: -2px;
+  position: relative;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .footer-share-container {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 250px;
+  }
+
+  .footer-share-container .share_buttons {
+    margin-top: 40px;
+  }
 }
 {% endhighlight %}
