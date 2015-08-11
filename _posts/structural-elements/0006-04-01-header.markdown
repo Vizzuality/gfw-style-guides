@@ -12,6 +12,10 @@ It is dark and distinctive, and it usually holds the most important calls to act
 
 ![alt text][header-meassures]
 
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/structural-elements/header/header.html" csscode="snippets/structural-elements/header/header-css.html" %}
+</div>
+
 Remember: The GFW logo from the navigation bar overlaps the header, so the top padding must be
 70px to avoid it stepping on the main title. The height of the header varies depending on its content.
 
