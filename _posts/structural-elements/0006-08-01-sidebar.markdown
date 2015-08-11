@@ -12,6 +12,10 @@ It is placed on its left, and usually holds tabs to switch between different con
 
 ![alt text][sidebar-meassures]
 
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/structural-elements/sidebar/sidebar.html" csscode="snippets/structural-elements/sidebar/sidebar-css.html" %}
+</div>
+
 The sidebar is 260px wide. The content, on the other hand, is flexible and adapts its width to the size of the screen.
 
 ![alt text][sidebar-responsive]
