@@ -33,7 +33,7 @@ They are useful to keep the page from being too long.
 ![alt text][accordion-expanded]
 
 <div id="code-snippet-box2" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/common-elements/other/pagination.html" csscode="snippets/common-elements/other/pagination-css.html" %}
+  {% include code-snippet.html htmlcode="snippets/common-elements/other/accordion.html" csscode="snippets/common-elements/other/accordion-css.html" %}
 </div>
 
 ### Spinner
