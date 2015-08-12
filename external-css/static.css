@@ -1291,7 +1291,7 @@ h1, h2 {
   display: block;
   height: 100%;
   width: 100%;
-  background: url(/assets/svg-icons/arrow-down.svg) no-repeat center;
+  background: url('https://cdn.rawgit.com/Vizzuality/gfw/master/app/assets/images/svg-icons/arrow-down.svg') no-repeat center;
   background-size: contain;
 }
 
@@ -4151,14 +4151,14 @@ h1, h2 {
   left: -50px;
 }
 .slick-prev:before {
-  background: url(/assets/svg-icons/arrow-left.svg) center no-repeat;
+  background: url('https://cdn.rawgit.com/Vizzuality/gfw/master/app/assets/images/svg-icons/arrow-right.svg') center no-repeat;
 }
 
 .slick-next {
   right: -50px;
 }
 .slick-next:before {
-  background: url(/assets/svg-icons/arrow-right.svg) center no-repeat;
+  background: url('https://cdn.rawgit.com/Vizzuality/gfw/master/app/assets/images/svg-icons/arrow-right.svg') center no-repeat;
 }
 
 .slick-slider {
@@ -4495,7 +4495,7 @@ h1, h2 {
   }
 }
 .simple-pagination.light-theme .next:before {
-  background: url(/assets/svg-icons/arrow-right.svg) center no-repeat;
+  background: url('https://cdn.rawgit.com/Vizzuality/gfw/master/app/assets/images/svg-icons/arrow-right.svg') center no-repeat;
   -webkit-transform: translate(0px, 0);
   -moz-transform: translate(0px, 0);
   -ms-transform: translate(0px, 0);
@@ -6232,7 +6232,7 @@ h1, h2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  background-image: url(/assets/svg-icons/arrow-down.svg);
+  background-image: url('https://cdn.rawgit.com/Vizzuality/gfw/master/app/assets/images/svg-icons/arrow-down.svg');
   width: 14px;
   height: 14px;
   background-position: center;
@@ -6348,7 +6348,7 @@ h1, h2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  background-image: url(/assets/svg-icons/arrow-down.svg);
+  background-image: url('https://cdn.rawgit.com/Vizzuality/gfw/master/app/assets/images/svg-icons/arrow-down.svg');
   width: 14px;
   height: 14px;
   background-position: center;
