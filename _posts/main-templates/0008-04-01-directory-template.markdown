@@ -19,6 +19,10 @@ The directory template has a header module with a page title, space for the cont
   </a>
 </div>
 
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/main-templates/directory/directory.html" csscode="snippets/main-templates/directory/directory-css.html" %}
+</div>
+
 
 ### Responsive
 

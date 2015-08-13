@@ -20,6 +20,10 @@ a related content module, and the footer.
   </a>
 </div>
 
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/main-templates/content/content.html" csscode="snippets/main-templates/content/content-css.html" %}
+</div>
+
 ### Responsive
 
 In this case, the mobile adaptation changes the way the page behaves. When a tab is selected, the content
