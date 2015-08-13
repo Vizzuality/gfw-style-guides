@@ -21,6 +21,10 @@ quick links to other sections and applications, a Recent Activity module and the
   </a>
 </div>
 
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/main-templates/home/home.html" csscode="snippets/main-templates/home/home-css.html" %}
+</div>
+
 ### Responsive
 
 As explained in the section about **[responsive adaptations][responsive-adaptations-link]**, the modules adapt to fit the
