@@ -20,9 +20,6 @@ a related content module, and the footer.
   </a>
 </div>
 
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/main-templates/content/content.html" csscode="snippets/main-templates/content/content-css.html" %}
-</div>
 
 ### Responsive
 
@@ -38,4 +35,8 @@ get back to the main content page tapping the top link.
   <a href="/gfw-style-guides/images/posts/main-templates/content-template/03-04-content-mobile-2-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/content-template/03-04-content-mobile-2.png" alt="content-mobile-2">
   </a>
+</div>
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/main-templates/content/content.html" csscode="snippets/main-templates/content/content-css.html" %}
 </div>

@@ -19,9 +19,6 @@ The directory template has a header module with a page title, space for the cont
   </a>
 </div>
 
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/main-templates/directory/directory.html" csscode="snippets/main-templates/directory/directory-css.html" %}
-</div>
 
 
 ### Responsive
@@ -32,4 +29,8 @@ The mobile adaptation takes the full screen width.
   <a href="/gfw-style-guides/images/posts/main-templates/directory-template/04-02-directory-desktop-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/directory-template/04-03-directory-mobile.png" alt="directory mobile">
   </a>
+</div>
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/main-templates/directory/directory.html" csscode="snippets/main-templates/directory/directory-css.html" %}
 </div>
