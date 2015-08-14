@@ -24,11 +24,6 @@ The header has a white background for the same reason.
   </a>
 </div>
 
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/main-templates/story/story.html" csscode="snippets/main-templates/story/story-css.html" %}
-</div>
-
-
 ### Responsive
 
 The mobile adaptation takes the full screen width.
@@ -39,4 +34,6 @@ The mobile adaptation takes the full screen width.
   </a>
 </div>
 
-
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/main-templates/story/story.html" csscode="snippets/main-templates/story/story-css.html" %}
+</div>
