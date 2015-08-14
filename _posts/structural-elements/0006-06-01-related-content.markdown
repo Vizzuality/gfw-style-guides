@@ -11,11 +11,13 @@ This module follows the main content module and displays a selection of suggeste
 
 ![alt text][related-meassures]
 
+This module has a light grey background #f7f7f7
+
+### Code
+
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/structural-elements/related-content/related-content.html" csscode="snippets/structural-elements/related-content/related-content-css.html" %}
 </div>
-
-This module has a light grey background #f7f7f7
 
 
 [related]: /gfw-style-guides/images/posts/structural-elements/related-content/08-01-related.png "related"

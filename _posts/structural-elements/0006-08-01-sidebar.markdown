@@ -12,10 +12,6 @@ It is placed on its left, and usually holds tabs to switch between different con
 
 ![alt text][sidebar-meassures]
 
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/structural-elements/sidebar/sidebar.html" csscode="snippets/structural-elements/sidebar/sidebar-css.html" %}
-</div>
-
 The sidebar is 260px wide. The content, on the other hand, is flexible and adapts its width to the size of the screen.
 
 ![alt text][sidebar-responsive]
@@ -27,6 +23,12 @@ standalone menu taking all the width of the screen, while the main content is hi
 options makes the content of that tab unfold.
 
 ![alt text][sidebar-mobile]
+
+### Code
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/structural-elements/sidebar/sidebar.html" csscode="snippets/structural-elements/sidebar/sidebar-css.html" %}
+</div>
 
 
 [sidebar]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-01-sidebar.png "sidebar"

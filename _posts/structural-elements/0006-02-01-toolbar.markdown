@@ -13,10 +13,6 @@ with links to the most relevant sections and applications, a searchbox and the t
 
 ![alt text][toolbar-height]
 
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/structural-elements/toolbar/toolbar.html" csscode="snippets/structural-elements/toolbar/toolbar-css.html" %}
-</div>
-
 ### Responsive
 
 When the screen is too narrow to show the labels in the main navigation (less than 1050px wide), they are hidden. The rest
@@ -27,6 +23,12 @@ of the toolbar remains the same.
 If the site is accessed from a small device (screen less than 850px wide), the toolbar is fixed on the bottom of the screen:
 
 ![alt text][toolbar-mobile]
+
+### Code
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/structural-elements/toolbar/toolbar.html" csscode="snippets/structural-elements/toolbar/toolbar-css.html" %}
+</div>
 
 
 [toolbar]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-01-toolbar.png "toolbar"

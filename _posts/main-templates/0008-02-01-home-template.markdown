@@ -32,6 +32,8 @@ full width of the device screen.
   </a>
 </div>
 
+### Code
+
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/main-templates/home/home.html" csscode="snippets/main-templates/home/home-css.html" %}
 </div>

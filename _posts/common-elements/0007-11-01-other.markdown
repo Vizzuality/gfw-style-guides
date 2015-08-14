@@ -18,6 +18,8 @@ This is how they look when the user is on different pages:
   <img src="/gfw-style-guides/images/posts/common-elements/other/11-01-pagination.png" alt="pagination">
 </div>
 
+### Code
+
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/common-elements/other/pagination.html" csscode="snippets/common-elements/other/pagination-css.html" %}
 </div>
@@ -31,6 +33,8 @@ They are useful to keep the page from being too long.
 ![alt text][accordion]
 
 ![alt text][accordion-expanded]
+
+### Code
 
 <div id="code-snippet-box2" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/common-elements/other/accordion.html" csscode="snippets/common-elements/other/accordion-css.html" %}

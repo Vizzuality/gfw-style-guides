@@ -12,10 +12,6 @@ It is dark and distinctive, and it usually holds the most important calls to act
 
 ![alt text][header-meassures]
 
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/structural-elements/header/header.html" csscode="snippets/structural-elements/header/header-css.html" %}
-</div>
-
 Remember: The GFW logo from the navigation bar overlaps the header, so the top padding must be
 70px to avoid it stepping on the main title. The height of the header varies depending on its content.
 
@@ -26,6 +22,12 @@ and news of the site. In this specific case, the header is placed directly benea
 slightly through it. The height of this header is always 500px.
 
 ![alt text][header-home]
+
+### Code
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/structural-elements/header/header.html" csscode="snippets/structural-elements/header/header-css.html" %}
+</div>
 
 
 [header]: /gfw-style-guides/images/posts/structural-elements/header/06-01-header.png "header"
