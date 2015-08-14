@@ -11,6 +11,8 @@ that is not displayed in the main page but is related to it.
 
 ![alt text][modal]
 
+### Code
+
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/common-elements/modal-windows/modal-windows-html.html" csscode="snippets/common-elements/modal-windows/modal-windows-css.html" %}
 </div>

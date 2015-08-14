@@ -37,6 +37,8 @@ get back to the main content page tapping the top link.
   </a>
 </div>
 
+### Code
+
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/main-templates/content/content.html" csscode="snippets/main-templates/content/content-css.html" %}
 </div>

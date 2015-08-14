@@ -18,10 +18,6 @@ It overflows the white bar where the navigation links are located, overlapping t
 
 ![alt text][navbar-meassures]
 
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/structural-elements/navigation-bar/navigation-bar.html" csscode="snippets/structural-elements/navigation-bar/navigation-bar-css.html" %}
-</div>
-
 ### Responsive
 
 If the site is accessed from a small device (screen less than 850px wide), the navbar is hidden. On the right
@@ -37,6 +33,12 @@ The toolbar and the navigation bar have the exact same width. The application ic
 the left side of the GFW logo, and the section titles must be aligned to the right side of the toolbar.
 
 ![alt text][navbar-alignment]
+
+### Code
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/structural-elements/navigation-bar/navigation-bar.html" csscode="snippets/structural-elements/navigation-bar/navigation-bar-css.html" %}
+</div>
 
 
 [navbar]: /gfw-style-guides/images/posts/structural-elements/navigation-bar/05-01-navbar.png "navbar"

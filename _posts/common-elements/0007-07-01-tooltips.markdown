@@ -10,6 +10,8 @@ certain items with the cursor. They are usually used when an icon is not underst
 
 ![alt text][tooltip]
 
+### Code
+
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/common-elements/tooltips/tooltip1-html.html" csscode="snippets/common-elements/tooltips/tooltip1-css.html" %}
 </div>
@@ -20,6 +22,8 @@ The same style and functionality is used in some places as dropdown menus. In th
 contains a list of links to different sections.
 
 ![alt text][tooltip-menu]
+
+### Code
 
 <div id="code-snippet-box2" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/common-elements/tooltips/submenu-html.html" csscode="snippets/common-elements/tooltips/submenu-css.html" %}

@@ -59,8 +59,8 @@ var SidebarView = Backbone.View.extend({
 
 var SnippetView = Backbone.View.extend({
   events: {
-    'click .show-code': 'toggleHidden',
-    'click .close': 'closeHidden',
+    // 'click .show-code': 'toggleHidden',
+    // 'click .close': 'closeHidden',
     'click .lang': 'changeLang'
   },
 
@@ -88,14 +88,14 @@ var SnippetView = Backbone.View.extend({
 
 
   // Toggle Snippet
-  toggleHidden: function(e){
-    var active = this.$snippet.hasClass('hidden');
-    this.model.set('hidden', !active);
-  },
+  // toggleHidden: function(e){
+  //   var active = this.$snippet.hasClass('hidden');
+  //   this.model.set('hidden', !active);
+  // },
 
-  closeHidden: function(e){
-    this.model.set('hidden', true);
-  },
+  // closeHidden: function(e){
+  //   this.model.set('hidden', true);
+  // },
 
   toggleSnippet: function(){
     var hidden = this.model.get('hidden');

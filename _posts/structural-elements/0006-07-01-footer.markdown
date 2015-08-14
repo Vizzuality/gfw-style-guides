@@ -10,13 +10,15 @@ It is the last module in a page, and allows the user to continue exploring the G
 
 ![alt text][footer]
 
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/structural-elements/footer/footer.html" csscode="snippets/structural-elements/footer/footer-css.html" %}
-</div>
-
 ![alt text][footer-structure]
 
 This module (except the first block) has a light grey background #edede8
+
+### Code
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/structural-elements/footer/footer.html" csscode="snippets/structural-elements/footer/footer-css.html" %}
+</div>
 
 
 [footer]: /gfw-style-guides/images/posts/structural-elements/footer/09-01-footer.png "footer"

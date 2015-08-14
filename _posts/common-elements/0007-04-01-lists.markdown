@@ -12,6 +12,8 @@ Use these styles to display listed information.
 
 ![alt text][list]
 
+### Code
+
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/common-elements/lists/simple-list.html" csscode="snippets/common-elements/lists/simple-list-css.html" %}
 </div>
@@ -28,6 +30,8 @@ Cards can also display text when the cursor is hovering them.
 
 ![alt text][card-hover]
 
+### Code
+
 <div id="code-snippet-box2" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/common-elements/lists/card-list.html" csscode="snippets/common-elements/lists/card-list-css.html" %}
 </div>
@@ -41,6 +45,8 @@ A **country list** is a mosaic of countries with their shape and name. The mobil
 changes the layout to a vertical list.
 
 ![alt text][country-list-mobile]
+
+### Code
 
 <div id="code-snippet-box3" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/common-elements/lists/country-list.html" csscode="snippets/common-elements/lists/country-list-css.html" %}
