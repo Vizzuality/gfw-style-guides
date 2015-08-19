@@ -1,0 +1,108 @@
+{% highlight html %}
+
+<table class="header-wrap" cellpadding="0" cellspacing="0">
+  <tr>
+    <td></td>
+    <td class="container">
+      <div class="content">
+      <table>
+        <tr>
+          <td height="30" cellspacing="0" cellpadding="0" colspan="3" class="unsubscribe">Unsubscribe to this alert</td>
+        </tr>
+        <tr>
+          <td bgcolor="333333" height="60" width="35"></td>
+          <td width="90" height="90" rowspan="2"><img src="http://www.globalforestwatch.org/assets/logo-new-b989ed109810f4bc3ddfe0fb21d204bd.png"></td>
+          <td bgcolor="#333333" class="tagline">A partnership convened by the World Resources Institute</td>
+        </tr>
+        <tr>
+          <td height="30" width="35" bgcolor="#ffffff"></td>
+          <td bgcolor="#ffffff"></td>
+        </tr>
+      </table>
+      </div>
+    </td>
+    <td></td>
+  </tr>
+</table>
+
+<!-- body -->
+<table class="body-wrap">
+  <tr>
+    <td></td>
+    <td class="container" bgcolor="#FFFFFF">
+
+      <!-- content -->
+      <div class="content">
+      <table>
+        <tr>
+          <td>
+            <h1 class="first">Forest Alert</h1>
+            <h2 class="first">Global Forest Watch detected new forest change alerts within your area:</h2>
+            <table class="alert-data">
+              <tr>
+                <td class="alert-data-title">Selected Area</td>
+                <td class="alert-data-content">{{selected_area}}</td>
+              </tr>
+              <tr>
+                <td class="alert-data-title">New Alerts</td>
+                <td class="alert-data-content">{{alert_count}}</td>
+              </tr>
+              <tr>
+                <td class="alert-data-title">Type of Alert</td>
+                <td class="alert-data-content">{{alert_type}}</td>
+              </tr>
+              <tr>
+                <td class="alert-data-title">Date of alerts</td>
+                <td class="alert-data-content">{{alert_date}}</td>
+              </tr>
+              <tr>
+                <td class="alert-data-title">Summary</td>
+                <td class="alert-data-content">{{alert_summary}}</td>
+              </tr>
+              <tr>
+                <td class="alert-data-title">Specs</td>
+                <td class="alert-data-content">{{alert_specs}}</td>
+              </tr>
+            </table>
+            <p class="centered"><a class="btn-primary" href="{{alert_link}}">View and download</a></p>
+            <div class="notes">
+              <p>This notification reports new forest change alerts and user stories for the area of interest you subscribed to. You will receive a separate email for each subscription you make. Date of Alerts refers to the date range within which change was actually detected. There may be lag time between detection and when you receive this email.</p>
+              <p>Please note that this information is subject to the Global Forest Watch Terms of Service. You can unsubscribe or manage your subscriptions <a href="#">here</a>.</p>
+              <p>Please visit GFW Fires to subscribe to receive fire alerts.</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+      </div>
+      <!-- /content -->
+
+    </td>
+    <td></td>
+  </tr>
+</table>
+<!-- /body -->
+
+<!-- footer -->
+<table class="footer-wrap">
+  <tr>
+    <td></td>
+    <td class="container">
+
+      <!-- content -->
+      <div class="content">
+        <table>
+          <tr>
+            <td align="center">
+                <p><a href="http://globalforestwatch.org/terms" target="_blank">Terms of service</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </td>
+    <td></td>
+  </tr>
+</table>
+
+{% endhighlight %}
