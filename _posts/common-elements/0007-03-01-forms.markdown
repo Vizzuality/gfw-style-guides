@@ -8,6 +8,9 @@ categories: page-elements common-elements
 Forms are composed of text fields, text areas, selectors, radio buttons, and more. These elements are designed
 to allow building a new form fast and easy.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/forms/index.html">preview</a>
+<a class="btn btn--download" download="forms.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/forms/forms.zip">download</a>
+
 ![alt text][forms]
 
 ### Text field
@@ -60,6 +63,9 @@ text areas, etc.
   {% include code-snippet.html htmlcode="snippets/common-elements/forms/file-select.html" csscode="snippets/common-elements/forms/file-select-css.html" %}
 </div>
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/forms/index.html">preview</a>
+<a class="btn btn--download" download="forms.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/forms/forms.zip">download</a>
+
 ### Submit Button
 
 ![alt text][button]
@@ -67,9 +73,11 @@ text areas, etc.
 Every form needs a submit button so the user can send the information to the server. Use a primary button for this.
 
 
+
 ### Others elements
 
 Elements like checkboxes or radio buttons use the default styles from the browser to avoid compatibility issues.
+
 
 
 [forms]: /gfw-style-guides/images/posts/common-elements/forms/03-01-forms.png "forms"

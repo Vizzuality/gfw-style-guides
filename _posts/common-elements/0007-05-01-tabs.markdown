@@ -8,6 +8,9 @@ categories: page-elements common-elements
 Tabs are usually used in the sidebar next to the main content module. It allows the user to switch between
 different content and sections without losing their current position.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/tabs/index.html">preview</a>
+<a class="btn btn--download" download="tabs.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/tabs/tabs.zip">download</a>
+
 ![alt text][tabs]
 
 ### Code
@@ -27,6 +30,9 @@ The functionality of the horizontal tabs is slightly different to the vertical t
 between content, but move the scroll to where the content is located.
 
 ![alt text][tabs-horizontal]
+
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/tabs/index.html">preview</a>
+<a class="btn btn--download" download="tabs.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/tabs/tabs.zip">download</a>
 
 
 [tabs]: /gfw-style-guides/images/posts/common-elements/tabs/05-01-tabs.png "tabs"

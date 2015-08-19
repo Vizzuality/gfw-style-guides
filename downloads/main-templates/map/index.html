@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html style="height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Interactive Map | Global Forest Watch</title>
+  <meta name="description" content="Explore the status of forests worldwide by layering data to create custom maps of forest change, cover, and use.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="keywords" content="map, forest map, visualization, data, forest data, geospatial, gis, geo, spatial, analysis, local data, global data, forest analysis, explore, layer, terrain, alerts, tree, cover, loss, search, country, deforestation">
+  <meta name="author" content="Simbiótica">
+
+  <meta name="DC.title" content="Interactive Map | Global Forest Watch">
+  <meta property="og:title" content="Interactive Map | Global Forest Watch">
+  <meta property="og:description" content="Explore the status of forests worldwide by layering data to create custom maps of forest change, cover, and use.">
+  <meta property="og:type" content="Visualization">
+  <meta property="og:url" content="http://www.globalforestwatch.org/">
+
+  <link href="./Interactive Map _ Global Forest Watch_files/css(1)" rel="stylesheet" type="text/css">
+
+  <meta name="google-translate-customization" content="af2414ea962843fc-f48b15cdb6a3ab9b-gd8c738d3a7ff42de-1a">
+  <meta name="google-site-verification" content="xx82D6cZ40Hvf-TT9jkhfsVi11yIeShPcK0zcc7m7ak">
+  <!-- IOS, Android, favicons icons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="http://www.globalforestwatch.org/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="http://www.globalforestwatch.org/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="http://www.globalforestwatch.org/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="http://www.globalforestwatch.org/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="http://www.globalforestwatch.org/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="http://www.globalforestwatch.org/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="http://www.globalforestwatch.org/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="http://www.globalforestwatch.org/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="http://www.globalforestwatch.org/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="http://www.globalforestwatch.org/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="http://www.globalforestwatch.org/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="http://www.globalforestwatch.org/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="http://www.globalforestwatch.org/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="http://www.globalforestwatch.org/manifest.json">
+  <meta name="msapplication-TileColor" content="#ff0000">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link href="http://www.globalforestwatch.org/assets/favicon-1a6fda4ff383c2cfa3a004d27de3a38f.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link type="text/css" rel="stylesheet" charset="UTF-8" href="./Interactive Map _ Global Forest Watch_files/translateelement.css"><script type="text/javascript" charset="UTF-8" src="./Interactive Map _ Global Forest Watch_files/main.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="map" src="./Interactive Map _ Global Forest Watch_files/map-e4f2b1c8dc2c97da34f449a2a30bf5a1.js"></script><script type="text/javascript" charset="UTF-8" src="./Interactive Map _ Global Forest Watch_files/element_main.js"></script>
+  </head>
+  <body class="is-map-page is-index-action" style="position: relative; min-height: 100%; top: 0px;">
+
+
+  <header id="headerView" class="layout-header">
+  <div class="layout-header-top">
+  <div class="inner">
+  	<nav class="first-nav"></nav>
+    <nav class="second-nav mobile-hide"></nav>
+  </div>
+  </div>
+  <div class="layout-header-bottom">
+  <div class="inner">
+  	  <h1><a href="http://www.globalforestwatch.org/">Global Forest Watch</a></h1>
+      <nav id="nav-mobile"></nav>
+      <nav id="layers-menu" class="layers-menu">
+        <div class="noselect">
+          <ul class="categories-list">
+
+  <li class="forest-change">
+    <span class="category-name">FOREST CHANGE <i id="forest_clearing-category-num" class="category-num">2</i></span>
+
+    <div class="layers-nav">
+      <div class="layers-nav-header">
+        <div class="category-icon"><svg><use xlink:href="#icon-layer-forestchange"></use></svg></div>
+        <span class="category-name">FOREST CHANGE</span>
+      </div>
+      <ul class="layers-list">
+        <div id="umd-group" class="layer-group">
+          <span class="group-name grouped-layers-trigger" data-color="#f69">Tree cover change</span>
+          <li class="layer selected" data-layer="loss">
+            <span class="onoffswitch checked" style="background: rgb(255, 102, 153);"><span></span></span>
+            <span class="layer-title" style="color: rgb(255, 102, 153);">Loss<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="loss" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+            <span class="layer-info">(annual, 30m, Global, Hansen/UMD/Google/USGS/NASA)</span>
+          </li>
+          <li class="layer selected" data-layer="forestgain">
+            <span class="onoffswitch checked" style="background: rgb(109, 109, 229);"><span></span></span>
+            <span class="layer-title" style="color: rgb(109, 109, 229);">Gain<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="forestgain" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+            <span class="layer-info">(12 years, 30m, Global, Hansen/UMD/Google/USGS/NASA)</span>
+          </li>
+          
+        </div>
+        <div class="layer-group">
+          <span class="group-name">Tree cover loss alerts <em>(near real-time)</em></span>
+          <li class="layer" data-layer="forma">
+            <span class="onoffradio"><span></span></span>
+            <span class="layer-title">FORMA<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="forma" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+            <span class="layer-info">(monthly, 500m, humid tropics, WRI/CGD)</span>
+          </li>
+          <li class="layer" data-layer="terrailoss">
+            <span class="onoffradio"><span></span></span>
+            <span class="layer-title">Terra-i<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="terrailoss" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+            <span class="layer-info">(monthly, 250m, Latin America, CIAT)</span>
+          </li>
+          <li class="layer" data-layer="imazon">
+            <span class="onoffradio"><span></span></span>
+            <span class="layer-title">SAD<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="imazon" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+            <span class="layer-info">(monthly, 250m, Brazilian Amazon, Imazon)</span>
+          </li>
+          <li class="layer" data-layer="modis">
+            <span class="onoffradio"><span></span></span>
+            <span class="layer-title">QUICC<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="modis" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+            <span class="layer-info">(quarterly, 5km, &lt;37 degrees north, NASA)</span>
+          </li>
+        </div>
+        <div class="layer-group">
+          <li class="layer" data-layer="fires">
+            <span class="onoffradio"><span></span></span>
+            <span class="layer-title">Active fires<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="fires" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+            <span class="layer-info">(past 7 days, 1km, global, NASA)</span>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </li>
+
+  <li class="forest-cover">
+    <span class="category-name">FOREST COVER <i id="forest_cover-category-num" class="category-num"></i></span>
+
+    <div class="layers-nav">
+      <div class="layers-nav-header">
+        <div class="category-icon"><svg><use xlink:href="#icon-layer-forestcover"></use></svg></div>
+        <span class="category-name">FOREST COVER</span>
+      </div>
+      <ul class="layers-list">
+        <li class="layer" data-layer="forest2000">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Tree cover (2000)<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="forest2000" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+        <li class="layer" data-layer="ifl_2013_deg">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Intact Forest Landscapes (2013)<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="ifl_2013_deg" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+          
+        </li>
+        <li class="layer" data-layer="pantropical">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Tropical forest carbon stocks (2000)<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="pantropical" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+        <li class="layer" data-layer="mangrove">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Mangrove forests<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="mangrove" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="forest-use">
+    <span class="category-name">LAND USE <i id="forest_use-category-num" class="category-num"></i></span>
+    <div class="layers-nav">
+      <div class="layers-nav-header">
+        <div class="category-icon"><svg><use xlink:href="#icon-layer-forestuse"></use></svg></div>
+        <span class="category-name">LAND USE</span>
+      </div>
+      <ul class="layers-list">
+        <div class="layer-group">
+          <span class="group-name">Concessions</span>
+          <li class="layer" data-layer="logging">
+            <span class="onoffswitch"><span></span></span>
+            <span class="layer-title">Managed forests (select countries)<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="logging" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+          </li>
+          <li class="layer" data-layer="mining">
+            <span class="onoffswitch"><span></span></span>
+            <span class="layer-title">Mining (select countries)<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="mining" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+          </li>
+          <div class="grouped-layer">
+            <span class="layer-title grouped-layers-trigger" data-color="#c98e6c"><span class="onoffswitch"><span></span></span> <em>Tree plantations (select countries)</em><a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="oil_palm_wood_fiber" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+            <li class="layer" data-layer="oil_palm">
+              <span class="onoffswitch"><span></span></span>
+              <span class="layer-title">Oil palm</span>
+            </li>
+            <li class="layer" data-layer="wood_fiber_plantations">
+              <span class="onoffswitch"><span></span></span>
+              <span class="layer-title">Wood fiber</span>
+            </li>
+          </div>
+        </div>
+        <div class="layer-group">
+          <span class="group-name">Infrastructure</span>
+          <li class="layer" data-layer="dam_hotspots">
+            <span class="onoffswitch"><span></span></span>
+            <span class="layer-title">Major dams<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="dam_hotspots" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </li>
+
+  <li class="conservation">
+    <span class="category-name">CONSERVATION <i id="conservation-category-num" class="category-num"></i></span>
+
+    <div class="layers-nav">
+      <div class="layers-nav-header">
+        <div class="category-icon"><svg><use xlink:href="#icon-layer-conservation"></use></svg></div>
+        <span class="category-name">CONSERVATION</span>
+      </div>
+      <ul class="layers-list">
+        <li class="layer" data-layer="protected_areasCDB">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Protected areas<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="protected_areas" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+        <li class="layer" data-layer="biodiversity_hotspots">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Biodiversity hotspots<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="biodiversity_hotspots" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+
+        <li class="layer" data-layer="birdlife">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">BirdLife Endemic Bird Areas<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="birdlife" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+        <li class="layer" data-layer="azepoly">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Alliance for Zero Extinction sites<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="azepoly" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+        <li class="layer" data-layer="tigers">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Tiger Conservation Landscapes<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="tigers" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="people">
+    <span class="category-name">PEOPLE <i id="people-category-num" class="category-num"></i></span>
+
+    <div class="layers-nav">
+      <div class="layers-nav-header">
+        <div class="category-icon"><svg><use xlink:href="#icon-layer-people"></use></svg></div>
+        <span class="category-name">PEOPLE</span>
+      </div>
+      <ul class="layers-list">
+        <li class="layer" data-layer="resource_rights">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Resource rights (select countries)<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="resource_rights" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+        <li class="layer" data-layer="land_rights">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Land rights (select countries)<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="land_rights" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+        <li class="layer" data-layer="grump2000">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Population density (2000)<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="grump2000" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="stories">
+    <span class="category-name">STORIES <i id="stories-category-num" class="category-num"></i></span>
+
+    <div class="layers-nav">
+      <div class="layers-nav-header">
+        <div class="category-icon"><svg><use xlink:href="#icon-layer-stories"></use></svg></div>
+        <span class="category-name">STORIES</span>
+      </div>
+      <ul class="layers-list">
+        <li class="layer" data-layer="user_stories">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">User stories<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="user_stories" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+
+        <li class="layer" data-layer="infoamazonia">
+          <span class="onoffswitch"><span></span></span>
+          <span class="layer-title">Earth Journalism Network stories<a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="infoamazonia" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a></span>
+        </li>
+      </ul>
+    </div>
+  </li>
+
+  <li id="country-layers" class="country-layers-nav country disabled"><span class="category-name">Country LAYERS <em class="country-layers-reset-mobile" id="country-layers-reset-mobile"><svg><use xlink:href="#shape-close"></use></svg> deselect</em></span>
+  <div id="country-layers-nav" class="layers-nav">
+  <div class="layers-nav-header">
+  <div class="category-icon"><svg><use xlink:href="#icon-layer-country"></use></svg></div>
+  <span class="category-name">Country LAYERS</span>
+  </div>
+  <ul class="layers-list">
+
+  </ul>
+  </div>
+  </li>
+  <li id="country-layers-reset" class="country-close disabled hidden">
+    <button class="btn close"><span><svg><use xlink:href="#shape-close"></use></svg></span></button>
+  </li>
+  </ul>
+  </div>
+  </nav>
+
+
+
+
+  </div>
+  </div>
+  <div class="layout-share-mobile">
+  <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="share-link" data-hideembed="1"><svg><use xlink:href="#shape-share"></use></svg></a>
+  </div>
+  </header>
+
+
+  <div class="layout-content">
+  <section class="map-container">
+  <!-- MAP -->
+  <div id="map" class="map is-loaded"></div>
+
+  <!-- MAP -->
+  <div id="viewfinder" class="map-viewfinder module-toggle"></div>
+  <div class="map-latlng hidden">Lat/long: 15.000000, 27.000000</div>
+  <div id="overlay-mobile" class="overlay-mobile"></div>
+
+
+
+
+  <!-- MODULES -->
+  <div id="module-legend" class="module scroll-dark module-legend module-toggle"><h3 id="title-dialog-legend" class="title-dialog .noselect">Legend <span>(Click to expand)</span></h3>
+  <span class="close"><svg><use xlink:href="#shape-close"></use></svg></span>
+
+
+  <ul class="categories ">
+
+
+  <li class="category ">
+    
+      
+        <span data-category_slug="forest_clearing-global" class="category-name" style="color: #F69; border-color: #F69;">
+          Forest change
+          <em>(2)</em>
+        </span>
+      
+    
+      
+    
+    <ul class="layers ">
+      
+        <li class="layer">
+          <span class="layer-name">
+            <i class="circle" style="color:#6D6DE5;"></i>Tree cover gain
+            <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="layer-close" data-slug="forestgain"><span>Delete</span> <svg><use xlink:href="#shape-close"></use></svg></a>
+            
+            <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="forestgain" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a>
+            
+          </span>
+          
+          
+        </li> 
+      
+        <li class="layer">
+          <span class="layer-name">
+            <i class="circle" style="color:#F69;"></i>Tree cover loss
+            <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="layer-close" data-slug="loss"><span>Delete</span> <svg><use xlink:href="#shape-close"></use></svg></a>
+            
+            <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="loss" class="source default"><svg><use xlink:href="#shape-info"></use></svg></a>
+            
+          </span>
+          
+            
+  <div class="layer-details layer-details-loss">
+  <p class="canopy" title="Click the gear icon to change the tree cover canopy density">Displaying loss with <span class="canopy-button"> &gt; 30 %</span> canopy density.</p>
+  <p class="canopy">Tree cover loss is not always deforestation. <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" data-source="loss_causes" class="source text default">?</a></p>
+  </div>
+
+
+          
+          
+        </li> 
+      
+    </ul>  
+  </li> 
+
+  </ul> 
+
+  <div id="button-box-embed-legend" class="button-box-embed-legend">
+  <a id="link-embed-legend" target="_blank" href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="btn green uppercase full-width">View on GFW</a>
+  </div>
+  </div>
+  <div id="module-tabs" class="module module-tabs module-toggle"><header>
+  <nav class="noselect">
+  <ul>
+    <li id="countries-tab-button" class="tab active" data-tab="countries-tab"><span class="tooltipmap">Country data</span><svg class="icon"><use xlink:href="#icon-tab-countries"></use></svg></li>
+    <li id="analysis-tab-button" class="tab inactive" data-tab="analysis-tab"><span class="tooltipmap">Analysis</span><svg class="icon"><use xlink:href="#icon-tab-analysis"></use></svg></li>
+    <li id="subscription-tab-button" class="tab inactive" data-tab="subscription-tab"><span class="tooltipmap">Subscription</span><svg class="icon"><use xlink:href="#icon-tab-alerts"></use></svg></li>
+    <li id="basemaps-tab-button" class="tab inactive" data-tab="basemaps-tab"><span class="tooltipmap">Base map</span><svg class="icon"><use xlink:href="#icon-tab-basemap"></use></svg></li>
+  </ul>
+  </nav>
+  </header>
+  <div class="content active">
+  <div id="tab-spinner" class="spinner2-box"><div id="spinner2" class="spinner2"><svg width="50" height="50"><g transform="translate(25,25) rotate(-90)"><path d="M0,25A25,25 0 1,1 0,-25A25,25 0 1,1 0,25M0,20A20,20 0 1,0 0,-20A20,20 0 1,0 0,20Z" style="fill: rgb(255, 255, 255); stroke: rgb(204, 204, 204);"></path><path class="foreground" d="M1.5308084989341915e-15,-25A25,25 0 0,1 25,0L20,0A20,20 0 0,0 1.2246467991473533e-15,-20Z" style="fill: rgb(85, 85, 85);"></path></g></svg></div></div>
+  <div id="analysis-subscribe" class="analysis-subscribe"><div class="analysis-subscribe-content">
+  <span class="close-icon icon"><svg><use xlink:href="#shape-close"></use></svg></span>
+  <div class="steps current">
+  <header>
+    <h2>Subscribe to alerts</h2>
+    <p>Enter your email below to subscribe to monthly forest change alerts and user stories for this area</p>
+  </header>
+
+  <div class="content active">
+    <ul class="button-container one">
+      <li>
+        <input class="field" type="email" id="areaEmail" placeholder="Enter your email">
+        <button class="btn green uppercase" id="subscribe">Subscribe</button>
+      </li>
+    </ul>
+  </div>
+  </div>
+
+  <div class="steps">
+  <header>
+    <h2>Thank you</h2>
+    <p>We've sent you a confirmation email to subscribe to this area.</p>
+  </header>
+  <div class="content active">
+    <ul class="button-container one">
+      <li><button class="btn green uppercase close-icon">Close</button></li>
+    </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  <ul>
+  <li id="analysis-tab" class="tab-content"><div class="tab-analysis">
+  <nav id="analysis-nav" class="analysis-nav noselect">
+  <ul>
+    <li id="draw-tab-button" data-analysis="draw-tab"><svg><use xlink:href="#icon-analysis-draw"></use></svg>Draw shape</li>
+    <li id="country-tab-button" data-analysis="country-tab"><svg><use xlink:href="#icon-analysis-country"></use></svg>Country or region</li>
+    <li id="data-tab-button" data-analysis="data-tab"><svg><use xlink:href="#icon-analysis-data"></use></svg>Other data layers</li>
+  </ul>
+  </nav>
+  <div id="analysis-content" class="analysis-content">
+  <div id="default" class="analysis-tab-content default results-hide active">
+    <header>
+      <h2>Choose analysis type to calculate forest change statistics</h2>
+    </header>
+  </div>
+  <div id="draw-tab" class="analysis-tab-content draw-tab results-hide">
+    <header>
+      <h2>Draw in the map the area you want to analyze</h2>
+      
+    </header>
+    <div class="image"><div><svg><use xlink:href="#icon-analysis-draw"></use></svg></div></div>
+    <ul id="draw-analysis" class="button-container one">
+      <li><button id="start-analysis" class="btn green uppercase">Start drawing</button></li>
+      <li class="hidden"><button id="done-analysis" class="btn green uppercase">Analyze</button></li>
+    </ul>
+  </div>
+  <div id="country-tab" class="analysis-tab-content country-tab">
+    <select data-placeholder="Select country" class="chosen-select default notranslate chzn-done" id="analysis-country-select" style="display: none;"></select><div class="chzn-container chzn-container-single chosen-select default notranslate" style="width: 100%;" title="" id="analysis_country_select_chzn"><a href="javascript:void(0)" class="chzn-single chzn-default" tabindex="-1"><span>Select country</span><div><b></b></div></a><div class="chzn-drop"><div class="chzn-search"><input type="text" autocomplete="off"></div><ul class="chzn-results"></ul></div></div>
+    <select data-placeholder="Select jurisdiction (optional)" disabled="true" class="chosen-select default notranslate chzn-done" id="analysis-region-select" style="display: none;"><option></option></select><div class="chzn-container chzn-container-single chosen-select default notranslate chzn-disabled" style="width: 100%;" title="" id="analysis_region_select_chzn"><a href="javascript:void(0)" class="chzn-single chzn-default" tabindex="-1"><span>Select jurisdiction (optional)</span><div><b></b></div></a><div class="chzn-drop"><div class="chzn-search"><input type="text" autocomplete="off" disabled=""></div><ul class="chzn-results"></ul></div></div>
+    <ul class="button-container one">
+      <li><button id="analysis-country-button" class="btn green uppercase">Analyze</button></li>
+    </ul>
+  </div>
+  <div id="data-tab" class="analysis-tab-content data-tab results-hide">
+    <header>
+      <h2>Analyze a shape on the map</h2>
+      <ol>
+        <li>Use the tabs above the map to turn on a data layer <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="source default" data-source="analyze_a_shape_on_the_map"><svg><use xlink:href="#shape-info"></use></svg></a></li>
+        <li>Select a shape in the map</li>
+        <li>Click “Analyze”</li>
+      </ol>
+      <p class="see-gif source default" data-source="see_how_to_analyze_a_shape_on_the_map"><a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#">See example.</a></p>
+    </header>
+    <div class="img-box">
+      <div id="data-tab-play" class="play"></div>
+      <img id="data-tab-img" src="./Interactive Map _ Global Forest Watch_files/infowindow-example.png">
+    </div>
+  </div>
+  </div>
+  <div id="analysis-result" class="analysis-result hidden"></div>
+  </div>
+  </li>
+  <li id="countries-tab" class="tab-content selected"><div class="tab-countries">
+  <div class="countries-content">
+  <header>
+    <h2>View country data</h2>
+  </header>
+  <div class="select-box">
+    <select data-placeholder="Select country" class="chosen-select default notranslate chzn-done" id="countries-country-select" style="display: none;"></select><div class="chzn-container chzn-container-single chosen-select default notranslate" style="width: 100%;" title="" id="countries_country_select_chzn"><a href="javascript:void(0)" class="chzn-single chzn-default" tabindex="-1"><span>Select country</span><div><b></b></div></a><div class="chzn-drop"><div class="chzn-search"><input type="text" autocomplete="off"></div><ul class="chzn-results"></ul></div></div>
+    
+  </div>
+  <div class="toggle-countries-content" id="toggle-countries-content">
+    <div id="countries-layers" class="countries-layers"></div>
+    <div id="countries-buttons" class="countries-buttons"></div>
+  </div>
+  </div>
+  </div>
+  </li>
+  <li id="subscription-tab" class="tab-content"><div class="tab-subscription">
+  <nav id="subscription-nav" class="subscription-nav noselect">
+  <ul>
+    <li id="draw-tab-button" data-subscription="draw-tab-s"><svg><use xlink:href="#icon-analysis-draw"></use></svg>Draw shape</li>
+    <li id="country-tab-button" data-subscription="country-tab-s"><svg><use xlink:href="#icon-analysis-country"></use></svg>Country or region</li>
+    <li id="data-tab-button" data-subscription="data-tab-s"><svg><use xlink:href="#icon-analysis-data"></use></svg>Other data layers</li>
+  </ul>
+  </nav>
+  <div id="subscription-content" class="subscription-content">
+  <div id="default-subscription" class="subscription-tab-content default-subscription active">
+    <header>
+      <h2>Subscribe to <span class="source default" data-source="near_real_time">forest change alerts</span> and user stories for your area of interest</h2>
+      <button id="get-started-subscription" class="btn green uppercase medium">Get started</button>
+    </header>
+  </div>
+  <div id="default" class="subscription-tab-content default active">
+    <header>
+      <h2>Define your area of interest</h2>
+    </header>
+  </div>
+  <div id="draw-tab-s" class="subscription-tab-content draw-tab">
+    <header>
+      <h2>Draw in the map the area you want to subscribe</h2>
+    </header>
+    <div class="image"><div><svg><use xlink:href="#icon-analysis-draw"></use></svg></div></div>
+    <ul id="draw-subscription" class="button-container one">
+      <li><button id="start-subscription" class="btn green uppercase">Start drawing</button></li>
+      <li class="hidden"><button id="done-subscription" class="btn green uppercase">Subscribe</button></li>
+    </ul>
+  </div>
+  <div id="country-tab-s" class="subscription-tab-content country-tab">
+    <select data-placeholder="Select country" class="chosen-select default notranslate chzn-done" id="subscription-country-select" style="display: none;"></select><div class="chzn-container chzn-container-single chosen-select default notranslate" style="width: 100%;" title="" id="subscription_country_select_chzn"><a href="javascript:void(0)" class="chzn-single chzn-default" tabindex="-1"><span>Select country</span><div><b></b></div></a><div class="chzn-drop"><div class="chzn-search"><input type="text" autocomplete="off"></div><ul class="chzn-results"></ul></div></div>
+    <select data-placeholder="Select jurisdiction (optional)" disabled="disabled" class="chosen-select default notranslate chzn-done" id="subscription-region-select" style="display: none;"><option></option></select><div class="chzn-container chzn-container-single chosen-select default notranslate chzn-disabled" style="width: 100%;" title="" id="subscription_region_select_chzn"><a href="javascript:void(0)" class="chzn-single chzn-default" tabindex="-1"><span>Select jurisdiction (optional)</span><div><b></b></div></a><div class="chzn-drop"><div class="chzn-search"><input type="text" autocomplete="off" disabled=""></div><ul class="chzn-results"></ul></div></div>
+    <ul class="button-container one">
+      <li><button id="subscription-country-button" class="btn green uppercase">Subscribe</button></li>
+    </ul>
+  </div>
+  <div id="data-tab-s" class="subscription-tab-content data-tab">
+    <header>
+      <h2>Subscribe to a shape on the map</h2>
+      <ol>
+        <li>Use the tabs above the map to turn on a data layer <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="source default" data-source="subscribe_to_a_shape_on_the_map"><svg><use xlink:href="#shape-info"></use></svg></a></li>
+        <li>Select a shape in the map</li>
+        <li>Click “Subscribe”</li>
+      </ol>
+    </header>
+    <div class="img-box">
+      <div id="data-tab-play-s" class="play"></div>
+      <img id="data-tab-img-s" src="./Interactive Map _ Global Forest Watch_files/infowindow-example.png">
+    </div>
+  </div>
+  </div>
+  </div>
+  </li>
+  <li id="basemaps-tab" class="tab-content"><div class="tab-basemaps">
+  <ul class="maptype-list scroll-dark">
+
+  </ul>
+
+  </div>
+  </li>
+  </ul>
+  </div>
+  </div>
+  <div id="module-map-controls" class="module module-mapcontrols"><ul class="noselect">
+  <li class="zoom-out"><span class="tooltipmap">Zoom out (-)</span><svg class="icon"><use xlink:href="#icon-control-minus"></use></svg></li>
+  <li class="zoom-in"><span class="tooltipmap">Zoom in (+)</span><svg class="icon"><use xlink:href="#icon-control-plus"></use></svg></li>
+  <li class="share-map"><span class="tooltipmap">Share (s)</span><svg class="icon"><use xlink:href="#icon-control-share"></use></svg></li>
+  <li class="toggle-modules"><span class="tooltipmap">Hide windows (h)</span><svg class="icon toggle-on"><use xlink:href="#icon-control-legendtoggle"></use></svg><svg class="icon toggle-off"><use xlink:href="#icon-control-legendtoggle_off"></use></svg></li>
+  <li class="reset-map"><span class="tooltipmap">Reset (alt+r)</span><svg class="icon"><use xlink:href="#icon-control-reset"></use></svg></li>
+  <li class="search"><span class="tooltipmap">Search (f)</span><svg class="icon"><use xlink:href="#icon-control-search"></use></svg></li>
+  </ul>
+  </div>
+  <div id="module-navmobile" class="module module-navmobile"></div>
+
+  <!-- CONTROLS -->
+  <div id="control-searchbox" class="control-searchbox"><div class="search-box">
+  <span class="searching-kinds">
+  <span class="kind selected" data-kind="regular">Address</span>
+  <span class="kind" data-kind="coordinates">Coordinates</span>
+  <span class="kind" data-kind="degrees">Decimal degrees</span>
+  </span>
+  <div class="search regular selected">
+  <input type="search" placeholder="E.g.: 10 G Street NE Suite 800, Washington, DC 20002" autocomplete="off">
+  </div>
+  <div class="search coordinates">
+  <input type="search" placeholder="E.g.: 38° 53&#39; 57.0798&#39;&#39; E, -77° 0&#39; 29.0953&#39;&#39; N">
+  </div>
+  <div class="search degrees">
+  <input type="search" placeholder="E.g.: 38.899189, -77.008082">
+  </div>
+  </div>
+  </div>
+  <div id="control-share" class="mini-modal share-modal"></div>
+  <div id="control-threshold" class="control-threshold"><div class="overlay"></div>
+  <div class="content-threshold">
+  <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="close"><svg><use xlink:href="#shape-close"></use></svg></a>
+  <header>
+  <h2>Adjust the minimum canopy density for tree cover and tree cover loss<p><a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="source default" data-source="canopy"><svg><use xlink:href="#shape-info"></use></svg></a></p></h2>
+
+  </header>
+  <div class="trees">
+  <span class="tree-icon"></span>
+  <span class="forest-icon"></span>
+  </div>
+  <div class="slider-container">
+  <ul id="labels-threshold">
+    
+      <li data-slider-value="0">10%</li>
+    
+      <li data-slider-value="1">15%</li>
+    
+      <li data-slider-value="2">20%</li>
+    
+      <li data-slider-value="3">25%</li>
+    
+      <li data-slider-value="4">30%</li>
+    
+      <li data-slider-value="5">50%</li>
+    
+      <li data-slider-value="6">75%</li>
+    
+  </ul>
+  <div class="range-box">
+    <div class="dots"></div>
+    <div id="progress-threshold" class="progress" style="width: 33.3333333333333%;"></div>
+    <input id="range-threshold" type="range" min="0" max="6" value="4" step="1">
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <div class="map-logos">
+  <a href="http://www.cartodb.com/" class="map-logo cartodb-logo" target="_blank">
+    <img src="./Interactive Map _ Global Forest Watch_files/new_logo.png" alt="CartoDB" title="CartoDB">
+  </a>
+  <a href="https://earthengine.google.org%27/" class="map-logo gee-logo" target="_blank">
+    <img style="position:relative; top:5px;" src="./Interactive Map _ Global Forest Watch_files/gee-transparent.png" alt="Powered by Google Earth Engine" title="Powered by Google Earth Engine">
+  </a>
+  </div>
+  <button class="btn dark medium footer-toggle" id="footerToggle">Show footer</button>
+
+  </div>
+
+
+  <article id="base_maps">
+  <h2 class="source_category_title">Base maps</h2>
+  <p class="source_category_description">Base maps provide a variety of map backgrounds for visual comparison with other data.</p>
+
+  <ul class="sources">
+  <li id="grayscale" class="source-item first">
+    <div class="source_header">
+      <strong class="source_title">Default</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <p class="first">The default base map is derived from Google Maps and shows political boundaries, major geological features, and other key areas of interest. Read the terms of service <a href="http://www.google.com/help/terms_maps.html" target="_blank">here</a>.</p>
+      </div>
+    </div>
+  </li>
+
+  <li id="terrain" class="source-item">
+    <div class="source_header">
+      <strong class="source_title">Terrain</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <p class="first">Google Maps’ terrain base map shows geographical and topographical details. Scale varies by location. Read the terms of service <a href="http://www.google.com/help/terms_maps.html" target="_blank">here</a>.</p>
+      </div>
+    </div>
+  </li>
+
+  <li id="satellite" class="source-item">
+    <div class="source_header">
+      <strong class="source_title">Satellite</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <p class="first">Google Maps’ satellite base map consists of a mix of recent (1–3 years old) mid-resolution and high-resolution satellite and aerial imagery from multiple providers for a given area. TerraMetrics TruEarth 15-meter imagery is the baselayer imagery that covers the entire globe, and Google adds high-resolution imagery, where available, over TruEarth 15-meter imagery to provide additional visual details. Read the terms of service <a href="http://www.google.com/help/terms_maps.html" target="_blank">here</a>.</p>
+      </div>
+    </div>
+  </li>
+
+  <li id="roads" class="source-item">
+    <div class="source_header">
+      <strong class="source_title">Roads</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <p class="first">Google Maps Road Network base map shows the extent of collected and generated road features. The map is proprietary to Google and cannot be downloaded. Scale varies by location. Read the terms of service <a href="http://www.google.com/help/terms_maps.html" target="_blank">here</a>.</p>
+      </div>
+    </div>
+  </li>
+
+  <li id="treeheight" class="source-item">
+    <div class="source_header">
+      <strong class="source_title">Tree Height</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <p class="first">This base map depicts the highest points in the forest canopy. Its spatial resolution is 0.6 miles (1 km) and was validated against data from a network of nearly 70 ground sites around the world. It was developed by a team of scientists from NASA’s Jet Propulsion Laboratory, Pasadena, California; the University of Maryland, College Park; and Woods Hole Research Center, Falmouth, Massachusetts. The map was created using 2.5 million carefully screened, globally distributed laser pulse measurements from space. The light detection and ranging (Lidar) data were collected in 2005 by the Geoscience Laser Altimeter System instrument on NASA’s Ice, Cloud, and land Elevation Satellite (ICESat).</p>
+
+        <p class="credits"><strong>Source:</strong> <a href="http://www.nasa.gov/topics/earth/features/forest20120217.html" target="_blank">www.nasa.gov/topics/earth/features/forest20120217.html</a></p>
+      </div>
+    </div>
+  </li>
+  <li id="dark" class="source-item">
+    <div class="source_header">
+      <strong class="source_title">Dark matter</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <p class="first">Dark Matter is a base map developed by <a href="http://cartodb.com/attributions#basemaps" target="_blank">CartoDB</a>, with <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, and <a href="http://www.naturalearthdata.com/" target="_blank">natural earth</a> data.</p>
+      </div>
+    </div>
+  </li>
+  <li id="positron" class="source-item">
+    <div class="source_header">
+      <strong class="source_title">Positron</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <p class="first">Positron is a base map developed by <a href="http://cartodb.com/attributions#basemaps" target="_blank">CartoDB</a>, with <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, and <a href="http://www.naturalearthdata.com/" target="_blank">natural earth</a> data.</p>
+      </div>
+    </div>
+  </li>
+  <li id="landsat" class="source-item last">
+    <div class="source_header">
+      <strong class="source_title">Landsat Composites</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <p class="first">These base maps show a composite of the best annual Landsat satellite imagery (USGS/NASA) from 1999 to 2012. The annual composites were generated by Google in the Google Earth Engine. The Landsat composites display “Top-of-Atmosphere,” or the most cloud-free, images at 30-meter resolution. More information on Landsat imagery is available from the <a href="http://landsat.usgs.gov/" target="_blank">Landsat website</a>. Read the terms of service <a href="http://www.google.com/help/terms_maps.html" target="_blank">here</a>.</p>
+        <p><strong>Note:</strong> Because of the very large file size of the annual Landsat composite layers, images will take some time to reload on the website and as you zoom in and out.</p>
+      </div>
+    </div>
+  </li>
+  </ul>
+  </article>
+
+  <article id="countries">
+  <h2 class="source_category_title">Countries</h2>
+  <div class="single-source-item">
+  <p>Data provided on the <a href="http://www.globalforestwatch.org/countries">country pages</a> come from a range of sources. Read below to learn more about each.</p>
+
+  <h3 class="overview_title">Food and Agriculture Organization of the United Nations (FAO)</h3>
+  <p>Many figures on the country pages come from the FAO’s Global Forest Resources Assessment (FRA). As stated on the <a href="http://www.fao.org/forestry/fra/fra2010/en/" target="_blank">FAO website</a>, the FRA is a comprehensive assessment of forests and forestry that examines the current status and recent trends for different variables covering the extent, condition, uses and values of forests. To create the report, information was collated from 233 countries and territories for four points in time: 1990, 2000, 2005 and 2010. FAO worked closely with countries and specialists in the design and implementation of FRA 2010 - through regular contact, expert consultations, training for national correspondents and ten regional and subregional workshops. More than 900 contributors were involved, including 178 officially nominated national correspondents and their teams. To learn more, visit the <a href="http://www.fao.org/forestry/fra/fra2010/en/" target="_blank">FAO website</a> or <a href="http://www.fao.org/docrep/017/i3110e/i3110e.pdf" target="_blank">download the full report</a>.</p>
+
+  <p>The country pages also present data from <a href="http://faostat.fao.org/" target="_blank">FAOSTAT</a>, FAO’s platform for data collection and dissemination. According to FAO, the FAOSTAT <a href="http://faostat3.fao.org/faostat-gateway/go/to/download/G2/*/E" target="_blank">Emissions Land Use database</a> provides country-level estimates of greenhouse gas (GHG) emissions based on FAOSTAT activity data using Tier 1 computations, following 2006 Intergovernmental Panel on Climate Change (IPCC) Guidelines for National GHG Inventories. Changes in carbon stocks and ecosystem function linked to anthropogenic activities such as land-use change and land management determine emissions and removals of GHG that are reported by countries for the IPCC Land Use, Land-Use Change and Forestry (LULUCF) categories. To learn more, visit the <a href="http://faostat.fao.org/" target="_blank">FAOSTAT website</a>.</p>
+
+  <p>Data on the economic value and employment in national forestry sectors are reported from “Contribution of the forestry sector to national economies, 1990-2006” by A. Lebedys. Forest Finance Working Paper FSFM/ACC/08. FAO, Rome. To learn more, <a href="ftp://ftp.fao.org/docrep/fao/011/k4588e/k4588e00.pdf" target="_blank">download the full report</a>.</p>
+  <p><strong>Figures:</strong> type of forest, economic value of the forestry sector, employment, carbon stocks, emissions</p>
+
+  <h3 class="overview_title">University of Maryland (UMD)/Google</h3>
+  <p>Figures for tree cover, loss, and gain presented on the country and global overview pages were calculated using tabular data from a 2013 publication, “<a href="http://www.sciencemag.org/content/342/6160/850" target="_blank">High-Resolution Global Maps of 21st-Century Forest Cover Change</a>" by Hansen <em>et al</em>.</p>
+
+  <p>To learn more, visit the <a href="http://www.globalforestwatch.org/sources#forest_change">Forest Change tab</a> on the Data page.</p>
+
+  <p><strong>Figures:</strong> Hansen/UMD/Google/USGS/NASA circle graphs, 2012 tree cover, all global overview graphs and rankings</p>
+
+  <h3 class="overview_title">European Space Agency (GlobCover)</h3>
+  <p>Data from the European Space Agency’s GlobCover was used to visualize tree cover on the country pages. As stated on the <a href="http://due.esrin.esa.int/globcover/" target="_blank">ESA website</a>, GlobCover is an initiative which began in 2005 in partnership with a number of organizations. The aim of the project was to develop a service capable of delivering global composites and land cover maps using input observations from the 300m MERIS sensor on board the ENVISAT satellite mission. ESA makes available the land cover maps, which cover 2 periods: December 2004 - June 2006 and January - December 2009. To learn more, visit the <a href="http://due.esrin.esa.int/globcover/" target="_blank">GlobCover website</a> or <a href="http://due.esrin.esa.int/globcover/LandCover2009/Globcover2009_V2.3_Global_.zip" target="_blank">download the 2009 GlobCover map</a>.</p>
+
+  <p><strong>Figures:</strong> Map of tree cover</p>
+
+  <h3 class="overview_title">The Rights and Resources Initiative (RRI)</h3>
+  <p>Figures on forest tenure come from the Rights and Resource Initiative and are based on data adapted from the <a href="http://www.rightsandresources.org/documents/index.php?pubID=1075" target="_blank">Tropical Forest Tenure Assessment</a>. The goal of the report is to present and analyze the state of forest tenure in much of the world’s tropical forests. As stated on <a href="http://www.rightsandresources.org/programs.php?id=237" target="_blank">RRI's website</a>, the tenure systems represented by this data is sourced from governments, and therefore only reflects those systems of natural resource management that are legally recognized by those governments. Such officially outlined tenure systems fall under the category of statutory tenure regimes within these studies. The official data often presents an incomplete picture of the institutions that actually manage natural resources, particularly at a local level. To learn more, visit the <a href="http://www.rightsandresources.org/programs.php?id=237" target="_blank">RRI forest tenure page</a>.</p>
+
+  <p><strong>Figures:</strong> Forest tenure</p>
+  </div>
+  </article>
+
+  <article id="code">
+  <h2 class="source_category_title">Code</h2>
+  <div class="single-source-item">
+  <p>The Global Forest Watch website and Global Forest Watch API are both collaborative and open-source projects hosted on <a href="https://github.com/" target="_blank">GitHub</a>. If you would like to contribute source code, please send pull requests to our <a href="https://github.com/Vizzuality/gfw" target="_blank">website repository</a> or <a href="https://github.com/wri/gfw-api" target="_blank">API repository</a>. All Global Forest Watch source code is released under <a href="http://opensource.org/licenses/MIT" target="_blank">The MIT License (MIT)</a>.</p>
+  </div>
+  </article>
+
+  <article id="earth_engine">
+  <h2 class="source_category_title">GFW on Google Earth Engine</h2>
+  <div class="single-source-item">
+  <p>The following data sets on Global Forest Watch were created using <a href="http://earthengine.google.org/" target="_blank">Google Earth Engine</a>, Google's geospatial analysis tool: the University of Maryland/Google's annual tree cover loss, tree cover gain, and tree cover data, and the Landsat base maps.</p>
+
+  <p>Additionally, the tropical forest carbon stocks layer is being stored and served from <a href="http://mapsengine.google.com/" target="_blank">Google Maps Engine</a> and styled by Earth Engine, the Imazon SAD data are created using Imazon's algorithms on Earth Engine, and analyses of the University of Maryland/Google data, as well as computations of area, are being performed by Earth Engine.</p>
+
+  <p><a href="http://earthengine.google.org/signup" target="_blank">Sign up here</a> to access the full suite of Earth Engine tools and data, including data available on Global Forest Watch, 40+ years of Landsat data, many additional satellite data sets, elevation data, atmospheric data, and data you upload yourself. For information about how to analyze Global Forest Watch data, please visit our <a href="https://sites.google.com/site/earthengineapidocs/global-forest-watch-tutorial" target="_blank">tutorial</a>.</p>
+  </div>
+  </article>
+
+  <article id="arcgis">
+  <h2 class="source_category_title">GFW on ArcGIS Online</h2>
+  <div class="single-source-item">
+  <p>View <a href="http://gfw.maps.arcgis.com/" target="_blank">Global Forest Watch’s ArcGIS Online page</a> to browse for downloadable data, maps, and spatial data resources. View our data, overlay our data sets with your own, or browse any of the available data layers available through ArcGIS Online. With a free <a href="http://www.esri.com/software/arcgis/arcgisonline/features/free-personal-account" target="_blank">ArcGIS Online public account</a> you can create, store, and manage maps, apps, and data, and share them with others.</p>
+  </div>
+  </article>
+
+  <article id="data_policy">
+  <h2 class="source_category_title">Data policy &amp; standards</h2>
+  <p class="source_category_description">Learn more about Global Forest Watch’s commitment to high quality, open data.</p>
+
+  <ul class="sources">
+  <li id="data_standards" class="source-item first">
+    <div class="source_header">
+      <strong class="source_title">Data standards</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <p>Global Forest Watch is committed to providing the highest-quality data on the world’s forests that is currently available. All of the data provided on GFW have been assessed with respect to several indicators of quality, including timeliness, accuracy, completeness, geographic coverage, innovation, and objectivity.</p>
+
+        <p>In some cases, the best available data still have known shortcomings with respect to one or more of these indicators. In those cases, we provide a “caution” explaining known issues or inaccuracies.</p>
+
+        <p>Global Forest Watch has an open data policy and commits to make our data, and that of our partners, open, discoverable, downloadable, and usable. We believe that open data enables the innovation, information sharing, analysis, and transparency required to support policies that better manage and sustain the world’s forests.</p>
+      </div>
+    </div>
+  </li>
+
+  <li id="open_data" class="source-item">
+    <div class="source_header">
+      <strong class="source_title">Open data policy</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <p>Global Forest Watch has an open data policy, intended to provide information free of constraints and restrictions on use. All of the data, graphics, charts and other material we produce carry the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons CC BY 4.0</a> licensing. This means you are able to download, share, and adapt the data for any use, including commercial and noncommercial uses. You must attribute the data appropriately, using the information provided in the data set description.</p>
+
+        <p>Some data displayed on the Global Forest Watch platform was developed by other organizations and may carry other licensing or permissions. For data sets not produced by GFW, we provide links to download data from the original source when they are available. Please refer to the original licensing for these data sets.</p>
+
+        <p>Most of the photographs featured on this site have either been licensed under non-transferable terms, or have been acquired from photo sharing sites that have their own policies for public use. Unless indicated otherwise, the Creative Commons license described above does not apply to photographs and images used on this site.</p>
+      </div>
+    </div>
+  </li>
+
+  <li id="data_sharing" class="source-item last">
+    <div class="source_header">
+      <strong class="source_title">Data sharing</strong>
+      <i class="expand_arrow"></i>
+    </div>
+
+    <div class="source_body">
+      <div class="source_summary">
+        <h3 class="overview_title">Terms of use</h3>
+        <ul class="bullets">
+          <li>For data sets produced by GFW, you are free to use, distribute, copy, modify, and display the data for commercial and noncommercial purposes.</li>
+          <li>You are free to use maps, graphics, charts, and other representations of data on the GFW website, with the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons CC BY 4.0</a> license.</li>
+          <li>Licensing is determined for each individual data set—please refer to the licensing text for detailed information.</li>
+          <li>You must attribute the data as indicated in the metadata or licensing for each individual data set.</li>
+          <li>You must not imply that Global Forest Watch endorses your use of the data, or use the Global Forest Watch logo in conjunction with such use.</li>
+          <li>Through accessing the GFW site you have acknowledged and agreed to our <a href="http://www.globalforestwatch.org/terms" target="_blank">Terms of Service</a>.</li>
+        </ul>
+
+        <h3 class="overview_title">Permissions &amp; licensing</h3>
+        <p>Except as noted below, all material on this site carries the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons CC BY 4.0</a> license, which permits unrestricted reuse of GFW content when proper attribution is provided. This means you are free to copy, display, and distribute GFW’s work, or include our content in derivative works, under the following conditions:</p>
+
+        <ul class="bullets">
+          <li><strong>Attribution.</strong> You must clearly attribute the work and provide a link back to the work on www.globalforestwatch.org. Doing so ensures that people access the latest available information, in the event that the publication is revised or more research is published. Click <a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank">here</a> for the full legal code of Creative Commons CC BY 4.0 license. Some content on this site may carry additional copyright restrictions. GFW has made every effort to clearly label such content.</li>
+
+          <li><strong>Photographs.</strong> Most of the photographs featured on this site have either been licensed under nontransferable terms, or have been acquired from photo-sharing sites such as Flickr that have their own policies for public use. Unless indicated otherwise, the Creative Commons CC BY 4.0 license described above does not apply to photographs and images used on this site.</li>
+
+          <li><strong>Charts, Graphs, &amp; Maps.</strong> Charts, graphs, and maps produced by GFW may be used according to the Creative Commons CC BY 4.0 license. Where graphs employ data from third parties, we may not be able to grant permissions to the original data used in these charts, although such permissions may be granted by the owners of the data. In these cases, please contact the third-party organizations directly to ask about permissions. If you have any questions about citing or reusing GFW content, please visit the <a href="http://www.globalforestwatch.org/howto/data">How to page</a> or <a href="mailto:gfw@wri.org">contact us</a>.</li>
+        </ul>
+      </div>
+    </div>
+  </li>
+  </ul>
+  </article>
+
+  <article id="regular_dialog" class="sources">
+  <div class="source_header">
+  <strong class="source_title">Explore the map</strong>
+  <i class="expand_arrow"></i>
+  </div>
+
+  <div class="source_body">
+  <div class="source_summary">
+    <p class="first">Use the colored tabs above the map to view different categories of data. Select a data layer to activate it in the map, or click the information icon located next to each data layer to learn more.</p>
+    <p>As you turn on data layers, they will appear in the legend on the left-hand side of the map. Multiple data layers can be turned on at once.</p>
+    <p>Most data layers under the Forest Change tab have a timeline located at the bottom of the map. Press the play button to view an animation of the entire time series of data or drag the ends of the timeline to select a specific period of time.</p>
+    <p><img alt="Screenshot 1" src="./Interactive Map _ Global Forest Watch_files/screenshot-1-4af7324aec6ca11225355621c8c93bf4.png"></p>
+    <p>Some data layers allow you to click on individual data points and polygons (i.e., shapes) to view additional information. This feature applies to NASA active fires (within the Forest Change tab) and/or data within the Forest Use, Conservation, People, and Stories tabs.</p>
+    <p>Learn more about exploring forest data on the <a href="http://www.globalforestwatch.org/howto">How To Page</a>.</p>
+  </div>
+  </div>
+  </article>
+
+  <article id="alerts_dialog" class="sources">
+  <div class="source_header">
+  <strong class="source_title">Subscribe to alerts</strong>
+  <i class="expand_arrow"></i>
+  </div>
+
+  <div class="source_body">
+  <div class="source_summary">
+    <p class="first">The shaded blue regions on the map are protected areas.</p>
+    <p>1. Select a protected area and click “Analyze” within the info window that appears.</p>
+    <p>2. Click the subscribe icon (<img alt="Image5" src="./Interactive Map _ Global Forest Watch_files/image5-59e288de9ad2e25e49be7e9062ee6e4b.png">) located at the bottom of the window with analysis results and enter your email address.</p>
+    <p></p>
+    <p>Learn more about subscribing to alerts on the <a href="http://www.globalforestwatch.org/howto">How To Page</a>.</p>
+  </div>
+  </div>
+  </article>
+  <article id="country_dialog_jurisdiction" class="source-article">
+  <div class="source_header">
+  <strong class="source_title">Analyze forest change within a country or subnational jurisdiction</strong>
+  <i class="expand_arrow"></i>
+  </div>
+
+  <div class="source_body">
+  <div class="source_summary">
+    <p>1. Using the tabs above the map, turn on the Forest Change data layer you wish to analyze (e.g., tree cover loss). </p>
+    <p>2. Define the time period of your analysis by dragging the handles of the timeline or by selecting a time interval.</p>
+    <p><img alt="Image6" src="./Interactive Map _ Global Forest Watch_files/image6-2e5dbf1772f294a7a12a0be614048709.png"></p>
+    <p>3. Select the analysis icon (<img alt="Image7" src="./Interactive Map _ Global Forest Watch_files/image7-e52363e8ba17c149b2c77c3b06f78ef4.png">) on the right-hand side of the map and choose “Country or region."</p>
+    <p>4. Choose a country and/or region and click “Analyze.”</p>
+    <p><img alt="Image8" src="./Interactive Map _ Global Forest Watch_files/image8-b688b1e624934575358d2e617b08e391.png"></p>
+    <p>Learn more about analyzing forest change data within a country or subnational jurisdiction on the <a href="http://www.globalforestwatch.org/howto/analyze-forest-change">How To page</a>.</p>
+  </div>
+  </div>
+  </article>
+  <article id="country_dialog_interest" class="source-article">
+  <div class="source_header">
+  <strong class="source_title">Visualize data for your country of interest</strong>
+  <i class="expand_arrow"></i>
+  </div>
+
+  <div class="source_body">
+  <div class="source_summary">
+    <p>1. Select a country using the window on the right-hand side of the map.</p>
+    <p><img alt="Image2" src="./Interactive Map _ Global Forest Watch_files/image2-25a1bc85eca0c916a2c70d1b173208a3.png"></p>
+    <p>2. If available, country data layers will then appear. Click on the available layers within the window or within the country tab above the map to turn them on.</p>
+    <p><img alt="Image4" src="./Interactive Map _ Global Forest Watch_files/image4-aa3beb7eee3255009912436fb1fd2f74.png"><img alt="Image3" src="./Interactive Map _ Global Forest Watch_files/image3-5245d5dc1b59f0bdae67dffae58d9433.png"></p>
+    <p>Learn more about analyzing forest change data within a country or subnational jurisdiction on the <a href="http://www.globalforestwatch.org/howto">How To page</a>.</p>
+  </div>
+  </div>
+  </article>
+  <article id="how_to_adjust_date">
+  <div class="source_header">
+  <strong class="source_title">CHANGE THE PERIOD OF ANALYSIS</strong>
+  <i class="expand_arrow"></i>
+  </div>
+
+  <div class="source_body">
+  <div class="source_summary">
+    <div class="mobile-hide">
+      <p class="first">Interested in forest change statistics for a different time period? Define the time period you wish to analyze by dragging the handles of the timeline on the map or (where applicable) by selecting a time interval.</p>
+
+    </div>
+    <div class="mobile-show">
+      <p class="first">Interested in forest change statistics for a different time period? Define the time period you wish to analyze by selecting a time interval or date using the bar located on the bottom of the map.</p>
+    </div>
+  </div>
+  </div>
+  </article>
+
+  <article id="view_existing_global_data">
+  <div class="source_header">
+  <strong class="source_title">View existing global data</strong>
+  <i class="expand_arrow"></i>
+  </div>
+
+  <div class="source_body">
+  <div class="source_summary">
+    <div class="mobile-hide">
+      <p class="first">Use the tabs above the map to turn on GFW's global data layers. Click the information icons in the drop down menus to learn more about each data set.</p>
+      <p>Please note that some global layers, such as those under the "Forest Use" and "People" tabs, contain data for a select number of countries and are not truly "global" in nature. Rather, these data sets are a compilation of individual country data aggregated into joint layers (e.g., oil palm concessions).</p>
+    </div>
+    <div class="mobile-show">
+      <p>Return to the data layers menu and select "Global data" to turn on one of GFW's global data layers on the map. Click the information icons in the drop down menus to learn more about each data set.</p>
+      <p>Please note that some global layers, such as those under the "Forest Use" and "People" tabs, contain data for a select number of countries and are not truly "global" in nature. Rather, these data sets are a compilation of individual country data aggregated into joint layers (e.g., oil palm concessions).</p>
+    </div>
+  </div>
+  </div>
+  </article>
+
+  <article id="analyze_a_shape_on_the_map">
+  <div class="source_header">
+  <strong class="source_title">ANALYZE A SHAPE ON THE MAP</strong>
+  <i class="expand_arrow"></i>
+  </div>
+
+  <div class="source_body">
+  <div class="source_summary">
+    <p class="first">This feature allows you to analyze forest change statistics for individual data shapes (i.e, polygons) within certain layers. Analysis is currently available for most data layers under the Land Use, Conservation, and People tabs, in addition to all country data layers. Turn on the layer you wish to analyze and follow the instructions.</p>
+    <p>For more help analyzing a data shape on the map, visit the <a href="http://www.globalforestwatch.org/howto/conduct-analysis-and-subscribe-to-alerts?t=analyze-or-subscribe-to-alerts-for-a-land-use-concession-or-protected-area">How To page</a>.</p>
+  </div>
+  </div>
+  </article>
+
+  <article id="see_how_to_analyze_a_shape_on_the_map">
+  <div class="img-box">
+  <div id="data-tab-play" class="play"></div>
+  <img id="data-tab-img" src="./Interactive Map _ Global Forest Watch_files/infowindow-example.gif">
+  </div>
+  </article>
+
+  <article id="subscribe_to_a_shape_on_the_map">
+  <div class="source_header">
+  <strong class="source_title">SUBSCRIBE TO A SHAPE ON THE MAP</strong>
+  <i class="expand_arrow"></i>
+  </div>
+
+  <div class="source_body">
+  <div class="source_summary">
+    <p class="first">This feature allows you to subscribe to forest change alerts and user stories for individual data shapes (i.e, polygons) within certain layers. Subscription is currently available for most data layers under the Land Use, Conservation, and People tabs, in addition to all country data layers. Turn on the layer you wish to subscribe to and follow the instructions.</p>
+    <p>For more help subscribing a data shape on the map, visit the <a href="http://www.globalforestwatch.org/howto/subscribe-to-alerts-and-users-stories?t=subscribe-to-a-data-shape-on-the-map">How To page</a>.</p>
+  </div>
+  </div>
+  </article>
+
+  <article id="near_real_time">
+  <div class="source_header">
+  <strong class="source_title">Forest change alerts</strong>
+  <i class="expand_arrow"></i>
+  </div>
+
+  <div class="source_body">
+  <div class="source_summary">
+    <p class="first">GFW contains a number of alert systems that you can subscribe to, including:</p>
+    <ul class="bullets">
+    <li>FORMA alerts</li>
+    <li>Terra-i alerts</li>
+    <li>SAD alerts</li>
+    <li>QUICC alerts</li>
+     </ul>
+    <p>To learn more about each data set click the information icons in the dropdown menu under the Forest Change tab located above the map.</p>
+  </div>
+  </div>
+  </article>
+
+  </strong></div><strong>
+
+  <div id="footerFixed" class="footer-fixed">
+  <div class="footer-fixed-container">
+  <div class="footer-share-container">
+  <div class="footer-share">
+  <p>Spread the word. <strong>Share Global Forest Watch.</strong></p>
+  <div class="share_buttons">
+    <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Interactive Map _ Global Forest Watch_files/7tUlZKGPU61.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Interactive Map _ Global Forest Watch_files/7tUlZKGPU61(1).html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+    <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="./Interactive Map _ Global Forest Watch_files/tweet_button.bd0320cab493e168513c7173184c1d5c.en.html" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="position: static; visibility: visible; width: 97px; height: 20px;"></iframe>
+    <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1439809793331" name="I0_1439809793331" src="./Interactive Map _ Global Forest Watch_files/fastbutton.html" data-gapiattached="true" title="+1"></iframe></div>
+    <div class="fb-like fb_iframe_widget" data-href="http://www.globalforestwatch.org/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=191&amp;href=http%3A%2F%2Fwww.globalforestwatch.org%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false"><span style="vertical-align: bottom; width: 80px; height: 20px;"><iframe name="f15e2cf8e" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="./Interactive Map _ Global Forest Watch_files/like.html" style="border: none; visibility: visible; width: 80px; height: 20px;" class=""></iframe></span></div>
+  </div>
+  </div>
+  <div class="footer-share keep-updated">
+  <p>Sign up to <strong>receive updates</strong>.</p>
+  <p>
+      <a href="http://www.wri.org/global-forest-watch-stay-informed" title="Receive Global Forest Watch updates" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Footer&#39;, &#39;Click&#39;, &#39;Subscribe&#39;);">
+        <svg><use xlink:href="#shape-mail"></use></svg></a>
+
+      <a href="https://twitter.com/globalforests" title="Follow @globalforests" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Footer&#39;, &#39;Click&#39;, &#39;Twitter&#39;);">
+        <svg><use xlink:href="#shape-twitter"></use></svg></a>
+      <a href="http://instagram.com/globalforests" title="Follow @globalforests Instagram" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Footer&#39;, &#39;Click&#39;, &#39;Instagram&#39;);">
+        <svg><use xlink:href="#shape-instagram"></use></svg></a>
+  </p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </strong>
+  <footer id="footerView" class="layout-footer">
+  <div class="apps-footer mobile-hide">
+  <div class="inner">
+    <ul>
+      <li><a class="world" href="./Interactive Map _ Global Forest Watch_files/map.html"><svg><use xlink:href="#shape-world"></use></svg><h3>GFW Interactive Map</h3></a></li>
+      <li><a class="shape-country" href="http://www.globalforestwatch.org/countries"><svg><use xlink:href="#shape-country"></use></svg><h3>Country profiles &amp; rankings</h3></a></li>
+      <li><a class="fire mobile-friendly" href="http://fires.globalforestwatch.org/"><svg><use xlink:href="#shape-fire"></use></svg><h3>Fires</h3></a></li>
+      <li><a class="commodities mobile-friendly" href="http://commodities.globalforestwatch.org/"><svg><use xlink:href="#shape-commodities"></use></svg><h3>Commodities</h3></a></li>
+      <li><a class="develop" href="http://www.globalforestwatch.org/getinvolved/develop-your-own-app"><svg><use xlink:href="#shape-develop"></use></svg><h3>Develop your own app</h3></a></li>
+      <li><a class="data mobile-friendly" href="http://data.globalforestwatch.org/"><svg><use xlink:href="#shape-download"></use></svg><h3>Download data</h3></a></li>
+      <li><a href="http://blog.globalforestwatch.org/"><svg><use xlink:href="#shape-blog"></use></svg><h3>Blog</h3></a></li>
+      <!-- <li><a class="soon" href="/explore#coming-soon"><svg><use xlink:href="#shape-soon"></use></svg><h3>Coming soon</h3></a></li> -->
+    </ul>
+  </div>
+  </div>
+  <div class="site-map mobile-hide">
+  <div id="siteMap" class="inner">
+    
+  <div id="footerMenu" class="mobile-menu">
+      <div class="row">
+        <div class="col">
+          <h3><a href="http://www.globalforestwatch.org/explore">Explore</a></h3>
+          <ul>
+            <li><a href="./Interactive Map _ Global Forest Watch_files/map.html">GFW Interactive Map</a></li>
+            <li><a href="http://www.globalforestwatch.org/countries">Country Profiles &amp; Rankings</a></li>
+            <li><a class="mobile-friendly" href="http://commodities.globalforestwatch.org/">Commodities</a></li>
+            <li><a class="mobile-friendly" href="http://fires.globalforestwatch.org/">Fires</a></li>
+            <li><a href="http://www.globalforestwatch.org/explore/applications">All applications</a></li>
+            <li><a class="mobile-friendly" href="http://data.globalforestwatch.org/">Download Data</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3><a href="http://www.globalforestwatch.org/stayinformed">Stay informed</a></h3>
+          <ul>
+            <li><a href="http://blog.globalforestwatch.org/">Blog</a></li>
+            <li><a href="http://www.globalforestwatch.org/stayinformed/crowdsourced-stories">Crowdsourced stories</a></li>
+            <li><a href="http://www.wri.org/global-forest-watch-stay-informed" target="_blank">Newsletter</a></li>
+            <li><a href="http://www.globalforestwatch.org/stayinformed/publications">Publications</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3><a href="http://www.globalforestwatch.org/getinvolved">GET INVOLVED</a></h3>
+          <ul>
+            <li><a href="http://www.globalforestwatch.org/getinvolved/develop-your-own-app">Develop your own app</a></li>
+            <li><a href="http://www.globalforestwatch.org/stories/new">Submit a story</a></li>
+            <li><a href="http://www.globalforestwatch.org/getinvolved/share-data">Share data</a></li>
+            <li><a href="http://www.globalforestwatch.org/getinvolved/help-improve-data">Help improve data</a></li>
+            <li><a href="https://groups.google.com/forum/#!forum/globalforestwatch" target="_blank">Join the discussion</a></li>
+            <li><a href="http://www.globalforestwatch.org/getinvolved/apply-to-the-small-grants-fund">Apply to the Small Grants Fund</a></li>
+            <li><a href="http://www.globalforestwatch.org/getinvolved/provide-feedback" target="_blank">Provide feedback</a></li>
+            <li><a href="http://www.globalforestwatch.org/getinvolved/help-improve-translations">Help improve translations</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3><a href="http://www.globalforestwatch.org/howto">How to</a></h3>
+          <ul class="submenu">
+            <li><a href="http://www.globalforestwatch.org/howto/view-data">Visualize data</a></li>
+            <li><a href="http://www.globalforestwatch.org/howto/view-statistics">View statistics</a></li>
+            <li><a href="http://www.globalforestwatch.org/howto/analyze-forest-change">Analyze forest change</a></li>
+            <li><a href="http://www.globalforestwatch.org/howto/subscribe-to-alerts-and-user-stories">Subscribe to alerts and user stories</a></li>
+            <li><a href="http://www.globalforestwatch.org/howto/submit-a-story">Submit a story</a></li>
+            <li><a href="http://www.globalforestwatch.org/howto/odp">Open Data Portal</a></li>
+            <li><a href="http://www.globalforestwatch.org/howto/faqs">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3><a href="http://www.globalforestwatch.org/about">About</a></h3>
+          <ul>
+            <li><a href="http://www.globalforestwatch.org/about/about-gfw">About GFW</a></li>
+            <li><a href="http://www.globalforestwatch.org/about/the-gfw-partnership">The GFW partnership</a></li>
+            <li><a href="http://www.globalforestwatch.org/about/videos">Videos</a></li>
+            <li><a href="http://www.globalforestwatch.org/about/awards_and_testimonials">Awards &amp; testimonials</a></li>
+            <li><a href="http://www.globalforestwatch.org/about/data_policy">Data policy</a></li>
+            <li><a href="http://www.globalforestwatch.org/about/contact-us">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div></div>
+  </div>
+  <div class="partner-box">
+  <div class="inner">
+    <h4>A partnership convened by</h4>
+    <div class="row">
+      <a href="http://www.wri.org/" target="_blank" class="wri-logo">
+
+      </a>
+      <p class="address">
+        <strong>Global Forest Watch</strong>
+        <span>10 G Street NE Suite 800, Washington, DC 20002, USA </span>
+        <span>Phone <a href="tel:+1 (202) 729-7600">+1 (202) 729-7600</a> Fax: <a href="tel:+1 (202) 720 7610">+1 (202) 720 7610</a></span>
+      </p>
+    </div>
+  </div>
+  </div>
+  <div class="footer-logos-btn">
+  <div class="inner">
+    <a class="btn gray" href="http://www.globalforestwatch.org/about/the-gfw-partnership">View all partners</a>
+  </div>
+  </div>
+  <div class="footer-logos">
+  <div class="inner">
+    <div id="footer-logos" class="logo-list logo-ul slick-initialized slick-slider"></div>
+   
+    <button type="button" data-role="none" class="slick-prev" style="display: block;">Previous</button><button type="button" data-role="none" class="slick-next" style="display: block;">Next</button></div>
+  </div>
+  </div>
+  <div class="terms">
+  <a href="http://www.globalforestwatch.org/terms">Terms of Service</a> ·
+  <a href="http://stats.pingdom.com/me0q72oj01nt" target="_blank">Global Forest Watch System Status</a> ·
+  <a href="mailto:gfw@wri.org">Contact us</a>
+  </div>
+  </footer>
+  <!-- TERMS DIALOG -->
+  <div id="sources" class="hidden">
+  <article id="mobile-friendly">
+  <div class="terms-modal">
+    <h2 class="source_title">Warning</h2>
+    <div class="source_body">
+      <p>The page you're trying to access is not mobile optimized</p>
+      <p><a class="btn green uppercase set-link">Continue</a></p>
+    </div>
+  </div>
+  </article>
+  </div>
+
+
+  </div>
+  </div>
+  <div class="mini-modal download-modal"></div>
+
+
+  <div class="backdrop"></div>
+
+  <!-- Modals -->
+  <div id="window" class="source_window">
+  <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="close"><svg><use xlink:href="#shape-close"></use></svg></a>
+  <div class="content-wrapper scroll-dark">
+  <div class="content" tabindex="0"></div>
+  </div>
+  </div>
+
+  <!-- Notifications -->
+  <div id="notifications" class="notifications">
+  <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="close"><svg><use xlink:href="#shape-close"></use></svg></a>
+  <div class="content"></div>
+  </div>
+
+  <!-- Mobile-Friendly -->
+  <div id="window-bottom" class="source_window_bottom">
+  <a href="http://www.globalforestwatch.org/map/3/15.00/27.00/ALL/grayscale/loss,forestgain?begin=2001-01-01&end=2014-01-31&threshold=30#" class="close"><svg><use xlink:href="#shape-close"></use></svg></a>
+  <div class="content-wrapper scroll-dark"><article id="mobile_friendly">
+  <div class="terms-modal">
+  <h2>Warning</h2>
+  <div class="source_body">
+    <p class="notranslate">The page you're trying to access is not optimized for a mobile device</p>
+    <div class="terms-form">
+      <div class="row">
+        <button class="btn gray uppercase close">Cancel</button>
+        <a href="" id="set-link" class="btn green uppercase">Continue</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  </article>
+  </div>
+  </div>
+  <div id="backdrop" class="backdrop"></div>
+
+  <section class="hidden">
+  <!-- EXAMPLES -->
+  <div id="success-example" data-type="success">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  </div>
+  <div id="info-example" data-type="info">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  </div>
+  <div id="error-example" data-type="error">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  </div>
+  <div id="warning-example" data-type="warning">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+  </div>
+
+  <!-- MAP -->
+  <div id="not-country-has-layers" data-type="info">
+  <p>This country has his own layers</p>
+  </div>
+  <div id="not-country-choose" data-type="info">
+  <p>You must select a country</p>
+  </div>
+  <div id="not-country-not-has-layers" data-type="info">
+  <p>No country data is available</p>
+  </div>
+  <div id="not-select-forest" data-type="info">
+  <p>You must select a forest change layer</p>
+  </div>
+  <div id="email-incorrect" data-type="error">
+  <p>Please enter a valid email address</p>
+  </div>
+  <div id="not-delete-analysis" data-type="info">
+  <p>Please discard your current analysis <button class="btn little white action" data-action="#analysis-delete">Discard analysis</button></p>
+  </div>
+  <div id="notif-enable-location" data-type="info">
+  <p>Please enable location services for this site to find your location on the map and reload the page</p>
+  </div>
+  <div id="notif-limit-exceed" data-type="error">
+  <p>File size exceeds the allowable limit that is fixed in 4 MB</p>
+  </div>
+  <div id="upload-error-server" data-type="error">
+  <p>Sorry, there was an error uploading the picture, please retry</p>
+  </div>
+  <div id="not-email-send" data-type="success">
+  <p>A link has been sent to your inbox</p>
+  </div>
+  <div id="not-clipboard-support" data-type="info">
+  <p>This browser does not support clipboard access, please update</p>
+  </div>
+  <div id="coordinates-not-standard" data-type="info">
+  <p>The provided coordinated has not the 0°0'0"NSEW standard. Using the Address searchbox instead.</p>
+  </div>
+  <div id="open-forest-change-layer" data-type="info">
+  <p>Please turn on a Forest Change layer to analyze before using the analysis tool.</p>
+  </div>
+  </section>
+</body>

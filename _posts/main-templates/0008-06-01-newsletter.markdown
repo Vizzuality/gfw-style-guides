@@ -8,6 +8,9 @@ categories: page-elements main-templates
 
 Newsletter emails use a template based on the appearance of the site, giving consistence to the global design.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/newsletter/index.html">preview</a>
+<a class="btn btn--download" download="newsletter-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip">download</a>
+
 ### Desktop
 
 <div class="gallery">
@@ -20,3 +23,9 @@ Newsletter emails use a template based on the appearance of the site, giving con
   </a>
 </div>
 
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/main-templates/newsletter/newsletter.html" csscode="snippets/main-templates/newsletter/newsletter-css.html" %}
+</div>
+
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/newsletter/index.html">preview</a>
+<a class="btn btn--download" download="newsletter-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip">download</a>

@@ -49,8 +49,13 @@
       display: flex;
       align-items: stretch;
       flex-wrap: wrap;
-      img, a {
-        margin: 20px auto;
+
+      .image-container {
+        margin: 0 auto 20px;
+        text-align: center;
+        img, a {
+          margin: 20px auto;
+        }
       }
     }
 
@@ -164,4 +169,38 @@
       opacity: 1;
     }
   }
+}
+
+.btn {
+  -webkit-font-smoothing: antialiased;
+  padding: 5px 20px;
+  border: 0;
+  border-radius: 40px;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: background 0.15s linear;
+  &:focus {
+    outline: 0;
+  }
+
+  &.btn--preview {
+    color: #555;
+    border: 1px solid #97BD3D;
+    &:hover {
+      background: #f2f2f2;
+    }
+  }
+
+  &.btn--download {
+    color: #fff;
+    background: #97BD3D;
+    &:hover {
+      background: #789631;
+    }
+  }
+
 }
