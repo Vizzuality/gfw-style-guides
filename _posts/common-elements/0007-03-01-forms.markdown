@@ -8,8 +8,8 @@ categories: page-elements common-elements
 Forms are composed of text fields, text areas, selectors, radio buttons, and more. These elements are designed
 to allow building a new form fast and easy.
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/forms/index.html">preview</a>
-<a class="btn btn--download" download="forms.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/forms/forms.zip">download</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/forms/index.html">preview</a>
+<a class="btn btn--download" download="forms.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/forms/forms.zip">download</a>
 
 ![alt text][forms]
 
@@ -63,8 +63,8 @@ text areas, etc.
   {% include code-snippet.html htmlcode="snippets/common-elements/forms/file-select.html" csscode="snippets/common-elements/forms/file-select-css.html" %}
 </div>
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/forms/index.html">preview</a>
-<a class="btn btn--download" download="forms.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/forms/forms.zip">download</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/forms/index.html">preview</a>
+<a class="btn btn--download" download="forms.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/forms/forms.zip">download</a>
 
 ### Submit Button
 

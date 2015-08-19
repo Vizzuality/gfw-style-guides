@@ -8,8 +8,8 @@ categories: page-elements main-templates
 
 Newsletter emails use a template based on the appearance of the site, giving consistence to the global design.
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/newsletter/index.html">preview</a>
-<a class="btn btn--download" download="newsletter-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip">download</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/index.html">preview</a>
+<a class="btn btn--download" download="newsletter-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip">download</a>
 
 ### Desktop
 
@@ -27,5 +27,5 @@ Newsletter emails use a template based on the appearance of the site, giving con
   {% include code-snippet.html htmlcode="snippets/main-templates/newsletter/newsletter.html" csscode="snippets/main-templates/newsletter/newsletter-css.html" %}
 </div>
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/newsletter/index.html">preview</a>
-<a class="btn btn--download" download="newsletter-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip">download</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/index.html">preview</a>
+<a class="btn btn--download" download="newsletter-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip">download</a>

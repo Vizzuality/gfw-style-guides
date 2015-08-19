@@ -7,8 +7,8 @@ categories: page-elements main-templates
 
 The content template is the most common template used in the site. Content pages are based on them.
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/content/index.html">preview</a>
-<a class="btn btn--download" download="content-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/content/content.zip">download</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/content/index.html">preview</a>
+<a class="btn btn--download" download="content-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/content/content.zip">download</a>
 
 ### Desktop
 
@@ -46,5 +46,5 @@ get back to the main content page tapping the top link.
   {% include code-snippet.html htmlcode="snippets/main-templates/content/content.html" csscode="snippets/main-templates/content/content-css.html" %}
 </div>
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/content/index.html">preview</a>
-<a class="btn btn--download" download="content-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/content/content.zip">download</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/content/index.html">preview</a>
+<a class="btn btn--download" download="content-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/content/content.zip">download</a>

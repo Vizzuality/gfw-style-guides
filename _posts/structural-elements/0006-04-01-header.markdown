@@ -8,8 +8,8 @@ categories: page-elements structural-elements
 The header is the part of the page where the section title and introduction is located.
 It is dark and distinctive, and it usually holds the most important calls to action.
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/header/index.html">preview</a>
-<a class="btn btn--download" download="header.zip" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/header/header.zip">download</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/header/index.html">preview</a>
+<a class="btn btn--download" download="header.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/header/header.zip">download</a>
 
 ![alt text][header]
 
@@ -32,8 +32,8 @@ slightly through it. The height of this header is always 500px.
   {% include code-snippet.html htmlcode="snippets/structural-elements/header/header.html" csscode="snippets/structural-elements/header/header-css.html" %}
 </div>
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/header/index.html">preview</a>
-<a class="btn btn--download" download="header.zip" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/header/header.zip">download</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/header/index.html">preview</a>
+<a class="btn btn--download" download="header.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/header/header.zip">download</a>
 
 
 [header]: /gfw-style-guides/images/posts/structural-elements/header/06-01-header.png "header"

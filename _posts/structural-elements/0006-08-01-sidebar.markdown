@@ -8,8 +8,8 @@ categories: page-elements structural-elements
 The sidebar is a structural element that is used in conjunction with the main content module.
 It is placed on its left, and usually holds tabs to switch between different content.
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/sidebar/index.html">preview</a>
-<a class="btn btn--download" download="sidebar.zip" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/sidebar/sidebar.zip">download</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/sidebar/index.html">preview</a>
+<a class="btn btn--download" download="sidebar.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/sidebar/sidebar.zip">download</a>
 
 ![alt text][sidebar]
 
@@ -33,8 +33,8 @@ options makes the content of that tab unfold.
   {% include code-snippet.html htmlcode="snippets/structural-elements/sidebar/sidebar.html" csscode="snippets/structural-elements/sidebar/sidebar-css.html" %}
 </div>
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/sidebar/index.html">preview</a>
-<a class="btn btn--download" download="sidebar.zip" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/sidebar/sidebar.zip">download</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/sidebar/index.html">preview</a>
+<a class="btn btn--download" download="sidebar.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/sidebar/sidebar.zip">download</a>
 
 
 [sidebar]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-01-sidebar.png "sidebar"
