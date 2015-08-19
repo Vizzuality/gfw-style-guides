@@ -22,7 +22,7 @@ download:
 The Global Forest Watch website uses four main templates to create all of its pages. They all share
 some structural elements but each one has its own features.
 
-
+<!--
 <div class="gallery">
   {% if page.img %}
     {% for img in page.img %}
@@ -54,5 +54,5 @@ some structural elements but each one has its own features.
     {% endfor %}
   {% endif %}
 </div>
-
+ -->
 Learn more about these templates and when to use them in the next pages.
