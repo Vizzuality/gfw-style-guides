@@ -7,6 +7,8 @@ categories: page-elements common-elements
 
 Use these styles to display listed information.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/lists/index.html">preview</a>
+<a class="btn btn--download" download="lists.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/lists/lists.zip">download</a>
 
 ### Simple list
 

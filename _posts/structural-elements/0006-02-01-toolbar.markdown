@@ -8,6 +8,9 @@ categories: page-elements structural-elements
 The toolbar is always the first element in a page, and is always present. It serves as a fast way to move across the site,
 with links to the most relevant sections and applications, a searchbox and the translation tool.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/toolbar/index.html">preview</a>
+<a class="btn btn--download" download="toolbar.zip" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/toolbar/toolbar.zip">download</a>
+
 
 ![alt text][toolbar]
 

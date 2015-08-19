@@ -8,6 +8,9 @@ categories: page-elements structural-elements
 The footer shows links to other sections, to social media profiles, partner logos and contact info.
 It is the last module in a page, and allows the user to continue exploring the GFW website seamlessly.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/footer/index.html">preview</a>
+<a class="btn btn--download" download="footer.zip" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/footer/footer.zip">download</a>
+
 ![alt text][footer]
 
 ![alt text][footer-structure]

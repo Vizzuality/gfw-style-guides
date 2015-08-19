@@ -7,6 +7,9 @@ categories: page-elements main-templates
 
 The content template is the most common template used in the site. Content pages are based on them.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/content/index.html">preview</a>
+<a class="btn btn--download" download="content-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/content/content.zip">download</a>
+
 ### Desktop
 
 The main elements of the content template are a header, a content module (usually with a sidebar),

@@ -8,6 +8,9 @@ categories: page-elements main-templates
 This template is used exclusively in the website’s home page. Its main function is to showcase some
 featured and important sections to the new user while explaining what the website is all about.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/home/index.html">preview</a>
+<a class="btn btn--download" download="home-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/home/home.zip">download</a>
+
 ### Desktop
 
 The desktop home template has a huge carousel showcasing some of the featured content in the site, followed by

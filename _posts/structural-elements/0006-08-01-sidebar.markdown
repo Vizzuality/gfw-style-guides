@@ -8,6 +8,9 @@ categories: page-elements structural-elements
 The sidebar is a structural element that is used in conjunction with the main content module.
 It is placed on its left, and usually holds tabs to switch between different content.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/sidebar/index.html">preview</a>
+<a class="btn btn--download" download="sidebar.zip" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/sidebar/sidebar.zip">download</a>
+
 ![alt text][sidebar]
 
 ![alt text][sidebar-meassures]

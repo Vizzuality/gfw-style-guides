@@ -7,6 +7,10 @@ categories: page-elements structural-elements
 
 This module follows the main content module and displays a selection of suggested and related content.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/related-content/index.html">preview</a>
+<a class="btn btn--download" download="related-content.zip" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/related-content/related-content.zip">download</a>
+
+
 ![alt text][related]
 
 ![alt text][related-meassures]

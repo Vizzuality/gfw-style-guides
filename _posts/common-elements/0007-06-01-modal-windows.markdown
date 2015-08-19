@@ -9,6 +9,9 @@ Modal windows are used to display information over other content. It hijacks the
 the user to interact with the rest of the page until closed. It is very useful to show extra information
 that is not displayed in the main page but is related to it.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/modal-window/index.html">preview</a>
+<a class="btn btn--download" download="modal-window.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/modal-window/modal-window.zip">download</a>
+
 ![alt text][modal]
 
 ### Code

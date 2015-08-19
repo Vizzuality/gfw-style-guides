@@ -8,6 +8,9 @@ categories: page-elements common-elements
 Links and buttons are used to allow navigation between different pages of the website. Regular links are
 usually used within paragraphs while buttons, on the other hand, are used independently, calling for an action.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/links-and-buttons/index.html">preview</a>
+<a class="btn btn--download" download="links-buttons.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/links-and-buttons/links-buttons.zip">download</a>
+
 ### Links
 
 Regular links are usually used within paragraphs. They are green and slightly thicker than the rest of the text to

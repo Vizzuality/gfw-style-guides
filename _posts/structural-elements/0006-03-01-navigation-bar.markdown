@@ -8,6 +8,9 @@ categories: page-elements structural-elements
 The navigation bar is the main way to navigate the website. It contains links to all the sections,
 and it’s also used to display the GFW logo.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/navigation-bar/index.html">preview</a>
+<a class="btn btn--download" download="navigation-bar.zip" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/navigation-bar/navigation-bar.zip">download</a>
+
 ![alt text][navbar]
 
 The navigation bar shows the main sections. When the user is in one of the sections, it is visually

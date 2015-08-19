@@ -8,6 +8,9 @@ categories: page-elements main-templates
 This templates is very similar to the content template, but is intended for lists of content such as
 search results or any directory of content pages.
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/directory/index.html">preview</a>
+<a class="btn btn--download" download="directory-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/directory/directory.zip">download</a>
+
 ### Desktop
 
 The directory template has a header module with a page title, space for the content and the footer.
