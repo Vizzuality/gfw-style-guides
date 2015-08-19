@@ -33,6 +33,9 @@ If the site is accessed from a small device (screen less than 850px wide), the t
   {% include code-snippet.html htmlcode="snippets/structural-elements/toolbar/toolbar.html" csscode="snippets/structural-elements/toolbar/toolbar-css.html" %}
 </div>
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/toolbar/index.html">preview</a>
+<a class="btn btn--download" download="toolbar.zip" href="http://localhost:4000/gfw-style-guides/downloads/structural-elements/toolbar/toolbar.zip">download</a>
+
 
 [toolbar]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-01-toolbar.png "toolbar"
 [toolbar-height]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-02-toolbar-height.png "toolbar height"

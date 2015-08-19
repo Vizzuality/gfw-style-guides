@@ -45,3 +45,6 @@ get back to the main content page tapping the top link.
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/main-templates/content/content.html" csscode="snippets/main-templates/content/content-css.html" %}
 </div>
+
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/content/index.html">preview</a>
+<a class="btn btn--download" download="content-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/content/content.zip">download</a>

@@ -25,6 +25,9 @@ The modal windows in mobile devices don't overlap the rest of the content but su
 
 ![alt text][modal-mobile]
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/modal-window/index.html">preview</a>
+<a class="btn btn--download" download="modal-window.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/modal-window/modal-window.zip">download</a>
 
 [modal]: /gfw-style-guides/images/posts/common-elements/modal-windows/06-01-modal.png "modal"
 [modal-mobile]: /gfw-style-guides/images/posts/common-elements/modal-windows/06-02-modal-mobile.png "modal mobile"
+

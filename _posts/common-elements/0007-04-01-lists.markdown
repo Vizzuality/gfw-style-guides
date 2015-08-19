@@ -54,6 +54,9 @@ changes the layout to a vertical list.
   {% include code-snippet.html htmlcode="snippets/common-elements/lists/country-list.html" csscode="snippets/common-elements/lists/country-list-css.html" %}
 </div>
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/lists/index.html">preview</a>
+<a class="btn btn--download" download="lists.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/lists/lists.zip">download</a>
+
 
 [list]: /gfw-style-guides/images/posts/common-elements/lists/04-01-list.png "list"
 [card-list]: /gfw-style-guides/images/posts/common-elements/lists/04-02-card-list.png "card list"

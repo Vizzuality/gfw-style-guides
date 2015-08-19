@@ -8,7 +8,7 @@ categories: page-elements main-templates
 This template is used exclusively in the website’s home page. Its main function is to showcase some
 featured and important sections to the new user while explaining what the website is all about.
 
-<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/home/index.html">preview</a>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/home/index.html">preview</a>
 <a class="btn btn--download" download="home-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/home/home.zip">download</a>
 
 ### Desktop
@@ -40,5 +40,8 @@ full width of the device screen.
 <div id="code-snippet-box1" class="code-snippet-box">
   {% include code-snippet.html htmlcode="snippets/main-templates/home/home.html" csscode="snippets/main-templates/home/home-css.html" %}
 </div>
+
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/home/index.html">preview</a>
+<a class="btn btn--download" download="home-template.zip" href="http://localhost:4000/gfw-style-guides/downloads/main-templates/home/home.zip">download</a>
 
 [responsive-adaptations-link]: /gfw-style-guides/page-elements/responsive-adaptations.html  "responsive adaptations"

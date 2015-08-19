@@ -55,5 +55,9 @@ In this case, a spinner graphic is used:
     </svg>
   </div>
 </div>
+
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/other/index.html">preview</a>
+<a class="btn btn--download" download="other.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/other/other.zip">download</a>
+
 [accordion]: /gfw-style-guides/images/posts/common-elements/other/11-02-accordion.png "accordion"
 [accordion-expanded]: /gfw-style-guides/images/posts/common-elements/other/11-03-accordion-expanded.png "accordion expanded"

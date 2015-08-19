@@ -31,6 +31,9 @@ between content, but move the scroll to where the content is located.
 
 ![alt text][tabs-horizontal]
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/tabs/index.html">preview</a>
+<a class="btn btn--download" download="tabs.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/tabs/tabs.zip">download</a>
+
 
 [tabs]: /gfw-style-guides/images/posts/common-elements/tabs/05-01-tabs.png "tabs"
 [tabs-mobile]: /gfw-style-guides/images/posts/common-elements/tabs/05-02-tabs-mobile.png "tabs mobile"

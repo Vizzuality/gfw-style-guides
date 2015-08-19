@@ -46,4 +46,7 @@ while the huge button is used on the Home.)
   {% include code-snippet.html htmlcode="snippets/common-elements/links-and-buttons/buttons-html.html" csscode="snippets/common-elements/links-and-buttons/buttons-css.html" %}
 </div>
 
+<a class="btn btn--preview" target="_blank" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/links-and-buttons/index.html">preview</a>
+<a class="btn btn--download" download="links-buttons.zip" href="http://localhost:4000/gfw-style-guides/downloads/common-elements/links-and-buttons/links-buttons.zip">download</a>
+
 [buttons]: /gfw-style-guides/images/posts/common-elements/links_and_buttons/02-02-buttons.png "buttons"
