@@ -1582,7 +1582,7 @@ h1, h2 {
   width: 200px;
   height: 70px;
   margin: 0 auto;
-  background-image: url(/assets/logo-wri.png);
+  background-image: url('http://www.globalforestwatch.org/assets/logo-wri-ed9b4bfa5b73f84c6d70c1170d6e1bf9.png');
   background-size: contain;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
