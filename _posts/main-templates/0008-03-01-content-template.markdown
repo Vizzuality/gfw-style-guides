@@ -32,12 +32,16 @@ get back to the main content page tapping the top link.
 
 
 <div class="gallery">
-  <a href="/gfw-style-guides/images/posts/main-templates/content-template/03-03-content-mobile-1-full.jpg">
-    <img src="/gfw-style-guides/images/posts/main-templates/content-template/03-03-content-mobile-1.png" alt="content-mobile-1">
-  </a>
-  <a href="/gfw-style-guides/images/posts/main-templates/content-template/03-04-content-mobile-2-full.jpg">
-    <img src="/gfw-style-guides/images/posts/main-templates/content-template/03-04-content-mobile-2.png" alt="content-mobile-2">
-  </a>
+  <div class="image-container">
+    <a href="/gfw-style-guides/images/posts/main-templates/content-template/03-03-content-mobile-1-full.jpg">
+      <img src="/gfw-style-guides/images/posts/main-templates/content-template/03-03-content-mobile-1.png" alt="content-mobile-1">
+    </a>
+  </div>
+  <div class="image-container">
+    <a href="/gfw-style-guides/images/posts/main-templates/content-template/03-04-content-mobile-2-full.jpg">
+      <img src="/gfw-style-guides/images/posts/main-templates/content-template/03-04-content-mobile-2.png" alt="content-mobile-2">
+    </a>
+  </div>
 </div>
 
 ### Code

@@ -17,7 +17,9 @@ Some applications may use the **[home template.][home-template]** as happens in 
 <div class="gallery">
   {% if page.img %}
     {% for img in page.img %}
-      <img src="{{img[1]}}" alt="">
+      <div class="image-container">
+        <img src="{{img[1]}}" alt="">
+      </div>
     {% endfor %}
   {% endif %}
 </div>

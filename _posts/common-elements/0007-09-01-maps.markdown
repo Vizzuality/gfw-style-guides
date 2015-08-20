@@ -50,6 +50,9 @@ where the user can select the data layers display on the map and the basemaps us
 
 ![alt text][map-mobile-layers]
 
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/index.html">preview</a>
+<a class="btn btn--download" download="map.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/map.zip">download</a>
+
 
 [map]: /gfw-style-guides/images/posts/common-elements/maps/09-01-map.png "map"
 [layers-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-02-layers-panel.png "layers panel"

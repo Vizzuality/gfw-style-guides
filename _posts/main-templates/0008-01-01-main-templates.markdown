@@ -10,6 +10,7 @@ img:
   directory-template: /gfw-style-guides/images/posts/main-templates/01-03-directory-template.png
   story-template: /gfw-style-guides/images/posts/main-templates/01-04-story-template.png
   map-template: /gfw-style-guides/images/posts/main-templates/01-05-map-template.png
+  newsletter-template: /gfw-style-guides/images/posts/main-templates/01-06-newsletter-template.png
 
 download:
   - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/home/home.zip
@@ -17,6 +18,7 @@ download:
   - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/directory/directory.zip
   - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/story/story.zip
   - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/map/map.zip
+  - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip
 
 ---
 
@@ -49,6 +51,10 @@ some structural elements but each one has its own features.
         {% if forloop.index == 5 %}
           <a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/index.html">preview</a>
           <a class="btn btn--download" download="map.zip" href="{{page.download[4]}}">download</a>
+        {% endif %}
+        {% if forloop.index == 6 %}
+          <a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/index.html">preview</a>
+          <a class="btn btn--download" download="newsletter.zip" href="{{page.download[5]}}">download</a>
         {% endif %}
       </div>
     </div>
