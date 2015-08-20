@@ -1578,7 +1578,7 @@ h1, h2 {
   width: 200px;
   height: 70px;
   margin: 0 auto;
-  background-image: url(/assets/logo-wri.png);
+  background-image: url('http://localhost:5000/assets/logo-wri.png');
   background-size: contain;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
