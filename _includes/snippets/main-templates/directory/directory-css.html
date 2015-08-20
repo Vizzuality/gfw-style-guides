@@ -14,18 +14,18 @@
 /* form */
 @import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/form.css';
 
-/* line 1, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/search/_list-search.scss */
+/*
 .search-section {
   padding: 0 20px 25px;
 }
 
-/* line 6, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/search/_list-search.scss */
+
 .search-box {
   font-weight: 400;
   margin: 20px auto;
   position: relative;
 }
-/* line 11, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/search/_list-search.scss */
+
 .search-box:after {
   content: "";
   display: block;
@@ -42,7 +42,7 @@
   -o-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
-/* line 23, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/search/_list-search.scss */
+
 .search-box input {
   box-sizing: border-box;
   display: block;
@@ -59,12 +59,12 @@
   outline: none;
   font-family: inherit;
 }
-/* line 38, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/search/_list-search.scss */
+
 .search-box input.is-active {
   background: rgba(161, 186, 66, 0.3);
 }
 
-/* line 1, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination {
   float: left;
   display: block;
@@ -79,13 +79,13 @@
   transform: translate(-50%, 0);
 }
 
-/* line 12, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 16, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_mixins1600.scss */
+
 .simple-pagination ul:before, .simple-pagination ul:after {
   content: " ";
   display: table;
@@ -93,12 +93,12 @@
   font-size: 0;
   height: 0;
 }
-/* line 23, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_mixins1600.scss */
+
 .simple-pagination ul:after {
   clear: both;
 }
 
-/* line 20, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination ul li {
   list-style: none;
   padding: 0;
@@ -106,10 +106,10 @@
   float: left;
 }
 
-/*------------------------------------*\
+/* ------------- */
   Light Theme Styles
 \*------------------------------------*/
-/* line 32, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme a, .simple-pagination.light-theme span {
   float: left;
   color: #555555;
@@ -123,19 +123,19 @@
   text-decoration: none;
 }
 
-/* line 46, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme a:hover {
   text-decoration: none;
   color: #97bd3d;
 }
 
-/* line 52, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme .current {
   cursor: default;
   border-bottom: 2px solid #97bd3d;
 }
 
-/* line 57, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme .next, .simple-pagination.light-theme .prev {
   background: #97bd3d;
   position: absolute;
@@ -146,17 +146,17 @@
   border-radius: 50%;
 }
 @media (min-width: 850px) {
-  /* line 57, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
   .simple-pagination.light-theme .next, .simple-pagination.light-theme .prev {
     position: relative;
     top: -10px;
   }
 }
-/* line 72, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme .next.current, .simple-pagination.light-theme .prev.current {
   display: none;
 }
-/* line 75, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme .next:before, .simple-pagination.light-theme .prev:before {
   content: "";
   width: 100%;
@@ -166,19 +166,19 @@
   left: 0;
 }
 
-/* line 86, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme .prev {
   left: -40px;
   margin: 0;
 }
 @media (min-width: 850px) {
-  /* line 86, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
   .simple-pagination.light-theme .prev {
     margin: 0 40px 0 0;
     left: auto;
   }
 }
-/* line 93, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme .prev:before {
   background: url('http://www.globalforestwatch.org/assets/svg-icons/arrow-left-6124cb193c09d87929c2aef0f2a6e0ba.svg') center no-repeat;
   -webkit-transform: translate(-2px, 0);
@@ -188,19 +188,19 @@
   transform: translate(-2px, 0);
 }
 
-/* line 98, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme .next {
   right: -40px;
   margin: 0;
 }
 @media (min-width: 850px) {
-  /* line 98, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
   .simple-pagination.light-theme .next {
     margin: 0 0 0 40px;
     right: auto;
   }
 }
-/* line 105, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme .next:before {
   background: url('http://www.globalforestwatch.org/assets/svg-icons/arrow-right-c428402b7cef50a5dff7af8cfca0e0d4.svg') center no-repeat;
   -webkit-transform: translate(0px, 0);
@@ -210,7 +210,7 @@
   transform: translate(0px, 0);
 }
 
-/* line 113, /Users/andresglz/Sites/gfw/app/assets/stylesheets/modules/_pagination.scss */
+
 .simple-pagination.light-theme .ellipse {
   background: none;
   border: none;
