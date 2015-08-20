@@ -14,13 +14,19 @@ Newsletter emails use a template based on the appearance of the site, giving con
 ### Desktop
 
 <div class="gallery">
-  <img src="/gfw-style-guides/images/posts/main-templates/newsletter/06-01-newsletter-template.png" alt="newsletter-template">
-  <a href="/gfw-style-guides/images/posts/main-templates/newsletter/06-02-newsletter-desktop-full.jpg">
-    <img src="/gfw-style-guides/images/posts/main-templates/newsletter/06-02-newsletter-desktop.png" alt="newsletter-desktop">
-  </a>
-  <a href="/gfw-style-guides/images/posts/main-templates/newsletter/06-03-notification-desktop-full.jpg">
-    <img src="/gfw-style-guides/images/posts/main-templates/newsletter/06-03-notification-desktop.png" alt="newsletter-template">
-  </a>
+  <div class="image-container">
+    <img src="/gfw-style-guides/images/posts/main-templates/newsletter/06-01-newsletter-template.png" alt="newsletter-template">
+  </div>
+  <div class="image-container">
+    <a href="/gfw-style-guides/images/posts/main-templates/newsletter/06-02-newsletter-desktop-full.jpg">
+      <img src="/gfw-style-guides/images/posts/main-templates/newsletter/06-02-newsletter-desktop.png" alt="newsletter-desktop">
+    </a>
+  </div>
+  <div class="image-container">
+    <a href="/gfw-style-guides/images/posts/main-templates/newsletter/06-03-notification-desktop-full.jpg">
+      <img src="/gfw-style-guides/images/posts/main-templates/newsletter/06-03-notification-desktop.png" alt="newsletter-template">
+    </a>
+  </div>
 </div>
 
 <div id="code-snippet-box1" class="code-snippet-box">
