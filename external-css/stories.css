@@ -262,7 +262,7 @@
   margin: 0;
 }
 .content-stories .story-carrousel .previous:before {
-  background: url(/assets/svg-icons/arrow-left.svg) center no-repeat;
+  background: url('http://www.globalforestwatch.org/assets/svg-icons/arrow-left-6124cb193c09d87929c2aef0f2a6e0ba.svg') center no-repeat;
   -webkit-transform: translate(-2px, 0);
   -moz-transform: translate(-2px, 0);
   -ms-transform: translate(-2px, 0);
@@ -274,7 +274,7 @@
   margin: 0;
 }
 .content-stories .story-carrousel .next:before {
-  background: url(/assets/svg-icons/arrow-right.svg) center no-repeat;
+  background: url('http://www.globalforestwatch.org/assets/svg-icons/arrow-right-c428402b7cef50a5dff7af8cfca0e0d4.svg') center no-repeat;
   -webkit-transform: translate(0px, 0);
   -moz-transform: translate(0px, 0);
   -ms-transform: translate(0px, 0);
