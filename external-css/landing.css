@@ -985,7 +985,7 @@ h1, h2 {
   text-indent: -9999px;
   z-index: 11;
   margin: 0 0 0 15px;
-  background-image: url(/assets/logo-new.png);
+  background-image: url('http://www.globalforestwatch.org/assets/logo-new-b989ed109810f4bc3ddfe0fb21d204bd.png');
   background-size: contain;
   -webkit-transition: all 0.25s linear;
   -moz-transition: all 0.25s linear;
