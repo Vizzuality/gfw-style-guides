@@ -19,7 +19,7 @@ a related content module, and the footer.
 
 <div class="gallery">
   <img src="/gfw-style-guides/images/posts/main-templates/content-template/03-01-content-template-desktop.png" alt="content-template-desktop">
-  <a href="/gfw-style-guides/images/posts/main-templates/content-template/03-02-content-desktop-full.jpg">
+  <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/content-template/03-02-content-desktop-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/content-template/03-02-content-desktop.png" alt="content-desktop">
   </a>
 </div>
@@ -34,12 +34,12 @@ get back to the main content page tapping the top link.
 
 <div class="gallery">
   <div class="image-container">
-    <a href="/gfw-style-guides/images/posts/main-templates/content-template/03-03-content-mobile-1-full.jpg">
+    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/content-template/03-03-content-mobile-1-full.jpg">
       <img src="/gfw-style-guides/images/posts/main-templates/content-template/03-03-content-mobile-1.png" alt="content-mobile-1">
     </a>
   </div>
   <div class="image-container">
-    <a href="/gfw-style-guides/images/posts/main-templates/content-template/03-04-content-mobile-2-full.jpg">
+    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/content-template/03-04-content-mobile-2-full.jpg">
       <img src="/gfw-style-guides/images/posts/main-templates/content-template/03-04-content-mobile-2.png" alt="content-mobile-2">
     </a>
   </div>

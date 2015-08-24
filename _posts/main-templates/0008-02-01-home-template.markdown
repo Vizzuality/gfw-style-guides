@@ -20,7 +20,7 @@ quick links to other sections and applications, a Recent Activity module and the
 
 <div class="gallery">
   <img src="/gfw-style-guides/images/posts/main-templates/home-template/02-01-home-template-desktop.png" alt="home-template-desktop">
-  <a href="/gfw-style-guides/images/posts/main-templates/home-template/02-02-home-desktop-full.jpg">
+  <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/home-template/02-02-home-desktop-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/home-template/02-02-home-desktop.png" alt="home-desktop">
   </a>
 </div>
@@ -31,7 +31,7 @@ As explained in the section about **[responsive adaptations][responsive-adaptati
 full width of the device screen.
 
 <div class="gallery">
-  <a href="/gfw-style-guides/images/posts/main-templates/home-template/02-03-home-mobile-full.jpg">
+  <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/home-template/02-03-home-mobile-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/home-template/02-03-home-mobile.png" alt="home-mobile">
   </a>
 </div>

@@ -18,7 +18,7 @@ The directory template has a header module with a page title, space for the cont
 
 <div class="gallery">
   <img src="/gfw-style-guides/images/posts/main-templates/directory-template/04-01-directory-template-desktop.png" alt="directory-template-desktop">
-  <a href="/gfw-style-guides/images/posts/main-templates/directory-template/04-02-directory-desktop-full.jpg">
+  <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/directory-template/04-02-directory-desktop-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/directory-template/04-02-directory-desktop.png" alt="directory-desktop">
   </a>
 </div>
@@ -30,7 +30,7 @@ The directory template has a header module with a page title, space for the cont
 The mobile adaptation takes the full screen width.
 
 <div class="gallery">
-  <a href="/gfw-style-guides/images/posts/main-templates/directory-template/04-02-directory-desktop-full.jpg">
+  <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/directory-template/04-02-directory-desktop-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/directory-template/04-03-directory-mobile.png" alt="directory mobile">
   </a>
 </div>

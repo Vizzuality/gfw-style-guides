@@ -19,12 +19,12 @@ Newsletter emails use a template based on the appearance of the site, giving con
     <img src="/gfw-style-guides/images/posts/main-templates/newsletter/06-01-newsletter-template.png" alt="newsletter-template">
   </div>
   <div class="image-container">
-    <a href="/gfw-style-guides/images/posts/main-templates/newsletter/06-02-newsletter-desktop-full.jpg">
+    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/newsletter/06-02-newsletter-desktop-full.jpg">
       <img src="/gfw-style-guides/images/posts/main-templates/newsletter/06-02-newsletter-desktop.png" alt="newsletter-desktop">
     </a>
   </div>
   <div class="image-container">
-    <a href="/gfw-style-guides/images/posts/main-templates/newsletter/06-03-notification-desktop-full.jpg">
+    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/newsletter/06-03-notification-desktop-full.jpg">
       <img src="/gfw-style-guides/images/posts/main-templates/newsletter/06-03-notification-desktop.png" alt="newsletter-template">
     </a>
   </div>
