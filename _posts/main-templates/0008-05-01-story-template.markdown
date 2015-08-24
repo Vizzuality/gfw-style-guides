@@ -9,8 +9,9 @@ categories: page-elements main-templates
 Crowdsourced stories use a special type of template with a white header background and a new
 module for related stories.
 
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/story/index.html">preview</a>
-<a class="btn btn--download" download="story-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/story/story.zip">download</a>
+<div class="advice">
+  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
+</div>
 
 ### Desktop
 

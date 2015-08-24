@@ -8,8 +8,9 @@ categories: page-elements main-templates
 
 Newsletter emails use a template based on the appearance of the site, giving consistence to the global design.
 
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/index.html">preview</a>
-<a class="btn btn--download" download="newsletter-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip">download</a>
+<div class="advice">
+  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
+</div>
 
 ### Desktop
 
