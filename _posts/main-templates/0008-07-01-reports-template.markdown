@@ -14,7 +14,7 @@ The single country report has a header with the basic country data, followed by 
 <div class="gallery">
   <img src="/gfw-style-guides/images/posts/main-templates/reports/07-01-report-single-desktop.png" alt="reports-template">
 
-  <a href="/gfw-style-guides/images/posts/main-templates/reports/07-03-report-single-desktop-full.jpg">
+  <a href="/gfw-style-guides/images/posts/main-templates/reports/07-05-report-single-desktop-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/reports/07-02-report-single-desktop.png" alt="reports-template">
   </a>
 </div>
@@ -25,7 +25,7 @@ The indicators for each country are displayed on the same level, allowing fast c
 
 <div class="gallery">
   <img src="/gfw-style-guides/images/posts/main-templates/reports/07-03-report-compare-desktop.png" alt="reports-template">
-  <a href="/gfw-style-guides/images/posts/main-templates/reports/07-03-notification-desktop-full.jpg">
+  <a href="/gfw-style-guides/images/posts/main-templates/reports/07-06-report-compare-desktop-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/reports/07-04-report-compare-desktop.png" alt="reports-template">
   </a>
 </div>
