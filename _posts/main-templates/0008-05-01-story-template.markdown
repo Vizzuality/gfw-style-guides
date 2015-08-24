@@ -23,7 +23,7 @@ The header has a white background for the same reason.
 
 <div class="gallery">
   <img src="/gfw-style-guides/images/posts/main-templates/story-template/05-01-story-template-desktop.png" alt="story-template-desktop">
-  <a href="/gfw-style-guides/images/posts/main-templates/story-template/05-02-story-desktop-full.jpg">
+  <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/story-template/05-02-story-desktop-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/story-template/05-02-story-desktop.png" alt="story-desktop">
   </a>
 </div>
@@ -33,7 +33,7 @@ The header has a white background for the same reason.
 The mobile adaptation takes the full screen width.
 
 <div class="gallery">
-  <a href="/gfw-style-guides/images/posts/main-templates/story-template/05-03-story-mobile-full.jpg">
+  <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/story-template/05-03-story-mobile-full.jpg">
     <img src="/gfw-style-guides/images/posts/main-templates/story-template/05-03-story-mobile.png" alt="story-mobile">
   </a>
 </div>

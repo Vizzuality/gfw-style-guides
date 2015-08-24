@@ -217,5 +217,13 @@
       background: #789631;
     }
   }
+  &.btn--disabled {
+    cursor: default;
+    pointer-events: none;
+    opacity: .25;
+    &:hover {
+      background: #97BD3D;
+    }
+  }
 
 }
