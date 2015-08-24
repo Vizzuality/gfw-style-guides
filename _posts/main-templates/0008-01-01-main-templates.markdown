@@ -25,6 +25,9 @@ download:
 The Global Forest Watch website uses four main templates to create all of its pages. They all share
 some structural elements but each one has its own features.
 
+<div class="advice">
+  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
+</div>
 
 <div class="gallery">
   {% if page.img %}

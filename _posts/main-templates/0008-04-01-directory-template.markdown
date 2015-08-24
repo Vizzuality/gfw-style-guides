@@ -8,8 +8,9 @@ categories: page-elements main-templates
 This templates is very similar to the content template, but is intended for lists of content such as
 search results or any directory of content pages.
 
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/directory/index.html">preview</a>
-<a class="btn btn--download" download="directory-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/directory/directory.zip">download</a>
+<div class="advice">
+  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
+</div>
 
 ### Desktop
 

@@ -8,6 +8,10 @@ categories: page-elements
 Each individual page is built using a wide range of different common elements. Buttons,
 form elements, lists, icons... They all share a common visual style and functionality.
 
+<div class="advice">
+  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
+</div>
+
 ![alt text][common-elements]
 
 These common elements make the website keep a uniform and coherent visual style, improve the
