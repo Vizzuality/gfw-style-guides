@@ -50,6 +50,13 @@
       border: 1px solid $cGreen;
       border-left-width: 5px;
       background: #FDFFF7;
+      &.development {
+        border-color: #F5A623;
+        background: #FEF4E3;
+        .advice_content {
+          color: #F5A623;
+        }
+      }
 
       .advice_content {
         display: table-cell;
