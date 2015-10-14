@@ -21,16 +21,11 @@ The single country report has a header with the basic country data, followed by 
     <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-05-report-single-desktop-full.jpg">
       <img src="/gfw-style-guides/images/posts/main-templates/reports/07-02-report-single-desktop.png" alt="reports-template">
     </a>
-
-    <div class="container">
-      <a class="btn btn--preview" target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-05-report-single-desktop-full.jpg">preview</a>
-      <a class="btn btn--download btn--disabled" download="newsletter-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip">download</a>
-    </div>
   </div>
 
 </div>
 
-These reports can also be comparative, displaying indicators from up to three countries in an easy to read format. The header in this case contains the countries selectors, and the content block is divided in two or three columns, each one for each country.
+These reports can also be comparative, displaying indicators from two different areas in an easy to read format. The header in this case contains the area selectors, and the content block is divided in two columns, each one for each country.
 
 The indicators for each country are displayed on the same level, allowing fast consulting and easy comparing.
 
@@ -42,12 +37,5 @@ The indicators for each country are displayed on the same level, allowing fast c
     <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-06-report-compare-desktop-full.jpg">
       <img src="/gfw-style-guides/images/posts/main-templates/reports/07-04-report-compare-desktop.png" alt="reports-template">
     </a>
-
-    <div class="container">
-      <a class="btn btn--preview" target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-06-report-compare-desktop-full.jpg">preview</a>
-      <a class="btn btn--download btn--disabled" download="newsletter-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip">download</a>
-    </div>
   </div>
-
-
 </div>
