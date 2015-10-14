@@ -29,6 +29,8 @@ The single country report has a header with the basic country data, followed by 
 
 </div>
 
+### Comparative reports
+
 These reports can also be comparative, displaying indicators from two different areas in an easy to read format. The header in this case contains the area selectors, and the content block is divided in two columns, each one for each country.
 
 The indicators for each country are displayed on the same level, allowing fast consulting and easy comparing.
@@ -40,6 +42,11 @@ The indicators for each country are displayed on the same level, allowing fast c
   <div class="image-container">
     <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-06-report-compare-desktop-full.jpg">
       <img src="/gfw-style-guides/images/posts/main-templates/reports/07-04-report-compare-desktop.png" alt="reports-template">
+    </a>
+  </div>
+  <div class="image-container">
+    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-06-report-compare-popup-full.jpg">
+      <img src="/gfw-style-guides/images/posts/main-templates/reports/07-06-report-compare-popup.png" alt="reports-template">
     </a>
   </div>
 </div>
