@@ -45,8 +45,18 @@ The indicators for each country are displayed on the same level, allowing fast c
     </a>
   </div>
   <div class="image-container">
-    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-06-report-compare-popup-full.jpg">
-      <img src="/gfw-style-guides/images/posts/main-templates/reports/07-06-report-compare-popup.png" alt="reports-template">
+    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-1-full.jpg">
+      <img src="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-1.png" alt="reports-template">
+    </a>
+  </div>
+  <div class="image-container">
+    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-2-full.jpg">
+      <img src="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-2.png" alt="reports-template">
+    </a>
+  </div>
+  <div class="image-container">
+    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-3-full.jpg">
+      <img src="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-3.png" alt="reports-template">
     </a>
   </div>
 </div>
