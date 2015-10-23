@@ -9,6 +9,9 @@ Use maps to show large amounts of geolocalized data in a usable and friendly way
 They allow complex interactions and analysis, making make use of sophisticated panels,
 toolbars and controllers.
 
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/index.html">preview</a>
+<a class="btn btn--download" download="map.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/map.zip">download</a>
+
 ![alt text][map]
 
 All these elements have a homogeneous visual style. They are clean, stylized, and keep
@@ -46,6 +49,9 @@ The Data Layers Selection link in the header (and Local Data Layers button) open
 where the user can select the data layers display on the map and the basemaps used.
 
 ![alt text][map-mobile-layers]
+
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/index.html">preview</a>
+<a class="btn btn--download" download="map.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/map.zip">download</a>
 
 
 [map]: /gfw-style-guides/images/posts/common-elements/maps/09-01-map.png "map"

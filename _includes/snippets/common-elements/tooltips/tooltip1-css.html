@@ -1,49 +1,14 @@
 {% highlight css %}
-.tooltip {
-  position: absolute;
-  background: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-  z-index: 1000;
-  margin: 0;
-  visibility: hidden;
-  opacity: 0;
-  text-transform: uppercase;
-  position: absolute;
-  color: #555;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: normal;
-  top: 100%;
-  left: 50%;
-  text-align: center;
-  padding: 10px;
-  white-space: nowrap;
-  transform: translate(-50%, 10px);
-}
 
-.tooltip:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  background: #FFF;
-  z-index: 2;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
-  border-top: 1px solid #f0f0ed;
-  border-left: 1px solid #f0f0ed;
-}
+/* reset.css */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/reset.css';
+/* fonts */
+@import 'http://fonts.googleapis.com/css?family=Fira+Sans:400,500,300';
+/* base */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/base.css';
+/* grid */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/grid.css';
+/* static */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/1.0/external-css/landing.css';
 
-.tooltip.dark {
-  background: #555555;
-  color: #FFF;
-}
-
-.tooltip.dark:after {
-  background: #555;
-  border-top: none;
-  border-left: none;
-}
 {% endhighlight %}

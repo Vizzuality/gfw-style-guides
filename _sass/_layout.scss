@@ -1,9 +1,9 @@
 // HEADER
 .layout-sidenav{
   display: block;
-  padding: 50px 0px;
+  padding: 115px 0 50px;
   float: left;
-  width: 285px;
+  width: 220px;
   border-right: 1px solid $border;
   border-left: 1px solid $border;
 }
@@ -11,7 +11,7 @@
 .layout-main{
   float: left;
   width: calc(100% - 285px);
-  padding: 50px 25px;
+  padding: 105px 25px;
   // min-height: 500px;
 }
 

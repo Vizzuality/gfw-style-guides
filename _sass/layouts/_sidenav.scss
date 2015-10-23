@@ -1,28 +1,59 @@
 .layout-sidenav{
   nav{
+    position: fixed;
+    width: 220px;
     ul{
       li{
         color: $dark;
         h2{
-          font-size: 1em;
+          font-size: 13px;
           text-transform: uppercase;
           color: $gray;
           font-weight: 500;
           padding: 0 20px;
         }
         h3{
+          position: relative;
+          width: 219px;
+          padding-left: 20px;
           font-size: 1em;
           color: $dark;
           font-weight: 500;
-          padding: 1px 20px 0;
           cursor: pointer;
           &:hover {
-            a {color: $cGreen;}
+            a {
+              color: $cGreen;
+            }
+          }
+          a {
+            padding-right: 20px;
+            &.has-menu {
+              &:after {
+                @include arrow('right', 8px, 2px, $gray, 45deg);
+                top: 5px;
+                right: 10px;
+              }
+            }
+
+          }
+          &.open {
+            a:after {
+              @include arrow('right', 8px, 2px, $gray, 135deg);
+              top: 5px;
+              right: 10px;
+            }
+          }
+          &.item-selected {
+            a:after {
+              border-color: #fff;
+            }
           }
         }
         a{
           display: block;
           width: 100%;
+          padding-top: 2px;
+          font-size: 14px;
           color: $dark;
           &:hover {
             color: $cGreen;

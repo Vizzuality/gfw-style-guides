@@ -13,6 +13,15 @@
   }
 }
 
+@mixin transform($string) {
+  -webkit-transform: $string;
+  -moz-transform: $string;
+  -ms-transform: $string;
+  -o-transform: $string;
+  transform: $string;
+}
+
+
 @mixin arrow ($direction, $meassure, $border-width, $color, $rotate) {
   content: '';
   position: absolute;
@@ -32,4 +41,58 @@
     border-right: $border-width solid $color;
     right: 0;
   }
+}
+
+
+@mixin animation($name,$duration,$count: 1,$function: linear,$direction: normal,$fill : none,$delay : 0s, $play: running){
+ -webkit-animation-name: $name;
+ -webkit-animation-duration: $duration;
+ -webkit-animation-iteration-count: $count;
+ -webkit-animation-timing-function: $function;
+ -webkit-animation-direction: $direction;
+ -webkit-animation-fill-mode:$fill;
+ -webkit-animation-delay:$delay;
+ -webkit-animation-play-state: $play;
+ -moz-animation-name: $name;
+ -moz-animation-duration: $duration;
+ -moz-animation-iteration-count: $count;
+ -moz-animation-timing-function: $function;
+ -moz-animation-direction: $direction;
+ -moz-animation-fill-mode:$fill;
+ -moz-animation-delay:$delay;
+ -moz-animation-play-state: $play;
+ -ms-animation-name: $name;
+ -ms-animation-duration: $duration;
+ -ms-animation-iteration-count: $count;
+ -ms-animation-timing-function: $function;
+ -ms-animation-direction: $direction;
+ -ms-animation-fill-mode:$fill;
+ -ms-animation-delay:$delay;
+ -ms-animation-play-state: $play;
+ animation-name: $name;
+ animation-duration: $duration;
+ animation-iteration-count: $count;
+ animation-timing-function: $function;
+ animation-direction: $direction;
+ animation-fill-mode:$fill;
+ animation-delay:$delay;
+ animation-play-state: $play;
+}
+
+// LOADER
+@-webkit-keyframes loader {
+ from { @include transform(translate(-50%,-50%) rotate(0deg));}
+ to { @include transform(translate(-50%,-50%) rotate(360deg));}
+}
+@-moz-keyframes loader {
+ from { @include transform(translate(-50%,-50%) rotate(0deg));}
+ to { @include transform(translate(-50%,-50%) rotate(360deg));}
+}
+@-ms-keyframes loader {
+ from { @include transform(translate(-50%,-50%) rotate(0deg));}
+ to { @include transform(translate(-50%,-50%) rotate(360deg));}
+}
+@keyframes loader {
+ from { @include transform(translate(-50%,-50%) rotate(0deg));}
+ to { @include transform(translate(-50%,-50%) rotate(360deg));}
 }

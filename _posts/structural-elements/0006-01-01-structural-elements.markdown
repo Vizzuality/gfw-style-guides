@@ -8,6 +8,10 @@ categories: page-elements
 There are 6 main structural elements in the GFW website: toolbar, navigation bar, header, content,
 related content and footer. Each page of the site is built using them.
 
+<div class="advice">
+  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
+</div>
+
 ### Home and second level pages
 
 Home and secondary pages always have a toolbar, nav bar and header. The main content is situated under them,

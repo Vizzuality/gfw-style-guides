@@ -1,0 +1,207 @@
+
+.btn {
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  background: none;
+  outline: none;
+  box-shadow: none;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Fira Sans";
+}
+
+.btn {
+  background: #e5e5df;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 0px 12px;
+  border-radius: 40px;
+  font-size: 14px;
+  text-decoration: none;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 500;
+  white-space: nowrap;
+  -webkit-transition: background 0.15s linear;
+  -moz-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
+  transition: background 0.15s linear;
+}
+.btn:hover {
+  background: #97bd3d;
+  text-decoration: none !important;
+}
+.btn.lowercase {
+  text-transform: lowercase;
+}
+.btn.uppercase {
+  text-transform: uppercase;
+}
+.btn.medium {
+  text-transform: uppercase;
+  padding: 0px 35px;
+}
+.btn.huge {
+  font-size: 18px;
+  text-transform: uppercase;
+  height: 38px;
+  line-height: 40px;
+  padding: 0px 20px;
+}
+@media (min-width: 850px) {
+  .btn.huge {
+    font-size: 21px;
+  }
+}
+.btn.little {
+  font-size: 10px;
+  text-transform: uppercase;
+  height: 25px;
+  line-height: 24px;
+}
+.btn.full-width {
+  display: block;
+  width: 100%;
+}
+.btn.lines {
+  line-height: 1;
+  white-space: normal;
+  height: auto;
+  line-height: 1;
+  padding: 10px;
+}
+.btn.dark {
+  color: white;
+  background: #555555;
+}
+.btn.dark:hover {
+  background: #151515;
+}
+.btn.white {
+  color: #555555;
+  background: white;
+}
+.btn.white:hover {
+  background: #e6e6e6;
+}
+.btn.gray {
+  color: #555555;
+  background: white;
+  border-color: #97bd3d;
+}
+.btn.gray:hover {
+  background: #f2f2f2;
+}
+.btn.green {
+  color: white;
+  background: #97bd3d;
+}
+.btn.green:hover {
+  background: #789631;
+}
+.btn.green.disabled:hover {
+  background: #97bd3d;
+}
+.btn.light {
+  color: white;
+  background: #CBCCBF;
+}
+.btn.light:hover {
+  background: #bfc1b1;
+}
+.btn.light2 {
+  color: #555555;
+  background: #e5e5df;
+  font-weight: 400;
+}
+.btn.light2:hover {
+  background: #dadad1;
+}
+.btn.soon {
+  color: #ccc;
+  background: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: default;
+}
+.btn.disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+.btn.with-icon {
+  min-width: 0;
+}
+@media (min-width: 850px) {
+  .btn.with-icon {
+    padding-right: 36px;
+  }
+}
+.btn.with-icon svg {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  fill: #555555;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+.btn.with-center-icon {
+  min-width: 0;
+}
+.btn.with-center-icon span {
+  position: relative;
+  padding-right: 25px;
+}
+.btn.with-center-icon svg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  fill: white;
+  -webkit-transform: translate(0px, -50%);
+  -moz-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  -o-transform: translate(0px, -50%);
+  transform: translate(0px, -50%);
+}
+
+.btn-arrow {
+  -webkit-appearance: none;
+  background: #e5e5df;
+  border: none;
+  outline: none;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -moz-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.btn-arrow svg {
+  fill: none;
+  stroke: white;
+}
+.btn-arrow:hover {
+  background: #97bd3d;
+}
