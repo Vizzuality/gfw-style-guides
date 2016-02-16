@@ -5,25 +5,31 @@ date:   0006-02-01 12:23:49
 categories: page-elements structural-elements
 ---
 
-The toolbar is always the first element in a page, and is always present. It serves as a fast way to move across the site,
-with links to the most relevant sections and applications, a searchbox and the translation tool.
+The toolbar is always the  rst element in a page, and is always present. It serves as a fast way to move across the site, with links to the most relevant sections and applications, a searchbox and the translation tool.
 
 <a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/toolbar/index.html">preview</a>
 <a class="btn btn--download" download="toolbar.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/toolbar/toolbar.zip">download</a>
-
 
 ![alt text][toolbar]
 
 ![alt text][toolbar-height]
 
+One important feature is the ‘popout’ illustrated below, which is triggered by clicking the home icon. This allows users to navigate to across the main features of the GFW Flagship site, no matter which application they are viewing at the time.
+
+![alt text][toolbar-home]
+
+Clicking the icon consisting of four squares (representing the different applications allows the user to navigate across the various applications within the GFW platform. As new applications are added, this popout will expand in size.
+
+![alt text][toolbar-apps]
+
+
 ### Responsive
 
-When the screen is too narrow to show the labels in the main navigation (less than 1050px wide), they are hidden. The rest
-of the toolbar remains the same.
+When the screen is too narrow to show the labels in the main navigation (less than 1050px wide), they are hidden. The rest of the toolbar remains the same.
 
 ![alt text][toolbar-responsive]
 
-If the site is accessed from a small device (screen less than 850px wide), the toolbar is fixed on the bottom of the screen:
+If the site is accessed from a small device (screen less than 850px wide), the toolbar is  xed on the bottom of the screen:
 
 ![alt text][toolbar-mobile]
 
@@ -39,5 +45,7 @@ If the site is accessed from a small device (screen less than 850px wide), the t
 
 [toolbar]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-01-toolbar.png "toolbar"
 [toolbar-height]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-02-toolbar-height.png "toolbar height"
-[toolbar-responsive]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-03-toolbar-responsive.png "toolbar responsive"
-[toolbar-mobile]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-04-toolbar-mobile.png "toolbar mobile"
+[toolbar-home]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-03-toolbar-home.png "toolbar home"
+[toolbar-apps]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-04-toolbar-apps.png "toolbar apps"
+[toolbar-responsive]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-05-toolbar-responsive.png "toolbar responsive"
+[toolbar-mobile]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-06-toolbar-mobile.png "toolbar mobile"
