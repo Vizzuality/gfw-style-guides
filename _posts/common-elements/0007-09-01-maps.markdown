@@ -9,8 +9,6 @@ Use maps to show large amounts of geolocalized data in a usable and friendly way
 They allow complex interactions and analysis, making make use of sophisticated panels,
 toolbars and controllers.
 
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/index.html">preview</a>
-<a class="btn btn--download" download="map.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/map.zip">download</a>
 
 ![alt text][map]
 
@@ -35,11 +33,11 @@ These are some of the elements used on the map:
 
 These are some of the elements used on the mobile version of the map.
 
-![alt text][map-mobile]
+![alt text][map-mobile-options]
 
 Tapping the “More options” button shows secondary actions. Tapping it again collapses the panel
 
-![alt text][map-mobile-options]
+![alt text][map-mobile]
 
 Tapping the Legend or Analysis buttons opens a panel sliding from the bottom of the screen with the relevant contents.
 
@@ -48,10 +46,8 @@ Tapping the Legend or Analysis buttons opens a panel sliding from the bottom of 
 The Data Layers Selection link in the header (and Local Data Layers button) opens a fullscreen overlay
 where the user can select the data layers display on the map and the basemaps used.
 
-![alt text][map-mobile-layers]
+![alt text][map-mobile-data-layers]
 
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/index.html">preview</a>
-<a class="btn btn--download" download="map.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/map.zip">download</a>
 
 
 [map]: /gfw-style-guides/images/posts/common-elements/maps/09-01-map.png "map"
@@ -64,3 +60,4 @@ where the user can select the data layers display on the map and the basemaps us
 [map-mobile-options]: /gfw-style-guides/images/posts/common-elements/maps/09-08-map-mobile-options.png "map mobile options"
 [map-mobile-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-09-map-mobile-panel.png "map mobile panel"
 [map-mobile-layers]: /gfw-style-guides/images/posts/common-elements/maps/09-10-map-mobile-layers.png "map mobile layers"
+[map-mobile-data-layers]: /gfw-style-guides/images/posts/common-elements/maps/09-11-map-mobile-data-layers.png "map-mobile-data-layers"

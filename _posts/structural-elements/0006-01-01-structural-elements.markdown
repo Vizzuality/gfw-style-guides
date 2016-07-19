@@ -32,7 +32,14 @@ content and footer modules are not shown to maximize space availability.
 
 ![alt text][other-structure]
 
+### How to
 
-[home-structure]: /gfw-style-guides/images/posts/structural-elements/03-01-home-structure.png "home structure"
-[secondary-structure]: /gfw-style-guides/images/posts/structural-elements/03-02-secondary-structure.png "secondary structure"
-[other-structure]: /gfw-style-guides/images/posts/structural-elements/03-03-other-structure.png "other structure"
+The How to portal, where the users can find help to use and understand all the apps and functionalities, has an especial structure.
+
+![alt text][how-to]
+
+
+[home-structure]: /gfw-style-guides/images/posts/structural-elements/03-01-home-structure.png "home-structure"
+[secondary-structure]: /gfw-style-guides/images/posts/structural-elements/03-02-secondary-structure.png "secondary-structure"
+[other-structure]: /gfw-style-guides/images/posts/structural-elements/03-03-other-structure.png "other-structure"
+[how-to]: /gfw-style-guides/images/posts/structural-elements/03-04-how-to.png "how-to"

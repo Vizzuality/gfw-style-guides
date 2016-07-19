@@ -18,20 +18,16 @@ One important feature is the ‘popout’ illustrated below, which is triggered 
 
 ![alt text][toolbar-home]
 
-Clicking the icon consisting of four squares (representing the different applications allows the user to navigate across the various applications within the GFW platform. As new applications are added, this popout will expand in size.
 
 ![alt text][toolbar-apps]
 
 
 ### Responsive
 
-When the screen is too narrow to show the labels in the main navigation (less than 1050px wide), they are hidden. The rest of the toolbar remains the same.
+If the site is accessed from a small device (screen less than 850px wide), the toolbar is fixed on the bottom of the screen:
 
 ![alt text][toolbar-responsive]
 
-If the site is accessed from a small device (screen less than 850px wide), the toolbar is  xed on the bottom of the screen:
-
-![alt text][toolbar-mobile]
 
 ### Code
 
@@ -48,4 +44,3 @@ If the site is accessed from a small device (screen less than 850px wide), the t
 [toolbar-home]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-03-toolbar-home.png "toolbar home"
 [toolbar-apps]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-04-toolbar-apps.png "toolbar apps"
 [toolbar-responsive]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-05-toolbar-responsive.png "toolbar responsive"
-[toolbar-mobile]: /gfw-style-guides/images/posts/structural-elements/toolbar/04-06-toolbar-mobile.png "toolbar mobile"

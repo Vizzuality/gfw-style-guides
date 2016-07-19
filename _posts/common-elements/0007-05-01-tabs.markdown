@@ -13,12 +13,6 @@ different content and sections without losing their current position.
 
 ![alt text][tabs]
 
-### Code
-
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/common-elements/tabs/tabs-html.html" csscode="snippets/common-elements/tabs/tabs-css.html" %}
-</div>
-
 
 The vertical tabs adapt to mobile devices taking all the screen width:
 
@@ -30,9 +24,6 @@ The functionality of the horizontal tabs is slightly different to the vertical t
 between content, but move the scroll to where the content is located.
 
 ![alt text][tabs-horizontal]
-
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/tabs/index.html">preview</a>
-<a class="btn btn--download" download="tabs.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/tabs/tabs.zip">download</a>
 
 
 [tabs]: /gfw-style-guides/images/posts/common-elements/tabs/05-01-tabs.png "tabs"
