@@ -26,37 +26,4 @@ The single country report has a header with the basic country data, followed by 
       <img src="/gfw-style-guides/images/posts/main-templates/reports/07-02-report-single-desktop.png" alt="reports-template">
     </a>
   </div>
-
-</div>
-
-### Comparative reports
-
-These reports can also be comparative, displaying indicators from two different areas in an easy to read format. The header in this case contains the area selectors, and the content block is divided in two columns, each one for each country.
-
-The indicators for each country are displayed on the same level, allowing fast consulting and easy comparing.
-
-<div class="gallery">
-  <div class="image-container">
-    <img src="/gfw-style-guides/images/posts/main-templates/reports/07-03-report-compare-desktop.png" alt="reports-template">
-  </div>
-  <div class="image-container">
-    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-06-report-compare-desktop-full.jpg">
-      <img src="/gfw-style-guides/images/posts/main-templates/reports/07-04-report-compare-desktop.png" alt="reports-template">
-    </a>
-  </div>
-  <div class="image-container">
-    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-1-full.jpg">
-      <img src="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-1.png" alt="reports-template">
-    </a>
-  </div>
-  <div class="image-container">
-    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-2-full.jpg">
-      <img src="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-2.png" alt="reports-template">
-    </a>
-  </div>
-  <div class="image-container">
-    <a target="_blank" href="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-3-full.jpg">
-      <img src="/gfw-style-guides/images/posts/main-templates/reports/07-07-report-compare-popup-3.png" alt="reports-template">
-    </a>
-  </div>
 </div>

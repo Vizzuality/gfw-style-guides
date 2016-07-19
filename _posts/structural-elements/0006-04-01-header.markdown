@@ -38,4 +38,4 @@ slightly through it. The height of this header is always 500px.
 
 [header]: /gfw-style-guides/images/posts/structural-elements/header/06-01-header.png "header"
 [header-meassures]: /gfw-style-guides/images/posts/structural-elements/header/06-02-header-meassures.png "header meassures"
-[header-home]: /gfw-style-guides/images/posts/structural-elements/header/06-03-header-home.png "header home"
+[header-home]: /gfw-style-guides/images/posts/structural-elements/header/06-03-header-home.png "header-home"

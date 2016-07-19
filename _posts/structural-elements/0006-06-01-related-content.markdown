@@ -17,6 +17,16 @@ This module follows the main content module and displays a selection of suggeste
 
 This module has a light grey background #f7f7f7
 
+If you want to highlight the related content, you can use a second version of this module, with pictures.
+
+![alt text][related-highlight]
+
+### Blog crosseling
+
+In some pages can appear the crosseling module to get the users to the GFW Blog.
+
+![alt text][related-blog]
+
 ### Code
 
 <div id="code-snippet-box1" class="code-snippet-box">
@@ -29,3 +39,5 @@ This module has a light grey background #f7f7f7
 
 [related]: /gfw-style-guides/images/posts/structural-elements/related-content/08-01-related.png "related"
 [related-meassures]: /gfw-style-guides/images/posts/structural-elements/related-content/08-02-related-meassures.png "related meassures"
+[related-highlight]: /gfw-style-guides/images/posts/structural-elements/related-content/08-03-related-highlight.png "related-highlight"
+[related-blog]: /gfw-style-guides/images/posts/structural-elements/related-content/08-04-related-blog.png "related-blog"
