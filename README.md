@@ -8,4 +8,4 @@ gem install jekyll-paginate
 jekyll serve
 ```
 
-[Go go go!](http://localhost:4000/gfw-style-guides)
+[Go go go!](http://localhost:4000/gfw-style-guides/)
