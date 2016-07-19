@@ -4,8 +4,7 @@ title:  "Branded sub-sites"
 date:   0009-01-01 12:23:49
 categories: applications
 img:
-  template-example-1: /gfw-style-guides/images/posts/applications/branded-sub-sites/01-01b-home.jpg
-  template-example-2: /gfw-style-guides/images/posts/applications/branded-sub-sites/01-02b-climate.jpg
+  template-example-1: /gfw-style-guides/images/posts/applications/branded-sub-sites/01brandSub01.png
 ---
 
 The Global Forest Watch site works as an umbrella platform where new applications and sub-sites can be added. Please follow the previous guidelines when creating these new sections to keep the look and feel coherent and integrated.

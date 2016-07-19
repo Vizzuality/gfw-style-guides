@@ -27,14 +27,6 @@ options makes the content of that tab unfold.
 
 ![alt text][sidebar-mobile]
 
-### Code
-
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/structural-elements/sidebar/sidebar.html" csscode="snippets/structural-elements/sidebar/sidebar-css.html" %}
-</div>
-
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/sidebar/index.html">preview</a>
-<a class="btn btn--download" download="sidebar.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/sidebar/sidebar.zip">download</a>
 
 
 [sidebar]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-01-sidebar.png "sidebar"

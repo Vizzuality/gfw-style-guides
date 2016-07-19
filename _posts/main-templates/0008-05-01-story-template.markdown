@@ -9,9 +9,8 @@ categories: page-elements main-templates
 Crowdsourced stories use a special type of template with a white header background and a new
 module for related stories.
 
-<div class="advice">
-  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
-</div>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/story/index.html">preview</a>
+<a class="btn btn--download" download="story-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/story/story.zip">download</a>
 
 ### Desktop
 
@@ -27,6 +26,10 @@ The header has a white background for the same reason.
     <img src="/gfw-style-guides/images/posts/main-templates/story-template/05-02-story-desktop.png" alt="story-desktop">
   </a>
 </div>
+<div class="btn_image_2">
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/story/index.html">preview</a>
+<a class="btn btn--download" download="story-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/story/story.zip">download</a>
+</div>
 
 ### Responsive
 
@@ -37,12 +40,3 @@ The mobile adaptation takes the full screen width.
     <img src="/gfw-style-guides/images/posts/main-templates/story-template/05-03-story-mobile.png" alt="story-mobile">
   </a>
 </div>
-
-### Code
-
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/main-templates/story/story.html" csscode="snippets/main-templates/story/story-css.html" %}
-</div>
-
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/story/index.html">preview</a>
-<a class="btn btn--download" download="story-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/story/story.zip">download</a>
