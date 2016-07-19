@@ -8,9 +8,8 @@ categories: page-elements main-templates
 This templates is very similar to the content template, but is intended for lists of content such as
 search results or any directory of content pages.
 
-<div class="advice">
-  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
-</div>
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/directory/index.html">preview</a>
+<a class="btn btn--download" download="directory-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/directory/directory.zip">download</a>
 
 ### Desktop
 
@@ -22,7 +21,10 @@ The directory template has a header module with a page title, space for the cont
     <img src="/gfw-style-guides/images/posts/main-templates/directory-template/04-02-directory-desktop.png" alt="directory-desktop">
   </a>
 </div>
-
+<div class="btn_image">
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/directory/index.html">preview</a>
+<a class="btn btn--download" download="directory-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/directory/directory.zip">download</a>
+</div>
 
 
 ### Responsive
@@ -34,13 +36,3 @@ The mobile adaptation takes the full screen width.
     <img src="/gfw-style-guides/images/posts/main-templates/directory-template/04-03-directory-mobile.png" alt="directory mobile">
   </a>
 </div>
-
-### Code
-
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/main-templates/directory/directory.html" csscode="snippets/main-templates/directory/directory-css.html" %}
-</div>
-
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/directory/index.html">preview</a>
-<a class="btn btn--download" download="directory-template.zip" href="{{site.url}}gfw-style-guides/downloads/main-templates/directory/directory.zip">download</a>
-

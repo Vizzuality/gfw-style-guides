@@ -23,4 +23,4 @@ These are the most common type uses in the website. Use the hierarchy laid out b
 
 
 [type]: /gfw-style-guides/images/posts/type/03-01-type.png "type"
-[type-use]: /gfw-style-guides/images/posts/type/03-02-type-use.png "type use"
+[type-use]: /gfw-style-guides/images/posts/type/03-02-type-use.png "type-use"
