@@ -1,0 +1,26 @@
+<div class="post-top-bar">
+  <h3>
+    {% for category in page.categories %}
+      {% if forloop.index == 1 %}
+        {% if forloop.length == 1 %}
+          {{category | replace:'-',' '}}
+          {% else %}
+            {{category | replace:'-',' '}} /
+        {% endif %}
+        {% else %}
+          <a href="{{ site.baseurl }}/{{page.categories[0]}}/{{ page.categories[1] }}.html">{{category | replace:'-',' '}}</a>
+      {% endif %}
+    {% endfor %}
+
+  </h3>
+  <div class="pagination">
+    {% if page.previous %}
+      <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">Previous</a>
+    {% else %}
+      <a class="prev" href="{{ site.baseurl }}/">Previous</a>
+    {% endif %}
+    {% if page.next %}
+      <a class="next" href="{{ site.baseurl }}{{page.next.url}}">Next</a>
+    {% endif %}
+  </div>
+</div>

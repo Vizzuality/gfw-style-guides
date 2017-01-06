@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Sidebar"
+date:   0006-08-01 12:23:49
+categories: page-elements structural-elements
+---
+
+The sidebar is a structural element that is used in conjunction with the main content module.
+It is placed on its left, and usually holds tabs to switch between different content.
+
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/sidebar/index.html">preview</a>
+<a class="btn btn--download" download="sidebar.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/sidebar/sidebar.zip">download</a>
+
+![alt text][sidebar]
+
+![alt text][sidebar-meassures]
+
+The sidebar is 260px wide. The content, on the other hand, is flexible and adapts its width to the size of the screen.
+
+![alt text][sidebar-responsive]
+
+### Responsive
+
+The sidebar’s behaviour changes when the site is accessed from a mobile device. The sidebar acts as a
+standalone menu taking all the width of the screen, while the main content is hidden. Tapping on one of the
+options makes the content of that tab unfold.
+
+![alt text][sidebar-mobile]
+
+
+
+[sidebar]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-01-sidebar.png "sidebar"
+[sidebar-meassures]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-02-sidebar-meassures.png "sidebar meassures"
+[sidebar-responsive]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-03-sidebar-responsive.png "sidebar responsive"
+[sidebar-mobile]: /gfw-style-guides/images/posts/structural-elements/sidebar/10-03-sidebar-mobile.png "sidebar mobile"

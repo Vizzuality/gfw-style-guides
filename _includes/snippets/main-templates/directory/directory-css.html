@@ -1,0 +1,224 @@
+{% highlight css %}
+
+/* reset.css */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/reset.css';
+/* fonts */
+@import 'http://fonts.googleapis.com/css?family=Fira+Sans:400,500,300';
+/* base */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/base.css';
+/* grid */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/grid.css';
+/* static */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/17da8410507a61793fc06604b3378c5c9eb41114/external-css/static.css';
+
+/* form */
+@import 'https://cdn.rawgit.com/Vizzuality/gfw-style-guides/master/external-css/form.css';
+
+/*
+.search-section {
+  padding: 0 20px 25px;
+}
+
+
+.search-box {
+  font-weight: 400;
+  margin: 20px auto;
+  position: relative;
+}
+
+.search-box:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  background: url('http://www.globalforestwatch.org/assets/countries/search-ad589ab7bdaa9225a85182b2edacc5e9.svg') no-repeat center;
+  background-size: contain;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.search-box input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  padding-left: 50px;
+  margin: 0;
+  border-radius: 3px;
+  font-size: 24px;
+  background: #FFF;
+  color: #555555;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  min-height: 20px;
+  outline: none;
+  font-family: inherit;
+}
+
+.search-box input.is-active {
+  background: rgba(161, 186, 66, 0.3);
+}
+
+
+.simple-pagination {
+  float: left;
+  display: block;
+  padding: 40px 0 0;
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+
+.simple-pagination ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.simple-pagination ul:before, .simple-pagination ul:after {
+  content: " ";
+  display: table;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+
+.simple-pagination ul:after {
+  clear: both;
+}
+
+
+.simple-pagination ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+/* ------------- */
+  Light Theme Styles
+\*------------------------------------*/
+
+.simple-pagination.light-theme a, .simple-pagination.light-theme span {
+  float: left;
+  color: #555555;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  min-width: 24px;
+  margin: 0 10px 0 0;
+  background: none;
+  text-decoration: none;
+}
+
+
+.simple-pagination.light-theme a:hover {
+  text-decoration: none;
+  color: #97bd3d;
+}
+
+
+.simple-pagination.light-theme .current {
+  cursor: default;
+  border-bottom: 2px solid #97bd3d;
+}
+
+
+.simple-pagination.light-theme .next, .simple-pagination.light-theme .prev {
+  background: #97bd3d;
+  position: absolute;
+  width: 50%;
+  height: 40px;
+  width: 40px;
+  top: 50%;
+  border-radius: 50%;
+}
+@media (min-width: 850px) {
+
+  .simple-pagination.light-theme .next, .simple-pagination.light-theme .prev {
+    position: relative;
+    top: -10px;
+  }
+}
+
+.simple-pagination.light-theme .next.current, .simple-pagination.light-theme .prev.current {
+  display: none;
+}
+
+.simple-pagination.light-theme .next:before, .simple-pagination.light-theme .prev:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.simple-pagination.light-theme .prev {
+  left: -40px;
+  margin: 0;
+}
+@media (min-width: 850px) {
+
+  .simple-pagination.light-theme .prev {
+    margin: 0 40px 0 0;
+    left: auto;
+  }
+}
+
+.simple-pagination.light-theme .prev:before {
+  background: url('http://www.globalforestwatch.org/assets/svg-icons/arrow-left-6124cb193c09d87929c2aef0f2a6e0ba.svg') center no-repeat;
+  -webkit-transform: translate(-2px, 0);
+  -moz-transform: translate(-2px, 0);
+  -ms-transform: translate(-2px, 0);
+  -o-transform: translate(-2px, 0);
+  transform: translate(-2px, 0);
+}
+
+
+.simple-pagination.light-theme .next {
+  right: -40px;
+  margin: 0;
+}
+@media (min-width: 850px) {
+
+  .simple-pagination.light-theme .next {
+    margin: 0 0 0 40px;
+    right: auto;
+  }
+}
+
+.simple-pagination.light-theme .next:before {
+  background: url('http://www.globalforestwatch.org/assets/svg-icons/arrow-right-c428402b7cef50a5dff7af8cfca0e0d4.svg') center no-repeat;
+  -webkit-transform: translate(0px, 0);
+  -moz-transform: translate(0px, 0);
+  -ms-transform: translate(0px, 0);
+  -o-transform: translate(0px, 0);
+  transform: translate(0px, 0);
+}
+
+
+.simple-pagination.light-theme .ellipse {
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-weight: 500;
+  cursor: default;
+}
+
+
+{% endhighlight %}

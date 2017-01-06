@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Footer"
+date:   0006-07-01 12:23:49
+categories: page-elements structural-elements
+---
+
+The footer is the last module in a page and contains links to social media profiles, subscription services and partners. It also provides links to useful next steps like providing feedback, discussing GFW, developing your own app and downloading data.
+
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/footer/index.html">preview</a>
+<a class="btn btn--download" download="footer.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/footer/footer.zip">download</a>
+
+![alt text][footer]
+
+![alt text][footer-structure]
+
+This module (except the first block) has a light grey background #edede8
+
+### Code
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/structural-elements/footer/footer.html" csscode="snippets/structural-elements/footer/footer-css.html" %}
+</div>
+
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/footer/index.html">preview</a>
+<a class="btn btn--download" download="footer.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/footer/footer.zip">download</a>
+
+
+[footer]: /gfw-style-guides/images/posts/structural-elements/footer/09-01-footer.png "footer"
+[footer-structure]: /gfw-style-guides/images/posts/structural-elements/footer/09-02-footer-structure.png "footer structure"

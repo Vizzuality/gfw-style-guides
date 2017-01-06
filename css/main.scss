@@ -3,50 +3,40 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "Fira Sans", Georgia, serif;
 $base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+//Colors
+$cGreen: #97Bd3d;
+$cGreen1: #A1BA42;
+$white: #FFF;
+$dark: #555555;
+$ligthen-dark: #888;
+$gray: #BBB;
+$light: #FAFAFA;
+$red: #ED1846;
+$orange: #E98300;
+$border: #E5E5DF;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
+//Animation
+$easeInOutCubic :  cubic-bezier(0.645, 0.045, 0.355, 1.000);
 
 
-
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Import settings
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+  "base",
+  "layout",
+  "grid",
+  "mixins",
+  "syntax-highlighting";
+
+// Import layouts
+@import
+  "layouts/header",
+  "layouts/sidenav",
+  "layouts/post",
+  "layouts/code-snippet",
+  "layouts/color-gallery";

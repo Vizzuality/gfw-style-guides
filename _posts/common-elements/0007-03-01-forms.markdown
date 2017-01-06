@@ -1,0 +1,87 @@
+---
+layout: post
+title:  "Forms"
+date:   0007-03-01 12:23:49
+categories: page-elements common-elements
+---
+
+Forms are composed of text fields, text areas, selectors, radio buttons, and more. These elements are designed
+to allow building a new form fast and easy.
+
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/forms/index.html">preview</a>
+<a class="btn btn--download" download="forms.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/forms/forms.zip">download</a>
+
+![alt text][forms]
+
+### Text field
+
+![alt text][text-field]
+
+Text fields are used when we need a text input from the user. It can be accompanied by these elements:
+
+* **Label**: Placed over the text field, it is its title.
+* **Placeholder**: It displays in the text field until the user writes something there. It usually suggests
+    what kind of information the user is expected to input.
+* **Hint**: It adds information about the field, usually requirements or instructions.
+
+<div class="gallery">
+  <img src="/gfw-style-guides/images/posts/common-elements/links_and_buttons/02-01-links.png" alt="links">
+</div>
+
+### Code
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/common-elements/forms/text-field.html" csscode="snippets/common-elements/forms/text-field-css.html" %}
+</div>
+
+### Text area
+
+![alt text][text-area]
+
+Text areas are useful when the amount of information asked for is bigger than what would fit in a regular
+text field (e.g. comments, opinions, etc.)
+
+### Code
+
+<div id="code-snippet-box2" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/common-elements/forms/text-area.html" csscode="snippets/common-elements/forms/text-area-css.html" %}
+</div>
+
+### File select
+
+![alt text][file-select]
+
+This element is used in forms where the user is asked to upload files from their computer. When the file selection
+button is pressed, the browser’s file explorer opens allowing the user to choose the files.
+
+The **description** is used to add some information or instructions to the form element. It can also be used with text fields,
+text areas, etc.
+
+### Code
+
+<div id="code-snippet-box3" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/common-elements/forms/file-select.html" csscode="snippets/common-elements/forms/file-select-css.html" %}
+</div>
+
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/forms/index.html">preview</a>
+<a class="btn btn--download" download="forms.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/forms/forms.zip">download</a>
+
+### Submit Button
+
+![alt text][button]
+
+Every form needs a submit button so the user can send the information to the server. Use a primary button for this.
+
+
+
+### Others elements
+
+Elements like checkboxes or radio buttons use the default styles from the browser to avoid compatibility issues.
+
+
+
+[forms]: /gfw-style-guides/images/posts/common-elements/forms/03-01-forms.png "forms"
+[text-field]: /gfw-style-guides/images/posts/common-elements/forms/03-02-text-field.png "text field"
+[text-area]: /gfw-style-guides/images/posts/common-elements/forms/03-03-textarea.png "text area"
+[file-select]: /gfw-style-guides/images/posts/common-elements/forms/03-04-file-select.png "file select"
+[button]: /gfw-style-guides/images/posts/common-elements/forms/03-05-button.png "button"

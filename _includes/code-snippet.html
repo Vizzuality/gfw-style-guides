@@ -1,0 +1,16 @@
+<!-- <span class="show-code">hide code</span> -->
+<div class="code-snippet">
+  <div class="tabs">
+    <ul>
+      <li><a href="#" data-lang="html" class="lang active">HTML</a></li>
+      <li><a href="#" data-lang="css" class="lang">CSS</a></li>
+    </ul>
+    <!-- <div class="close">&#10006;</div> -->
+  </div>
+  <div class="lang-snippet language-html">
+    {% include {{ include.htmlcode }} %}
+  </div>
+  <div class="lang-snippet language-css hidden">
+    {% include {{ include.csscode }} %}
+  </div>
+</div>

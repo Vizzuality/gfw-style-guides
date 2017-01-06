@@ -1,0 +1,46 @@
+/* line 1, /Users/andresglz/Sites/gfw/app/assets/stylesheets/layouts/_grid1600.scss */
+.wrap {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background: white;
+}
+/* line 16, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_mixins1600.scss */
+.wrap:before, .wrap:after {
+  content: " ";
+  display: table;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+/* line 23, /Users/andresglz/Sites/gfw/app/assets/stylesheets/_mixins1600.scss */
+.wrap:after {
+  clear: both;
+}
+
+/* line 10, /Users/andresglz/Sites/gfw/app/assets/stylesheets/layouts/_grid1600.scss */
+.inner {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+/* line 14, /Users/andresglz/Sites/gfw/app/assets/stylesheets/layouts/_grid1600.scss */
+.embed .inner {
+  width: 100%;
+  max-width: none;
+}
+@media (min-width: 850px) {
+  /* line 10, /Users/andresglz/Sites/gfw/app/assets/stylesheets/layouts/_grid1600.scss */
+  .inner {
+    width: 95%;
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1400px) {
+  /* line 10, /Users/andresglz/Sites/gfw/app/assets/stylesheets/layouts/_grid1600.scss */
+  .inner {
+    width: 75%;
+    max-width: 1200px;
+  }
+}

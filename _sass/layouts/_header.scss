@@ -1,0 +1,27 @@
+.layout-header{
+  @extend %clearfix;
+  z-index: 75;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: $dark;
+  h1{
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 110px;
+    position: relative;
+    a{
+      padding: 12px 0 10px;
+      color: $white;
+      display: block;
+    }
+    span{
+      position: absolute;
+      top: 0;
+      left: 0px;
+      height: 90px;
+      width: 90px;
+      @include retina-image('/gfw-style-guides/images/logo-new.png', '/gfw-style-guides/images/logo-new@2x.png');
+    }
+  }
+}

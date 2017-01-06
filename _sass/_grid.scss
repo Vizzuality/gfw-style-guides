@@ -1,0 +1,18 @@
+.wrap {
+  @extend %clearfix;
+  position: relative;
+  display: flex;
+  // margin: 0 auto;
+  width: 100%;
+  min-width: 960px;
+  max-width: 1200px;
+}
+
+.inner {
+  @extend %clearfix;
+  position: relative;
+  // margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}

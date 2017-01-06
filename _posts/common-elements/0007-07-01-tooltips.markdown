@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Tooltips"
+date:   0007-07-01 12:23:49
+categories: page-elements common-elements
+---
+
+Tooltips are small boxes with help or information that may appear when the user hovers over certain items with the cursor. They are usually used when an icon is not understandable enough by itself.
+
+<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/tooltips/index.html">preview</a>
+<a class="btn btn--download" download="tooltips.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/tooltips/tooltips.zip">download</a>
+
+![alt text][tooltip]
+
+### Code
+
+<div id="code-snippet-box1" class="code-snippet-box">
+  {% include code-snippet.html htmlcode="snippets/common-elements/tooltips/tooltip1-html.html" csscode="snippets/common-elements/tooltips/tooltip1-css.html" %}
+</div>
+
+
+
+[tooltip]: /gfw-style-guides/images/posts/common-elements/tooltips/07-01-tooltip.png "tooltip"

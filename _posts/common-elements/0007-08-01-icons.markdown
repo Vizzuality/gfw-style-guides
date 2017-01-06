@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Icons"
+date:   0007-08-01 12:23:49
+categories: page-elements common-elements
+---
+
+The icons used in the GFW website must follow a simple set of rules to keep a coherent visual style.
+
+* **Keep it simple**: Avoid designing icons too complex
+* **Use just one color**: Don’t use gradients or more than one color in the icons
+* **Avoid outlined icons**: Solid icons are preferred
+
+![alt text][icons]
+
+Icons can be highlighted inverting their color and placing them in a green circle.
+This makes them stand out among the rest of the content of the page:
+
+![alt text][icons-big]
+
+It is also common to give them a different color when hovering with the cursor:
+
+![alt text][icons-hover]
+
+
+
+[icons]: /gfw-style-guides/images/posts/common-elements/icons/08-01-icons.png "icons"
+[icons-big]: /gfw-style-guides/images/posts/common-elements/icons/08-02-icons-big.png "icons big"
+[icons-hover]: /gfw-style-guides/images/posts/common-elements/icons/08-03-icons-hover.png "icons hover"

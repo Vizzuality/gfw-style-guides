@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Colors"
+date:   0002-01-01 12:23:49
+categories: brand-guidelines
+---
+
+GWF uses a distinctive color palette as part of its visual identity.
+
+### Primary colors
+
+![alt text][colors]
+
+### Secondary colors
+
+![alt text][secondary-colors]
+
+
+[colors]: /gfw-style-guides/images/posts/colors/02-01-colors.png "colors"
+[secondary-colors]: /gfw-style-guides/images/posts/colors/02-02-secondary-colors.png "secondary colors"

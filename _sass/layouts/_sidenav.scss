@@ -1,0 +1,93 @@
+.layout-sidenav{
+  nav{
+    position: fixed;
+    width: 220px;
+    ul{
+      li{
+        color: $dark;
+        h2{
+          font-size: 13px;
+          text-transform: uppercase;
+          color: $gray;
+          font-weight: 500;
+          padding: 0 20px;
+        }
+        h3{
+          position: relative;
+          width: 219px;
+          padding-left: 20px;
+          font-size: 1em;
+          color: $dark;
+          font-weight: 500;
+          cursor: pointer;
+          &:hover {
+            a {
+              color: $cGreen;
+            }
+          }
+          a {
+            padding-right: 20px;
+            &.has-menu {
+              &:after {
+                @include arrow('right', 8px, 2px, $gray, 45deg);
+                top: 5px;
+                right: 10px;
+              }
+            }
+
+          }
+          &.open {
+            a:after {
+              @include arrow('right', 8px, 2px, $gray, 135deg);
+              top: 5px;
+              right: 10px;
+            }
+          }
+          &.item-selected {
+            a:after {
+              border-color: #fff;
+            }
+          }
+        }
+        a{
+          display: block;
+          width: 100%;
+          padding-top: 2px;
+          font-size: 14px;
+          color: $dark;
+          &:hover {
+            color: $cGreen;
+          }
+        }
+      }
+    }
+    .first-level{
+      >li{
+        margin: 2em 0 0;
+        &:first-child{
+          margin: 0;
+        }
+      }
+    }
+    .second-level {}
+    .third-level{
+      margin-bottom: 5px;
+      // padding: 0 20px;
+      >li{
+        cursor: pointer;
+        font-size: 0.875em;
+        padding: 2px 0 0 35px;
+      }
+    }
+  }
+  .item-selected {
+    background: $cGreen;
+    a {
+      color: $white;
+      font-weight: 500;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

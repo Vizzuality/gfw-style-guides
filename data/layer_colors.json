@@ -1,0 +1,188 @@
+[
+  {
+    "layer": "stories",
+    "hierarchy": "primary",
+    "layer_order": 6,
+    "title_color": "#F2B257"
+  },
+  {
+    "layer": "stories",
+    "hierarchy": "secondary",
+    "title_color": "#7DAF38"
+  },
+  {
+    "layer": "stories",
+    "hierarchy": "other",
+    "order": 1,
+    "title_color": "#F3830A"
+  },
+  {
+    "layer": "stories",
+    "hierarchy": "other",
+    "order": 2,
+    "title_color": "#FEC44F"
+  },
+  {
+    "layer": "forest cover",
+    "hierarchy": "primary",
+    "layer_order": 2,
+    "title_color": "#B2D26E"
+  },
+  {
+    "layer": "forest cover",
+    "hierarchy": "secondary",
+    "title_color": "#FDD893"
+  },
+  {
+    "layer": "forest cover",
+    "hierarchy": "other",
+    "order": 1,
+    "title_color": "#A5ED80"
+  },
+  {
+    "layer": "forest cover",
+    "hierarchy": "other",
+    "order": 2,
+    "title_color": "#B2D26E"
+  },
+  {
+    "layer": "forest cover",
+    "hierarchy": "other",
+    "order": 3,
+    "title_color": "#007A4D"
+  },
+  {
+    "layer": "forest cover",
+    "hierarchy": "other",
+    "order": 4,
+    "title_color": "#17630A"
+  },
+  {
+    "layer": "forest change",
+    "hierarchy": "primary",
+    "layer_order": 1,
+    "title_color": "#FF6699"
+  },
+  {
+    "layer": "forest change",
+    "hierarchy": "secondary",
+    "title_color": "#6E70E2"
+  },
+  {
+    "layer": "forest change",
+    "hierarchy": "other",
+    "order": 1,
+    "title_color": "#FFA3C2"
+  },
+  {
+    "layer": "forest change",
+    "hierarchy": "other",
+    "order": 2,
+    "title_color": "#F768A1"
+  },
+  {
+    "layer": "forest change",
+    "hierarchy": "other",
+    "order": 3,
+    "title_color": "#AE017E"
+  },
+  {
+    "layer": "forest change",
+    "hierarchy": "other",
+    "order": 4,
+    "title_color": "#FF6699"
+  },
+  {
+    "layer": "land use",
+    "hierarchy": "primary",
+    "layer_order": 3,
+    "title_color": "#C98E6C"
+  },
+  {
+    "layer": "land use",
+    "hierarchy": "secondary",
+    "title_color": "#CAB3D5"
+  },
+  {
+    "layer": "land use",
+    "hierarchy": "other",
+    "order": 1,
+    "title_color": "#FECC5C"
+  },
+  {
+    "layer": "land use",
+    "hierarchy": "other",
+    "order": 2,
+    "title_color": "#FBB685"
+  },
+  {
+    "layer": "land use",
+    "hierarchy": "other",
+    "order": 3,
+    "title_color": "#EE9587"
+  },
+  {
+    "layer": "land use",
+    "hierarchy": "other",
+    "order": 4,
+    "title_color": "#BE8893"
+  },
+  {
+    "layer": "conservation",
+    "hierarchy": "primary",
+    "layer_order": 4,
+    "title_color": "#3182BD"
+  },
+  {
+    "layer": "conservation",
+    "hierarchy": "secondary",
+    "title_color": "#F8CB62"
+  },
+  {
+    "layer": "conservation",
+    "hierarchy": "other",
+    "order": 1,
+    "title_color": "#3182BD"
+  },
+  {
+    "layer": "conservation",
+    "hierarchy": "other",
+    "order": 2,
+    "title_color": "#247490"
+  },
+  {
+    "layer": "conservation",
+    "hierarchy": "other",
+    "order": 3,
+    "title_color": "#49A39A"
+  },
+  {
+    "layer": "conservation",
+    "hierarchy": "other",
+    "order": 4,
+    "title_color": "#B1D27D"
+  },
+  {
+    "layer": "people",
+    "hierarchy": "primary",
+    "layer_order": 5,
+    "title_color": "#707D92"
+  },
+  {
+    "layer": "people",
+    "hierarchy": "secondary",
+    "title_color": "#FFCFA3"
+  },
+  {
+    "layer": "people",
+    "hierarchy": "other",
+    "order": 1,
+    "title_color": "#707D92"
+  },
+  {
+    "layer": "people",
+    "hierarchy": "other",
+    "order": 2,
+    "title_color": "#91A7C9"
+  }
+]
