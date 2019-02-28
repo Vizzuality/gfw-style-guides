@@ -9,7 +9,7 @@ Each individual page is built using a wide range of different common elements. B
 form elements, lists, icons... They all share a common visual style and functionality.
 
 <div class="advice">
-  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
+  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
 </div>
 
 ![alt text][common-elements]

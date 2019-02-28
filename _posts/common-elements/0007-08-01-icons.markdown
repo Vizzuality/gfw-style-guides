@@ -7,8 +7,8 @@ categories: page-elements common-elements
 
 The icons used in the GFW website must follow a simple set of rules to keep a coherent visual style.
 
-* **Keep it simple**: Avoid designing icons too complex
-* **Use just one color**: Don’t use gradients or more than one color in the icons
+* **Keep it simple**
+* **Use just one color**
 * **Avoid outlined icons**: Solid icons are preferred
 
 ![alt text][icons]

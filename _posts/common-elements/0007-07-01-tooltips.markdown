@@ -5,18 +5,14 @@ date:   0007-07-01 12:23:49
 categories: page-elements common-elements
 ---
 
-Tooltips are small boxes with help or information that may appear when the user hovers over certain items with the cursor. They are usually used when an icon is not understandable enough by itself.
+Tooltips are small boxes with help or a secondary action that may appear when the user hovers over or clicks on certain items. They are usually used when an element is not understandable enough by itself, or to display additional actions and content.
 
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/tooltips/index.html">preview</a>
-<a class="btn btn--download" download="tooltips.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/tooltips/tooltips.zip">download</a>
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+</div>
 
 ![alt text][tooltip]
 
-### Code
-
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/common-elements/tooltips/tooltip1-html.html" csscode="snippets/common-elements/tooltips/tooltip1-css.html" %}
-</div>
 
 
 

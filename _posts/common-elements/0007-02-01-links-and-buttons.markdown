@@ -8,8 +8,9 @@ categories: page-elements common-elements
 Links and buttons are used to allow navigation between different pages of the website. Regular links are
 usually used within paragraphs while buttons, on the other hand, are used independently, calling for an action.
 
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/links-and-buttons/index.html">preview</a>
-<a class="btn btn--download" download="links-buttons.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/links-and-buttons/links-buttons.zip">download</a>
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+</div>
 
 ### Links
 
@@ -20,11 +21,6 @@ differentiate themselves and be easier to identify.
   <img src="/gfw-style-guides/images/posts/common-elements/links_and_buttons/02-01-links.png" alt="links">
 </div>
 
-### Code
-
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/common-elements/links-and-buttons/links-html.html" csscode="snippets/common-elements/links-and-buttons/links-css.html" %}
-</div>
 
 ### Buttons
 
@@ -40,13 +36,8 @@ while the huge button is used on the Home.)
 
 ![alt text][buttons]
 
-### Code
-
-<div id="code-snippet-box2" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/common-elements/links-and-buttons/buttons-html.html" csscode="snippets/common-elements/links-and-buttons/buttons-css.html" %}
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
 </div>
-
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/links-and-buttons/index.html">preview</a>
-<a class="btn btn--download" download="links-buttons.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/links-and-buttons/links-buttons.zip">download</a>
 
 [buttons]: /gfw-style-guides/images/posts/common-elements/links_and_buttons/02-02-buttons.png "buttons"
