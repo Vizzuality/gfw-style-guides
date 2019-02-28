@@ -7,6 +7,10 @@ categories: brand-guidelines
 
 The Global Forest Watch logo is its calling card. This graphic appears on every section of the site embeded on the header.
 
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+</div>
+
 <a href="/gfw-style-guides/images/posts/logo/01-01-logo-gfw.png">![alt text][logo]</a>
 
 Please always use a high-resolution version of the logo whenever possible.
@@ -20,6 +24,7 @@ Please always use a high-resolution version of the logo whenever possible.
 * Don’t use other fonts
 
 For more information about branding, check the official documentation [here.][brand]
+
 
 [logo]: /gfw-style-guides/images/posts/logo/01-01-logo-gfw.png "Global Forest Watch"
 [logo-donts]: /gfw-style-guides/images/posts/logo/01-02-logo-donts.png "Global Forest Watch don'ts"

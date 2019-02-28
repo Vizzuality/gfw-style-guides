@@ -8,32 +8,22 @@ categories: page-elements structural-elements
 The header is the part of the page where the section title and introduction is located.
 It is dark and distinctive, and it usually holds the most important calls to action.
 
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/header/index.html">preview</a>
-<a class="btn btn--download" download="header.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/header/header.zip">download</a>
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+</div>
 
 ![alt text][header]
-
-![alt text][header-meassures]
 
 Remember: The GFW logo from the navigation bar overlaps the header, so the top padding must be
 70px to avoid it stepping on the main title. The height of the header varies depending on its content.
 
-### The header in the home
+### The homepage header
 
-When used in the home of the GFW website, the header element works as a slideshow of the featured sections
-and news of the site. In this specific case, the header is placed directly beneath the navigation bar, showing
-slightly through it. The height of this header is always 500px.
+When used in the homepage of the GFW website, the header element works as video introduction about GFW and its mission. In this specific case, a button is displayed to pause or play the background video.
 
 ![alt text][header-home]
 
-### Code
 
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/structural-elements/header/header.html" csscode="snippets/structural-elements/header/header-css.html" %}
-</div>
-
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/header/index.html">preview</a>
-<a class="btn btn--download" download="header.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/header/header.zip">download</a>
 
 
 [header]: /gfw-style-guides/images/posts/structural-elements/header/06-01-header.png "header"

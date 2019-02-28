@@ -7,6 +7,10 @@ categories: brand-guidelines
 
 GWF uses a distinctive color palette as part of its visual identity.
 
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+</div>
+
 ### Primary colors
 
 ![alt text][colors]
@@ -14,6 +18,7 @@ GWF uses a distinctive color palette as part of its visual identity.
 ### Secondary colors
 
 ![alt text][secondary-colors]
+
 
 
 [colors]: /gfw-style-guides/images/posts/colors/02-01-colors.png "colors"
