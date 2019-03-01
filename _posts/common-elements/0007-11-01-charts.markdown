@@ -1,23 +1,23 @@
 ---
 layout: post
-title:  "Charts"
+title:  "Widgets and charts"
 date:   0007-10-01 12:23:49
 categories: page-elements common-elements
 ---
 
-Use charts to display data visually. Please use the main GFW colors and style (simplicity, clarity, cleanliness) to design new graphs and charts.
+Use charts to display data visually. Please use the main GFW colors and style (simplicity, clarity, cleanliness) to design new graphs and charts. When using charts, please include a clear legend and summary sentence that highlights the main points the chart tries to convey.
+
+  <div class="advice">
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
+</div>
 
 ### Examples
 
-These are some of charts:
+These are some of charts. They include line, bar and pie charts.
 
-![alt text][doughnut-chart]
-
-![alt text][line-graph]
-
-![alt text][bar-chart]
+![alt text][charts]
 
 
-[doughnut-chart]: /gfw-style-guides/images/posts/common-elements/charts/10-01-doughnut-chart.png "doughnut chart"
-[line-graph]: /gfw-style-guides/images/posts/common-elements/charts/10-02-line-graph.png "line graph"
-[bar-chart]: /gfw-style-guides/images/posts/common-elements/charts/10-03-bar-chart.png "bar chart"
+
+
+[charts]: /gfw-style-guides/images/posts/common-elements/charts/10-01-charts.png "GFW widgets and charts"

@@ -9,37 +9,36 @@ There are 6 main structural elements in the GFW website: toolbar, navigation bar
 related content and footer. Each page of the site is built using them.
 
 <div class="advice">
-  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
 </div>
+
 
 ### Home and second level pages
 
-Home and secondary pages always have a toolbar, nav bar and header. The main content is situated under them,
-with a related content module usually underneath. The last thing in the page is the footer.
+Home and secondary pages always have a nav bar and a header. The main content is situated under them, with a related content module usually underneath. The last thing in the page is the footer.
 
 ![alt text][home-structure]
 
-Secondary pages often have a sidebar with tabs next to the main content. This sidebar is situated on the left
-side of the page, with a width of 260px.
+The navigation bar can be expanded for the user to navigate through the different pages of GFW and its applications. It is displayed at the top on any page of the site.
 
-![alt text][secondary-structure]
+![alt text][expanded-navbar]
 
-### Other pages
+### Map layout
 
-Even though every page has at least a toolbar, navigation bar and content, the rest of the elements are optional and
-their use depend on the content displayed. For example, the map section doesn’t have scroll, so the header, related
-content and footer modules are not shown to maximize space availability.
+Even though every page has at least a navigation bar and content, the rest of the elements are optional and
+their use depends on the content displayed. For example, to maximize the available space for the map, the header, related
+content and footer modules are not shown. Only the expanded navigation bar is shown when the GFW logo is clicked. 
 
-![alt text][other-structure]
+![alt text][map-navigation-bar]
 
-### How to
+### Navigating subsections
 
 The How to portal, where the users can find help to use and understand all the apps and functionalities, has an especial structure.
 
-![alt text][how-to]
+![alt text][secondary-navigation]
 
 
-[home-structure]: /gfw-style-guides/images/posts/structural-elements/03-01-home-structure.png "home-structure"
-[secondary-structure]: /gfw-style-guides/images/posts/structural-elements/03-02-secondary-structure.png "secondary-structure"
-[other-structure]: /gfw-style-guides/images/posts/structural-elements/03-03-other-structure.png "other-structure"
-[how-to]: /gfw-style-guides/images/posts/structural-elements/03-04-how-to.png "how-to"
+[home-structure]: /gfw-style-guides/images/posts/structural-elements/03-01-home-structure.png "Homepage structure"
+[expanded-navbar]: /gfw-style-guides/images/posts/structural-elements/03-02-expanded-navbar.png "Expanded navigation bar"
+[map-navigation-bar]: /gfw-style-guides/images/posts/structural-elements/03-03-map-navigation-bar.png "Map navigation bar"
+[secondary-navigation]: /gfw-style-guides/images/posts/structural-elements/03-04-secondary-navigation.png "Secondary navigation"

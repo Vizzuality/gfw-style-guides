@@ -6,9 +6,9 @@ categories: page-elements common-elements
 ---
 
 There are also other common elements used in the GFW website, such as pagination, accordions or loading spinners.
-
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/other/index.html">preview</a>
-<a class="btn btn--download" download="other.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/other/other.zip">download</a>
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
+</div>
 
 ### Pagination
 
@@ -21,12 +21,6 @@ This is how they look when the user is on different pages:
   <img src="/gfw-style-guides/images/posts/common-elements/other/11-01-pagination.png" alt="pagination">
 </div>
 
-### Code
-
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/common-elements/other/pagination.html" csscode="snippets/common-elements/other/pagination-css.html" %}
-</div>
-
 
 ### Accordion
 
@@ -37,11 +31,6 @@ They are useful to keep the page from being too long.
 
 ![alt text][accordion-expanded]
 
-### Code
-
-<div id="code-snippet-box2" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/common-elements/other/accordion.html" csscode="snippets/common-elements/other/accordion-css.html" %}
-</div>
 
 ### Spinner
 
@@ -56,8 +45,6 @@ In this case, a spinner graphic is used:
   </div>
 </div>
 
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/common-elements/other/index.html">preview</a>
-<a class="btn btn--download" download="other.zip" href="{{site.url}}gfw-style-guides/downloads/common-elements/other/other.zip">download</a>
 
 [accordion]: /gfw-style-guides/images/posts/common-elements/other/11-02-accordion.png "accordion"
 [accordion-expanded]: /gfw-style-guides/images/posts/common-elements/other/11-03-accordion-expanded.png "accordion expanded"

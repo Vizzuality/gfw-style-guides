@@ -7,6 +7,9 @@ categories: brand-guidelines
 
 GFW uses the Fira Sans type family on its website. It is a clean, legible, easily available typography. Three weights are used:
 
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
+</div>
 
 ![alt text][type]
 
@@ -14,13 +17,6 @@ GFW uses the Fira Sans type family on its website. It is a clean, legible, easil
 These are the most common type uses in the website. Use the hierarchy laid out below to compose easy-to-read content pages.
 
 ![alt text][type-use]
-
-### Code
-
-<div id="code-snippet-box1" class="code-snippet-box">
-  {% include code-snippet.html htmlcode="snippets/type.html" csscode="snippets/type-css.html" %}
-</div>
-
 
 [type]: /gfw-style-guides/images/posts/type/03-01-type.png "type"
 [type-use]: /gfw-style-guides/images/posts/type/03-02-type-use.png "type-use"

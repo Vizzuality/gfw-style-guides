@@ -9,6 +9,10 @@ Use maps to show large amounts of geolocalized data in a usable and friendly way
 They allow complex interactions and analysis, making make use of sophisticated panels,
 toolbars and controllers.
 
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
+</div>
+
 
 ![alt text][map]
 
@@ -19,45 +23,25 @@ the attention on the map and data.
 
 These are some of the elements used on the map:
 
-![alt text][layers-panel]
+![alt text][datasets-panel]
 
-![alt text][infowindow]
+![alt text][map-settings]
 
-![alt text][zoom-toolbar]
+![alt text][legend-panel]
 
-![alt text][main-info-panel]
-
-![alt text][timeline]
+![alt text][analysis-panel]
 
 ### Responsive
 
-These are some of the elements used on the mobile version of the map.
-
-![alt text][map-mobile-options]
-
-Tapping the “More options” button shows secondary actions. Tapping it again collapses the panel
+On the mobile version of the map these elements are rearranged, and a tab navigation bar is used.
 
 ![alt text][map-mobile]
-
-Tapping the Legend or Analysis buttons opens a panel sliding from the bottom of the screen with the relevant contents.
-
-![alt text][map-mobile-panel]
-
-The Data Layers Selection link in the header (and Local Data Layers button) opens a fullscreen overlay
-where the user can select the data layers display on the map and the basemaps used.
-
-![alt text][map-mobile-data-layers]
 
 
 
 [map]: /gfw-style-guides/images/posts/common-elements/maps/09-01-map.png "map"
-[layers-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-02-layers-panel.png "layers panel"
-[infowindow]: /gfw-style-guides/images/posts/common-elements/maps/09-03-infowindow.png "infowindow"
-[zoom-toolbar]: /gfw-style-guides/images/posts/common-elements/maps/09-04-zoom-toolbar.png "zoom toolbar"
-[main-info-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-05-main-info-panel.png "main info panel"
-[timeline]: /gfw-style-guides/images/posts/common-elements/maps/09-06-timeline.png "timeline"
-[map-mobile]: /gfw-style-guides/images/posts/common-elements/maps/09-07-map-mobile.png "map-mobile"
-[map-mobile-options]: /gfw-style-guides/images/posts/common-elements/maps/09-08-map-mobile-options.png "map mobile options"
-[map-mobile-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-09-map-mobile-panel.png "map mobile panel"
-[map-mobile-layers]: /gfw-style-guides/images/posts/common-elements/maps/09-10-map-mobile-layers.png "map mobile layers"
-[map-mobile-data-layers]: /gfw-style-guides/images/posts/common-elements/maps/09-11-map-mobile-data-layers.png "map-mobile-data-layers"
+[datasets-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-02-datasets-panel.png "datasets panel"
+[map-settings]: /gfw-style-guides/images/posts/common-elements/maps/09-03-map-settings.png "map settings"
+[legend-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-04-legend-panel.png "legend panel"
+[analysis-panel]: /gfw-style-guides/images/posts/common-elements/maps/09-05-analysis-panel.png "analysis panel"
+[map-mobile]: /gfw-style-guides/images/posts/common-elements/maps/09-06-mobile.png "map mobile"
