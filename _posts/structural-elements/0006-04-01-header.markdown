@@ -9,7 +9,7 @@ The header is the part of the page where the section title and introduction is l
 It is dark and distinctive, and it usually holds the most important calls to action.
 
 <div class="advice">
-  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
 </div>
 
 ![alt text][header]

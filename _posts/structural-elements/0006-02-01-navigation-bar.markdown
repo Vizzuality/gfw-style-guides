@@ -9,7 +9,7 @@ The navigation bar is the main way to navigate the website. It contains links to
 and it’s also used to display the GFW logo.
 
 <div class="advice">
-  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
 </div>
 
 

@@ -9,7 +9,7 @@ Forms are composed of text fields, text areas, selectors, radio buttons, and mor
 to allow building a new form fast and easy.
 
 <div class="advice">
-  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
 </div>
 
 ![alt text][forms]
@@ -55,9 +55,9 @@ text areas, etc.
 
 Every form needs a submit button so the user can send the information to the server. Use a primary button for this.
 
-<p></p>
+
 <div class="advice">
-  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
 </div>
 
 

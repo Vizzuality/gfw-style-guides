@@ -8,7 +8,7 @@ categories: brand-guidelines
 The Global Forest Watch logo is its calling card. This graphic appears on every section of the site embeded on the header.
 
 <div class="advice">
-  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
 </div>
 
 <a href="/gfw-style-guides/images/posts/logo/01-01-logo-gfw.png">![alt text][logo]</a>

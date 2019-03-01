@@ -8,7 +8,7 @@ categories: brand-guidelines
 GWF uses a distinctive color palette as part of its visual identity.
 
 <div class="advice">
-  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
 </div>
 
 ### Primary colors

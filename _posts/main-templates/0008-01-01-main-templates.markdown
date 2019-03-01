@@ -27,7 +27,7 @@ The Global Forest Watch website uses four main templates to create all of its pa
 some structural elements but each one has its own features.
 
 <div class="advice">
-  <p class="advice_content">Many of these elements can be previewed and downloaded.</p>
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
 </div>
 
 <div class="gallery">
@@ -69,5 +69,3 @@ some structural elements but each one has its own features.
     {% endfor %}
   {% endif %}
 </div>
-
-Learn more about these templates and when to use them in the next pages.

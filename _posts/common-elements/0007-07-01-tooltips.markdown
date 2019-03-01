@@ -8,7 +8,7 @@ categories: page-elements common-elements
 Tooltips are small boxes with help or a secondary action that may appear when the user hovers over or clicks on certain items. They are usually used when an element is not understandable enough by itself, or to display additional actions and content.
 
 <div class="advice">
-  <p class="advice_content">Please request access to the UI Kit for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Explore UI Kit</a></p>
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
 </div>
 
 ![alt text][tooltip]

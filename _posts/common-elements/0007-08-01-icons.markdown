@@ -7,20 +7,23 @@ categories: page-elements common-elements
 
 The icons used in the GFW website must follow a simple set of rules to keep a coherent visual style.
 
-* **Keep it simple**
-* **Use just one color**
-* **Avoid outlined icons**: Solid icons are preferred
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
+</div>
+
+* **Have a clear objective**
+* **Stay well-grounded**
+* **Keep it timeless**
+* **Keep it clean**
+* **Keep it simple and geometric**
+* **Keep it flat (no perspective)**
+* **Use the same stroke and size**
+* **Allow different levels of brand perception**
+* **Use recognizable patterns or forms**
 
 ![alt text][icons]
 
-Icons can be highlighted inverting their color and placing them in a green circle.
-This makes them stand out among the rest of the content of the page:
 
-![alt text][icons-big]
-
-It is also common to give them a different color when hovering with the cursor:
-
-![alt text][icons-hover]
 
 
 
