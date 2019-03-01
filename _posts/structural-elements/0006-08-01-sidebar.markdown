@@ -8,8 +8,9 @@ categories: page-elements structural-elements
 The sidebar is a structural element that is used in conjunction with the main content module.
 It is placed on its left, and usually holds tabs to switch between different content.
 
-<a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/structural-elements/sidebar/index.html">preview</a>
-<a class="btn btn--download" download="sidebar.zip" href="{{site.url}}gfw-style-guides/downloads/structural-elements/sidebar/sidebar.zip">download</a>
+<div class="advice">
+  <p class="advice_content">Please request access to the UI Kit Invision project for a full inspection of all these elements.  <a class="btn btn--download" href="https://invis.io/82QPKXD964H">Preview UI Kit</a></p>
+</div>
 
 ![alt text][sidebar]
 
