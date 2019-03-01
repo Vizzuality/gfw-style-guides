@@ -6,19 +6,16 @@ categories: page-elements
 
 img:
   home-template: /gfw-style-guides/images/posts/main-templates/01-01-home-template.png
+  dashboard-template: /gfw-style-guides/images/posts/main-templates/01-03-dashboard-template.png
+  map-template: /gfw-style-guides/images/posts/main-templates/01-04-map-template.png
   content-template: /gfw-style-guides/images/posts/main-templates/01-02-content-template.png
-  directory-template: /gfw-style-guides/images/posts/main-templates/01-03-directory-template.png
-  story-template: /gfw-style-guides/images/posts/main-templates/01-04-story-template.png
-  map-template: /gfw-style-guides/images/posts/main-templates/01-05-map-template.png
-  newsletter-template: /gfw-style-guides/images/posts/main-templates/01-06-newsletter-template.png
-  developer-template: /gfw-style-guides/images/posts/main-templates/01-07-developer-template.png
+  newsletter-template: /gfw-style-guides/images/posts/main-templates/01-05-newsletter-template.png
 
 download:
-  - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/home/home.zip
-  - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/content/content.zip
-  - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/directory/directory.zip
-  - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/story/story.zip
-  - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/map/map.zip
+  - https://invis.io/82QPKXD964H#/349475981_GFW_-_Home
+  - https://invis.io/82QPKXD964H#/349475980_GFW_-_Dashboard
+  - https://invis.io/82QPKXD964H#/349475979_GFW_-_Map
+  - https://invis.io/82QPKXD964H#/349755642_GFW_-_About
   - http://vizzuality.github.io/gfw-style-guides/downloads/main-templates/newsletter/newsletter.zip
 
 ---
@@ -37,32 +34,19 @@ some structural elements but each one has its own features.
       <img src="{{img[1]}}">
       <div class="container">
         {% if forloop.index == 1 %}
-          <a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/home/index.html">preview</a>
-          <a class="btn btn--download" download="home-template.zip" href="{{page.download[0]}}">download</a>
+          <a class="btn btn--download" target="_blank" href="{{page.download[0]}}">preview</a>
         {% endif %}
         {% if forloop.index == 2 %}
-          <a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/content/index.html">preview</a>
-          <a class="btn btn--download" download="content-template.zip" href="{{page.download[1]}}">download</a>
+          <a class="btn btn--download" target="_blank" href="{{page.download[1]}}">preview</a>
         {% endif %}
         {% if forloop.index == 3 %}
-          <a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/directory/index.html">preview</a>
-          <a class="btn btn--download" download="directory-template.zip" href="{{page.download[2]}}">download</a>
+          <a class="btn btn--download" target="_blank" href="{{page.download[2]}}">preview</a>
         {% endif %}
         {% if forloop.index == 4 %}
-          <a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/story/index.html">preview</a>
-          <a class="btn btn--download" download="story-template.zip" href="{{page.download[3]}}">download</a>
+          <a class="btn btn--download" target="_blank" href="{{page.download[3]}}">preview</a>
         {% endif %}
         {% if forloop.index == 5 %}
-          <a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/map/index.html">preview</a>
-          <a class="btn btn--download" download="map.zip" href="{{page.download[4]}}">download</a>
-        {% endif %}
-        {% if forloop.index == 6 %}
-          <a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/index.html">preview</a>
-          <a class="btn btn--download" download="newsletter.zip" href="{{page.download[5]}}">download</a>
-        {% endif %}
-        {% if forloop.index == 7 %}
-          <a class="btn btn--preview" target="_blank" href="{{site.url}}gfw-style-guides/downloads/main-templates/newsletter/index.html">preview</a>
-          <a class="btn btn--download" download="newsletter.zip" href="{{page.download[5]}}">download</a>
+          <a class="btn btn--download" download="newsletter.zip" href="{{page.download[4]}}">download</a>
         {% endif %}
       </div>
     </div>

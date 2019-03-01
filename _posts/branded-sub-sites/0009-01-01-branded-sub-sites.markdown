@@ -9,9 +9,13 @@ img:
 
 The Global Forest Watch site works as an umbrella platform where new applications and sub-sites can be added. Please follow the previous guidelines when creating these new sections to keep the look and feel coherent and integrated.
 
+<div class="advice development">
+  <p class="advice_content">Please note that the information presented on this page might not apply for future applications.</p>
+</div>
+
 ### Inherited templates examples
 
-Some applications may use the **[home template.][home-template]** as happens in the following example:
+Some applications may use the **[home template.][home-template]** as it happens in the following examples:
 
 <div class="gallery">
   {% if page.img %}
