@@ -22,16 +22,6 @@ This is how they look when the user is on different pages:
 </div>
 
 
-### Accordion
-
-Accordions are used when there is a lot of information in one page and is not necessary to show everything at the same time.
-They are useful to keep the page from being too long.
-
-![alt text][accordion]
-
-![alt text][accordion-expanded]
-
-
 ### Spinner
 
 When the content in a page is loading, the user must receive some feedback to know that something is actually happening.
